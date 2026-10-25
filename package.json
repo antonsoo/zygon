@@ -1,0 +1,49 @@
+{
+  "name": "@antonsoloviev/zygon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Discover a sphere's volume on Archimedes' balance, then read the Greek manuscript and its uncertainties.",
+  "type": "module",
+  "author": "Anton Soloviev <anton@praviel.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonsoo/zygon.git"
+  },
+  "homepage": "https://antonsoo.github.io/zygon/",
+  "keywords": [
+    "archimedes",
+    "ancient-greek",
+    "geometry",
+    "education",
+    "palimpsest",
+    "volume",
+    "lever"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4350 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4350 --strictPort",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build",
+    "verify:model": "node --import tsx scripts/model-cases.ts | python3 scripts/model-oracle.py"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@biomejs/biome": "2.6.2",
+    "@types/node": "24.19.2",
+    "playwright": "1.63.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
