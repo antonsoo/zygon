@@ -25,14 +25,17 @@
   },
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 4350 --strictPort",
-    "build": "tsc --noEmit && vite build",
+    "build": "node scripts/assets.mjs && tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4350 --strictPort",
     "lint": "biome check .",
     "format": "biome check --write .",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test tests/*.test.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
-    "verify:model": "node --import tsx scripts/model-cases.ts | python3 scripts/model-oracle.py"
+    "verify:model": "node --import tsx scripts/model-cases.ts | python3 scripts/model-oracle.py",
+    "test:browser": "node scripts/browser-review.mjs",
+    "verify:sources": "python3 scripts/source-review.py",
+    "verify:print": "node --import tsx scripts/print-review.ts"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

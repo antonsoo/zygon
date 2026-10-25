@@ -1,0 +1,43 @@
+name: Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Update the static Pages branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          publish_dir="$RUNNER_TEMP/zygon-pages"
+          remote_ref="$(git ls-remote --heads origin refs/heads/gh-pages)"
+          if [ -n "$remote_ref" ]; then
+            git fetch origin refs/heads/gh-pages
+            git worktree add --detach "$publish_dir" FETCH_HEAD
+          else
+            git worktree add --detach "$publish_dir" HEAD
+            git -C "$publish_dir" switch --orphan pages-output
+          fi
+          rsync -a --delete --exclude=.git dist/ "$publish_dir/"
+          touch "$publish_dir/.nojekyll"
+          git -C "$publish_dir" config user.name 'github-actions[bot]'
+          git -C "$publish_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$publish_dir" add -A
+          if ! git -C "$publish_dir" diff --cached --quiet; then
+            git -C "$publish_dir" commit -m "deploy: ${GITHUB_SHA::7}"
+            git -C "$publish_dir" push origin HEAD:refs/heads/gh-pages
+          fi
