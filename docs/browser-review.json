@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-25T00:27:53.177Z",
+  "checkedAt": "2026-10-25T00:31:41.635Z",
   "base": "http://127.0.0.1:4350/zygon/",
   "development": false,
   "configurations": [
@@ -24,7 +24,7 @@
       "downloads": {
         "csvRows": 201,
         "svgParses": true,
-        "studyBytes": 14191382,
+        "studyBytes": 14191381,
         "scriptFree": true,
         "images": [
           {
@@ -88,7 +88,7 @@
       "downloads": {
         "csvRows": 201,
         "svgParses": true,
-        "studyBytes": 14191382,
+        "studyBytes": 14191381,
         "scriptFree": true,
         "images": [
           {
@@ -152,7 +152,7 @@
       "downloads": {
         "csvRows": 201,
         "svgParses": true,
-        "studyBytes": 14191382,
+        "studyBytes": 14191381,
         "scriptFree": true,
         "images": [
           {
@@ -216,7 +216,7 @@
       "downloads": {
         "csvRows": 201,
         "svgParses": true,
-        "studyBytes": 14191382,
+        "studyBytes": 14191381,
         "scriptFree": true,
         "images": [
           {
