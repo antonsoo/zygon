@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="zg-figure" viewBox="0 0 900 365" role="img" aria-label="Sections on a balance"><title>Sections on a balance</title><desc>Equal turning moments. Left coefficient 8, right coefficient 8. Volume times arm: pi r to the fourth, with common density suppressed.</desc><style>.zg-figure text{font-family:Georgia,serif;fill:#303b2c;font-size:18px}.zg-figure .fine{font:14px sans-serif}.zg-figure .line{stroke:#303b2c;stroke-width:1.6;fill:none}.zg-figure .sphere{stroke:#9c412c;fill:#b95b4030}.zg-figure .cone{stroke:#95701d;fill:#b18a2b25}.zg-figure .cylinder{stroke:#41614b;fill:#41614b15}.zg-figure .cut{stroke:#303b2c;stroke-width:2;stroke-dasharray:5 4}.zg-figure .sphere,.zg-figure .cone,.zg-figure .cylinder{stroke-width:2}.zg-figure .bold{font-weight:bold}.zg-figure .beam-line{stroke:#303b2c;stroke-width:5;stroke-linecap:round}.zg-figure .load{stroke:#303b2c;stroke-width:1.5}.zg-figure .label{paint-order:stroke;stroke:#eee9da;stroke-width:5;stroke-linejoin:round;fill:#303b2c}</style>
+  <text x="40" y="32" class="fine">THE FINITE MIDPOINT STACK</text>
+  <path d="M430 145L450 100L470 145ZM450 145V290M405 290H495" class="line"/>
+  <path d="M60 100L710 100" class="beam-line"/>
+  <path d="M190 100V220M580 100V190" class="load"/>
+  <circle cx="190" cy="100" r="5" fill="#9c412c"/><circle cx="580" cy="100" r="5" fill="#41614b"/>
+  <circle cx="190" cy="168" r="10.432820807432666" class="sphere"/>
+  <circle cx="190" cy="220" r="14.66820541170596" class="cone"/>
+  <circle cx="580" cy="185" r="25.455844122715714" class="cylinder"/>
+  <text x="190" y="82" text-anchor="middle">Θ</text>
+  <text x="450" y="83" text-anchor="middle" class="label">Α</text>
+  <text x="580" y="82" text-anchor="middle">Κ</text>
+  <text x="190" y="263" text-anchor="middle" class="fine">sphere + cone</text>
+  <text x="580" y="263" text-anchor="middle" class="fine">cylinder</text>
+  <text x="450" y="326" text-anchor="middle" class="bold">Equal turning moments</text>
+  <text x="450" y="351" text-anchor="middle" class="fine">equal density; cylinder's centre at Κ</text></svg>

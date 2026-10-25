@@ -1,0 +1,6 @@
+{
+  "checkedAt": "2026-10-25T00:24:22.038029+00:00",
+  "cases": 62909,
+  "exactChecks": 389494,
+  "scope": "Every section/arm integer control pair and every supported finite stack/arm pair; independent Fraction closed forms, including upper and lower cylinder bounds."
+}

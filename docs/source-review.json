@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-25T00:24:18.694761+00:00",
+  "online": true,
+  "assetFiles": 29,
+  "readings": 10,
+  "mappedLines": 52,
+  "fullFrameImages": 6,
+  "sourceObservations": [
+    {
+      "url": "https://archimedespalimpsest.net/Data/066r-071v/066r-071v_Arch17r_Sinar_true_pack8.md5",
+      "md5": "0f11e15c9299831a63eef040904d3c0a"
+    },
+    {
+      "url": "https://archimedespalimpsest.net/Data/066r-071v/066r-071v_Arch17r_Sinar_pseudo_no-veil.md5",
+      "md5": "0d808b07c2a0be4c097a1adf35e5077c"
+    },
+    {
+      "url": "https://archimedespalimpsest.net/Data/066v-071r/066v-071r_Arch17v_Sinar_true_pack8.md5",
+      "md5": "43798e3c2265086349f922cd443a4380"
+    },
+    {
+      "url": "https://archimedespalimpsest.net/Data/066v-071r/066v-071r_Arch17v_Sinar_pseudo_no-veil.md5",
+      "md5": "db33e3dfe6587810859821c01f1e048e"
+    },
+    {
+      "url": "https://archimedespalimpsest.net/Data/065r-072v/065r-072v_Arch18r_Sinar_true_pack8.md5",
+      "md5": "2cf88f0d4fa42b7b31d0cddcafcdde80"
+    },
+    {
+      "url": "https://archimedespalimpsest.net/Data/065r-072v/065r-072v_Arch18r_Sinar_pseudo_no-veil.md5",
+      "md5": "a1afd2c9644ccbae930db8f969fe72fe"
+    },
+    {
+      "url": "https://archimedespalimpsest.net/Supplemental/ArchimedesTranscriptions/Method/Method-NW-p5.xml",
+      "sha256": "91305827c5bab60f95eb39ff8beba549d887a13324f048b9fec0d6d2174822bc",
+      "projectMd5": "ed9b1068f07af43bdc19d8a1c7014495"
+    },
+    {
+      "url": "https://archimedespalimpsest.net/Supplemental/ArchimedesTranscriptions/Method/Method-Heiberg-p5.xml",
+      "sha256": "f5b1930b416eae59009cac0984c96420d169c824cfec56ff7b24b318dbd409d6",
+      "projectMd5": "d6643aeb5661e2b5e58e631598b010c1"
+    }
+  ],
+  "scope": "Exact retained bytes, regenerated expanded excerpts and supplied/unclear/abbreviation flags, published line coordinates and source image identities; not certification of a translation or new manuscript decipherment."
+}

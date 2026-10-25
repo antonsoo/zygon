@@ -1,0 +1,263 @@
+{
+  "checkedAt": "2026-10-25T00:27:53.177Z",
+  "base": "http://127.0.0.1:4350/zygon/",
+  "development": false,
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "keyboard": true,
+      "unchangedAreasAfterTransfer": true,
+      "cutPositions": 6,
+      "stackSizes": 8,
+      "units": {
+        "sections": "pi r^3, common thickness suppressed",
+        "solids": "pi r^4"
+      },
+      "history": true,
+      "sharedState": true,
+      "readings": 10,
+      "sourceImages": 6,
+      "sourceMappings": true,
+      "conflictingNumberWordsPreserved": true,
+      "downloads": {
+        "csvRows": 201,
+        "svgParses": true,
+        "studyBytes": 14191382,
+        "scriptFree": true,
+        "images": [
+          {
+            "id": "Arch17r-visible",
+            "width": 2448,
+            "sha256": "c1742a26ba97eb558cb53d7c1fc4b13d71e460d067c8888ef96b03e687341e9b"
+          },
+          {
+            "id": "Arch17r-processed",
+            "width": 2448,
+            "sha256": "303ac340945041cb18ee13bb91bc6912e08db08a6bdafb497ca3a05fc9ef678e"
+          },
+          {
+            "id": "Arch17v-visible",
+            "width": 2448,
+            "sha256": "4067b68554bbf75234e200a16a7a970edb3050b8e564e9f168b46c0fe225802e"
+          },
+          {
+            "id": "Arch17v-processed",
+            "width": 2448,
+            "sha256": "bc439827f3684f7a9fc051a8c205f4f910341cf46e16d3c40275c0525d49507e"
+          },
+          {
+            "id": "Arch18r-visible",
+            "width": 2448,
+            "sha256": "ee5eaa43dd0724d085bdae98ea8c0ef65ef1a660a638cfea7831a5a47c0a84a5"
+          },
+          {
+            "id": "Arch18r-processed",
+            "width": 2448,
+            "sha256": "9f45bfc8291df6ea4b4b77d1d9f0087136e875d5ee8abd9233b18a7fb9aa9b57"
+          }
+        ],
+        "requests": [],
+        "embeddedCsvMatches": true
+      },
+      "offline": "Browser context disconnected after complete edition installation",
+      "axeViolations": 0,
+      "errors": [],
+      "consoleErrors": [],
+      "external": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "keyboard": true,
+      "unchangedAreasAfterTransfer": true,
+      "cutPositions": 6,
+      "stackSizes": 8,
+      "units": {
+        "sections": "pi r^3, common thickness suppressed",
+        "solids": "pi r^4"
+      },
+      "history": true,
+      "sharedState": true,
+      "readings": 10,
+      "sourceImages": 6,
+      "sourceMappings": true,
+      "conflictingNumberWordsPreserved": true,
+      "downloads": {
+        "csvRows": 201,
+        "svgParses": true,
+        "studyBytes": 14191382,
+        "scriptFree": true,
+        "images": [
+          {
+            "id": "Arch17r-visible",
+            "width": 2448,
+            "sha256": "c1742a26ba97eb558cb53d7c1fc4b13d71e460d067c8888ef96b03e687341e9b"
+          },
+          {
+            "id": "Arch17r-processed",
+            "width": 2448,
+            "sha256": "303ac340945041cb18ee13bb91bc6912e08db08a6bdafb497ca3a05fc9ef678e"
+          },
+          {
+            "id": "Arch17v-visible",
+            "width": 2448,
+            "sha256": "4067b68554bbf75234e200a16a7a970edb3050b8e564e9f168b46c0fe225802e"
+          },
+          {
+            "id": "Arch17v-processed",
+            "width": 2448,
+            "sha256": "bc439827f3684f7a9fc051a8c205f4f910341cf46e16d3c40275c0525d49507e"
+          },
+          {
+            "id": "Arch18r-visible",
+            "width": 2448,
+            "sha256": "ee5eaa43dd0724d085bdae98ea8c0ef65ef1a660a638cfea7831a5a47c0a84a5"
+          },
+          {
+            "id": "Arch18r-processed",
+            "width": 2448,
+            "sha256": "9f45bfc8291df6ea4b4b77d1d9f0087136e875d5ee8abd9233b18a7fb9aa9b57"
+          }
+        ],
+        "requests": [],
+        "embeddedCsvMatches": true
+      },
+      "offline": "Browser context disconnected after complete edition installation",
+      "axeViolations": 0,
+      "errors": [],
+      "consoleErrors": [],
+      "external": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "keyboard": true,
+      "unchangedAreasAfterTransfer": true,
+      "cutPositions": 6,
+      "stackSizes": 8,
+      "units": {
+        "sections": "pi r^3, common thickness suppressed",
+        "solids": "pi r^4"
+      },
+      "history": true,
+      "sharedState": true,
+      "readings": 10,
+      "sourceImages": 6,
+      "sourceMappings": true,
+      "conflictingNumberWordsPreserved": true,
+      "downloads": {
+        "csvRows": 201,
+        "svgParses": true,
+        "studyBytes": 14191382,
+        "scriptFree": true,
+        "images": [
+          {
+            "id": "Arch17r-visible",
+            "width": 2448,
+            "sha256": "c1742a26ba97eb558cb53d7c1fc4b13d71e460d067c8888ef96b03e687341e9b"
+          },
+          {
+            "id": "Arch17r-processed",
+            "width": 2448,
+            "sha256": "303ac340945041cb18ee13bb91bc6912e08db08a6bdafb497ca3a05fc9ef678e"
+          },
+          {
+            "id": "Arch17v-visible",
+            "width": 2448,
+            "sha256": "4067b68554bbf75234e200a16a7a970edb3050b8e564e9f168b46c0fe225802e"
+          },
+          {
+            "id": "Arch17v-processed",
+            "width": 2448,
+            "sha256": "bc439827f3684f7a9fc051a8c205f4f910341cf46e16d3c40275c0525d49507e"
+          },
+          {
+            "id": "Arch18r-visible",
+            "width": 2448,
+            "sha256": "ee5eaa43dd0724d085bdae98ea8c0ef65ef1a660a638cfea7831a5a47c0a84a5"
+          },
+          {
+            "id": "Arch18r-processed",
+            "width": 2448,
+            "sha256": "9f45bfc8291df6ea4b4b77d1d9f0087136e875d5ee8abd9233b18a7fb9aa9b57"
+          }
+        ],
+        "requests": [],
+        "embeddedCsvMatches": true
+      },
+      "offline": "Browser context disconnected after complete edition installation",
+      "axeViolations": 0,
+      "errors": [],
+      "consoleErrors": [],
+      "external": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "keyboard": true,
+      "unchangedAreasAfterTransfer": true,
+      "cutPositions": 6,
+      "stackSizes": 8,
+      "units": {
+        "sections": "pi r^3, common thickness suppressed",
+        "solids": "pi r^4"
+      },
+      "history": true,
+      "sharedState": true,
+      "readings": 10,
+      "sourceImages": 6,
+      "sourceMappings": true,
+      "conflictingNumberWordsPreserved": true,
+      "downloads": {
+        "csvRows": 201,
+        "svgParses": true,
+        "studyBytes": 14191382,
+        "scriptFree": true,
+        "images": [
+          {
+            "id": "Arch17r-visible",
+            "width": 2448,
+            "sha256": "c1742a26ba97eb558cb53d7c1fc4b13d71e460d067c8888ef96b03e687341e9b"
+          },
+          {
+            "id": "Arch17r-processed",
+            "width": 2448,
+            "sha256": "303ac340945041cb18ee13bb91bc6912e08db08a6bdafb497ca3a05fc9ef678e"
+          },
+          {
+            "id": "Arch17v-visible",
+            "width": 2448,
+            "sha256": "4067b68554bbf75234e200a16a7a970edb3050b8e564e9f168b46c0fe225802e"
+          },
+          {
+            "id": "Arch17v-processed",
+            "width": 2448,
+            "sha256": "bc439827f3684f7a9fc051a8c205f4f910341cf46e16d3c40275c0525d49507e"
+          },
+          {
+            "id": "Arch18r-visible",
+            "width": 2448,
+            "sha256": "ee5eaa43dd0724d085bdae98ea8c0ef65ef1a660a638cfea7831a5a47c0a84a5"
+          },
+          {
+            "id": "Arch18r-processed",
+            "width": 2448,
+            "sha256": "9f45bfc8291df6ea4b4b77d1d9f0087136e875d5ee8abd9233b18a7fb9aa9b57"
+          }
+        ],
+        "requests": [],
+        "embeddedCsvMatches": true
+      },
+      "offline": "Browser context disconnected after complete edition installation",
+      "axeViolations": 0,
+      "errors": [],
+      "consoleErrors": [],
+      "external": []
+    }
+  ]
+}
