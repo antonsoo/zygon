@@ -1,0 +1,129 @@
+Identifier 60070
+Date 2008-03-03T10:55:48-05:00
+Creator Bill Christens-Barry
+Creator Roger Easton
+Creator Keith Knox
+Subject Euchologion Image
+Subject Archimedes Palimpsest Image
+Subject Palimpsest Image
+Subject Multispectral Image
+Subject Digital Image
+Subject Greek Manuscript Image
+Subject Byzantine Manuscript Image
+Subject Parchment Manuscript Image
+Subject 13th Century Manuscript Image
+Subject 10th Century Manuscript Image
+Subject Private Collection
+Publisher Owner of the Archimedes Palimpsest
+Contributor Will Noel
+Contributor Michael Toth
+Contributor Kevin Auer
+Contributor Doug Emery
+Contributor Kate Gerry
+Contributor Daniel Potter
+Contributor Abigail Quandt
+Contributor Ariel Tabritha
+Contributor Ben Tilghman
+Contributor John R. Stokes
+Contributor John T. Stokes
+Type image/tiff
+Source Processed from image with Identifier 13640, 065r-072v_Arch18r_Sinar_LED445_01_raw.tif
+Source Processed from image with Identifier 13643, 065r-072v_Arch18r_Sinar_LED530_01_raw.tif
+Source Processed from image with Identifier 13646, 065r-072v_Arch18r_Sinar_LED625_01_raw.tif
+Coverage Walters Art Museum
+Coverage 2007-08-06 to 2007-08-26
+Coverage Baltimore, MD
+Coverage USA
+license http://creativecommons.org/licenses/by/3.0/legalcode
+license Licensed for use under Creative Commons Attribution 3.0 Unported
+accessRights Copies of any articles published based on the data must be sent to William Noel, Walters Art Museum, Baltimore, MD.
+ID_File_Name 065r-072v_Arch18r_Sinar_true_pack8.tif
+SPTL_Coordinate_Unit_of_Measure millimeter
+SPTL_X_Resolution 32.8
+SPTL_Y_Resolution 32.8
+SPTL_X_Resolution_Unit_of_Measure pixels per millimeter
+SPTL_Y_Resolution_Unit_of_Measure pixels per millimeter
+SPTL_UpLeft_X_Coordinate 0.00
+SPTL_UpLeft_Y_Coordinate 0.00
+SPTL_LoRight_X_Coordinate 247.65
+SPTL_LoRight_Y_Coordinate 330.20
+SPTL_UpLeft_X_BoundingCoordinate 0.00
+SPTL_UpLeft_Y_BoundingCoordinate 0.00
+SPTL_LoRight_X_BoundingCoordinate 247.65
+SPTL_LoRight_Y_BoundingCoordinate 330.20
+SPTL_Grid_Coordinate_System Archimedes text UP, running horizontally starting at 0:0 at upper left corner of image
+SPTL_X_Offset_Upper_Left 0
+SPTL_Y_Offset_Upper_Left 0
+SPTL_X_Posn_Accuracy 1 Pixel
+SPTL_Y_Posn_Accuracy 1 Pixel
+SPTL_Count_Horizontal_Regions_on_Folio 1
+SPTL_Count_Vertical_Regions_on_Folio 1
+SPTL_Position_Number_Folio_Region 0
+SPTL_Count_Total_Regions_on_Folio 1
+IMG_Spectral_Range 430-460
+IMG_Spectral_Range_Unit_of_Measure nm
+IMG_Illumination_Filters None
+IMG_Acquisition_Filters None; camera infrared blocking filter removed
+IMG_Imaging_System StokesCaptureStation comprising large format color camera whose sensor has an embedded color filter array and the capability of half-pixel and full-pixel piezoelectric driven translation
+IMG_Imaging_Device_Make Sinar
+IMG_Imaging_Device_Model 54H
+IMG_Lens_Brand Sinaron Macro 70 Degrees F5.6
+IMG_Sensor_Spectral_Range 350-1080
+IMG_Sensor_Spectral_Range_Unit_of_Measure nm
+IMG_Lens_Focal_Length 120
+IMG_Lens_Focal_Length_Unit_of_Measure mm
+IMG_Aperture_f 9.5
+IMG_Shutter_Speed_sec 0.770
+IMG_Camera_Incidence_Angle_deg 0
+IMG_Camera_Imaging_Mode RGB
+IMG_Camera_Imaging_Depth_bits 16
+IMG_Illumination_Wavelength_Unit_of_Measure nm
+IMG_Illumination_Source_Wattage 2 x 1.35
+IMG_Illumination_Type LED445
+IMG_Illumination_Wavelength 445
+IMG_Illumination_Spectral_Range 430-460
+IMG_Illumination_Spectral_Range_Unit_of_Measure nm
+IMG_White_Balance None
+IMG_White_Balance None
+IMG_Illumination_Source_No 2
+IMG_Illumination_Incidence_Angle_Az_0 45
+IMG_Illumination_Incidence_Angle_Az_180 45
+DAT_File_Type image/tiff
+DAT_Format_Version_Number 6
+DAT_Format_Version_Date 1992-06-03
+DAT_Compression_Technique None
+DAT_Decompression_Technique None
+DAT_File_Size 266343234
+DAT_File_Processing Three color separations are combined to form a color image using the wavelengths 445, 530 and 625 nm. Each image at these wavelengths has three color separations, which are added together before being combined with the other separations.
+DAT_Joining_Same_Parts_of_Folio Yes
+DAT_Samples_per_Pixel 3
+DAT_Bits_per_Sample 8
+DAT_Type_of_Contrast_Adjustment Linear stretch
+DAT_Type_of_Image_Processing Color and image enhancement
+DAT_Software_Version 1.2
+DAT_Processing_Program Archie 1.2, merge, packimage
+DAT_Processing_Comments This combination of three wavelengths gives a reasonable rendition of the color of the palimpsest.
+CONT_Content_Keyword Content Archimedes
+CONT_Source_Info Palimpsest Leaf
+CONT_Foliation_Scheme Prayerbook
+CONT_Folio1_Number 065
+CONT_Folio1_R_V r
+CONT_Folio2_Number 072
+CONT_Folio2_R_V v
+CONT_Secondary_Foliation_Scheme Under text
+CONT_Secondary_Folio1_Number Arch18
+CONT_Secondary_Folio1_R_V r
+CONT_Source_Citation The Archimedes Palimpsest (New York: Christie's, 1998)
+CONT_Source_Citation Heiberg, J. L., ed., Archimedes Opera omnia cum commentariis Eutocii (Leipzig: Teubner, 1910-15, reprinted 1972)
+CONT_Language Greek
+MET_Set_ID 64
+MET_Metadata_Status Valid
+MET_Metadata_Date 2007-08-21
+MET_Review_Date 2008-03-22T11:35:07-04:00
+MET_Future_Review_Date None
+MET_Metadata_Contact Doug Emery
+MET_Metadata_Contact Michael Toth
+MET_Standard_Name Archimedes Metadata Standard (Including ISO 15836:2003, Dublin Core Metadata Elements)
+MET_Standard_Version 1.1
+MET_Extensions None
+

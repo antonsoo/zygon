@@ -1,0 +1,295 @@
+================================================================
+Archimedes Palimpsest encoding scheme for digital transcriptions
+================================================================
+
+:Authors: Alex Lee,  Doug Emery
+:Date: April 7, 2010
+
+.. contents::
+
+Included transcriptions
+=======================
+
+The digital product includes the following transcriptions reporting the
+readings of the manuscript undertext:
+
+	================================ ============================
+	Text                             As read by
+	================================ ============================
+	Equilibrium of Planes (PE)       Netz-Wilson
+	Floating Bodies (FB)             Netz-Wilson, Heiberg
+	Measurement of the Circle (DC)   Netz-Wilson
+	Method (ME)                      Netz-Wilson, Heiberg
+	Sphere and Cylinder (SC)         Netz-Wilson
+	Spiral Lines (SL)                Netz-Wilson, Heiberg
+	Stomachion (ST)                  Netz-Wilson, Heiberg
+	Hyperides (HYP)                  ZPE publication
+	================================ ============================
+
+Transcriptions are available both as full treatises (e.g.
+``FloatingBodies-NW-p5.xml``) or as individual folios (e.g.
+``017r-016v_Arch07r_Tei_Netz-Wilson.xml``).
+
+TEI conformance
+===============
+
+These transcriptions are presented as XML files conforming to the `TEI
+P5 standard`_. The purpose of this document is to describe the
+encoding decisions specific to these transcriptions; for all other
+issues, the TEI standards should be consulted.
+
+Only a subset of the available TEI modules are used in these
+transcriptions: core, header, textstructure, analysis, figures, linking,
+transcr, and gaiji.
+
+The TEI `Roma`_ generator has been used to generate a `RelaxNG`_ schema
+for validating the transcriptions. The Roma customization file is
+provided as ``archie-tei.xml``; the schema file is ``archie-tei.rng``.
+
+.. _TEI P5 standard: http://www.tei-c.org/
+.. _RelaxNG: http://www.relaxng.org/
+.. _Roma: http://www.tei-c.org/Roma/
+
+Overall structure (``div``, ``milestone``, ``head``, ``ab``, ``lb``)
+====================================================================
+
+For treatises that are divided into books (e.g. FB), the content for
+each book has been enclosed in a ``div[@type="book"]`` element. Other
+treatises have their content directly within the ``body`` element.
+
+The content itself comes as a series of ``milestone``, ``head``, and
+``ab`` elements. Here the milestones indicate units of text such as
+postulates or propositions. These are presented according to Heiberg's
+edition.
+
+Each ``head`` or ``ab`` element contains the words of the
+transcription.  Preceding each line of transcription is an ``lb``
+element, whose ``@n`` attribute indicates the number of the line that
+follows.  Lines are numbered according to each column of the undertext
+folio.
+
+Within the ``head`` and ``ab`` elements there occur two further types of
+milestones. Those of type "folio" indicate the overtext (= Euchologion)
+folio number and undertext column number, e.g. *81v1*. Those of type
+"underTextFolio" indicate the undertext (= Archimedes or Hyperides)
+folio number, e.g. *Arch03v*.
+
+In most cases, the undertext folio milestone will be followed by four
+overtext folio milestones. For example, *Arch03v* is composed of
+*81v1, 88r1, 81v2, 88r2*.
+
+Words (``w``, ``unclear``, ``supplied``)
+========================================
+
+If a word has no further markup associated with it, it is simply
+provided as text, e.g. "ὥστε τῶν μέρων". But if a word has any extra
+markup, it is contained within a ``w`` element. *NB. All textual
+whitespace at any level within a `w` element is to be ignored or
+discarded.*
+
+The tags ``unclear`` and ``supplied`` never span across words;
+instead, separate tags are used for each word. So, for example, "κ̣α<ί
+ἐ>στι" would be encoded as::
+
+	<w>
+		<unclear>κ</unclear>α
+		<supplied reason="lost">ί</supplied>
+	</w>
+	<w>
+		<supplied reason="lost">ἐ</supplied>στι
+	</w>
+
+Line breaks
+-----------
+
+When a word breaks across a line, it is presented in two parts, the
+initial ``w[@part="I"]`` and the final ``w[@part="F"]``, with the
+line break ``lb`` placed between. For example, given this text::
+
+	5 ... ... ... συνε-
+	6 χέων ... ... ...
+
+the corresponding markup would be::
+
+	... <w part="I">συνε</w>
+	<lb n="6"/><w part="F">χέων</w> ...
+
+Here the word συνεχέων breaks with συνε at the end of line 5 and is
+completed by χέων in line 6.
+
+In cases where a preceding or following folio is missing, it is possible
+that a word-part will lack its complement.
+
+Abbreviations (``choice``, ``abbr``, ``am``, ``g``, ``expan``, ``ex``)
+======================================================================
+
+All abbreviations are encoded as ``choice`` elements. Each ``choice``
+element contains an ``abbr`` element giving the manuscript form of the
+word and an ``expan`` element giving the editorially expanded form of
+the word.
+
+Partial-word abbreviations
+--------------------------
+
+For abbreviations in which only a portion of the word has been
+abbreviated, such as "ἔχο(ν)", the entire word is represented by the
+``choice`` element. An ``am`` element is used in the ``abbr`` to show
+where the abbreviation occurs, and a corresponding ``ex`` gives the
+expansion within the ``expan``. The ``am`` always contains a single
+``g``, to represent whatever symbol was used for the abbreviation.
+(No details are given about the symbols used, though this would be a
+nice addition to the transcriptions down the road.)
+
+::
+
+	<choice>
+		<abbr>ἔχο<am><g/></am></abbr>
+		<expan>ἔχο<ex>ν</ex></expan>
+	</choice>
+
+Here an enclosing ``w`` element is optional.
+
+Multiple ``am`` and ``ex`` instances are possible, so long as they
+occur in pairs. The doubly abbreviated word "τ(ου)τ(έστιν)" would be
+encoded as::
+
+	<choice>
+		<abbr>τ<am><g/></am>τ<am><g/></am></abbr>
+		<expan>τ<ex>ου</ex>τ<ex>έστιν</ex></expan>
+	</choice>
+
+If the abbreviation has been flagged by the editors as ``supplied`` or
+``unclear``, these tags will go outside of the ``am`` and the ``ex`` (it
+is not permitted by the schema to have them within those elements, nor
+would this have any clear meaning).
+
+Full-word abbreviations
+-----------------------
+
+For many common, short words, the entire word is represented with a
+symbol. In such cases any extra markup, such as ``supplied`` or
+``unclear``, is placed outside of the choice. For example, suppose that
+a symbol representing the word καὶ has been supplied by the editors; the
+word is demanded by the context, and the manuscript shows only a
+one-character space, so an abbreviation is necessary. The word would be
+encoded as::
+
+	<supplied reason="lost"><choice>
+		<abbr><am><g/></am></abbr>
+		<expan><ex>καὶ</ex></expan>
+	</choice></supplied>
+
+Abbreviations at word breaks
+----------------------------
+
+One final complication occurs when an abbreviated word occurs at a line
+break. Here the word is divided into two parts, ``w[@part="I"]`` and
+``w[@part="F"]``, as mentioned above. When one of those parts contains
+an abbreviation, its entire contents will be contained within a
+``choice``.
+
+So, given the following text::
+
+	1 ... ... ... ἔχ(ου)-
+	2 σαν ... ... ...
+
+the corresponding markup would be::
+
+	<w part="I"><choice>
+	<abbr>ἔχ<am><g/></am></abbr>
+	<expan>ἔχ<ex>ου</ex></expan>
+	</choice></w>
+	<lb n="2"/><w part="F">σαν</w>
+
+Because the initial part of the word, before the line break, contains an
+abbreviation, its entire contents are given in a ``choice`` element. The
+final part of the word, which resumes after the line break, needs no
+``choice`` because it does not contain an abbreviation.
+
+Encoding of other features (``hi``, ``figure``)
+===============================================
+
+The manuscript contains marginal numbers (typically indicating a
+proposition), as well as a few instances of marginal text. These are
+enclosed within ``hi[@rend="margin"]`` elements.
+
+Cases of raised text are enclosed within ``hi[@rend="superscript"]``
+elements.
+
+Diagrams are represented with ``figure`` elements, each of which has an
+``@n`` attribute and a short ``figDesc`` within it. Note that these
+elements are also included when the manuscript merely contains space for
+a figure, even though no figure has been drawn in.
+
+Some features of the manuscript, including large text, extra spaces, and
+out-dented text, have not been included in this transcription.
+
+Editorial additions
+===================
+
+All diacritics, word spacing, and punctuation are editorial additions.
+Punctuation always appears within ``pc`` tags (so that punctuation can
+easily be stripped out if so desired).
+
+On occasion the reading in the manuscript is such that it could be taken
+for an error in the transcription (for instance if there has been
+scribal error or some other form of corruption). These readings have
+been flagged with a ``sic`` element. Such elements can span multiple
+words.
+
+Whitespace
+==========
+
+As mentioned above, in certain elements whitespace must be ignored. This
+can be accomplished, in XSLT for instance, by the following template::
+
+	<xsl:template match="w/text()|unclear/text()|supplied/text()|choice//text()">
+		<xsl:value-of select="normalize-space(.)"/>
+	</xsl:template>
+
+The need for this workaround is regrettable, but it seems to be the
+most robust way of accounting for the whitespace-handling behaviors of
+various XML tools.
+
+Linking to text images for individual folios (``facsimile``, ``surface``, ``graphic``, ``zone``)
+================================================================================================
+
+Each individual folio transcription (e.g.
+``017r-016v_Arch07r_TEI_Netz-Wilson.xml``) is mapped to the
+accompanying images of the corresponding folio using the ``facsimile``
+section following the TEI header. A single ``surface`` element is
+used, containing one ``graphic`` element for each image file and one
+``zone`` element for each mapped line or other element (such as
+figures, and identified proposition and book enumerations). The
+following shows a portion of a facsimile element.
+
+::
+
+    <facsimile>
+       <surface ulx="0" uly="0" lrx="8160" lry="10880">
+          <graphic url="014r-019v_Arch02r_Sinar_LED365_01_pack8.tif"/>
+          <graphic url="014r-019v_Arch02r_Sinar_LED445_01_pack8.tif"/>
+          <!-- ... -->
+          <zone lrx="3404" lry="1140" ulx="1052" uly="834" xml:id="zArch02r_14r1_01"/>
+          <zone lrx="3404" lry="1380" ulx="1052" uly="1138" xml:id="zArch02r_14r1_02"/>
+          <!-- ... -->
+       </surface>
+    </facsimile>
+
+The ``surface``'s ``@ulx``, ``@uly``, ``@lrx``, and ``@lry``
+attributes provide the pixel dimensions of the images referenced by
+the enclosed graphic elements. The ``zone``'s ``@ulx``, ``@uly``,
+``@lrx``, and ``@lry`` attributes describe a box containing the
+referenced component.  The ``zone/@xml:id`` begins with "z", followed
+by the undertext folio, prayer book folio and column (if applicable),
+and the ``@n`` attribute value of the referenced element. Elements
+that are not lines, such as figures, have the element type in the ID
+in lieu of the column number, for example: ``zArch02r_14r_fig_1``.
+
+In the text portion of the file, each mapped element will employ the
+``@facs`` attribute to reference the corresponding ``zone`` by its
+``@xml:id``, as follows::
+
+    <ab><milestone n="14r1" unit="folio"/>
+       <lb n="1" facs="#zArch02r_14r1_01"/><w part="F"
+          >φο<unclear>τέ</unclear>ρ<supplied reason="lost">ου</supplied></w> τᾶς
