@@ -8,7 +8,7 @@ export const escapeHTML = (s: string) =>
     .replaceAll('"', "&quot;");
 const f = (n: number) => Number(n.toFixed(3));
 const root = (w: number, h: number, title: string, description: string, content: string) =>
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" role="img" aria-label="${escapeHTML(title)}"><title>${escapeHTML(title)}</title><desc>${escapeHTML(description)}</desc><style>text{font-family:Georgia,serif;fill:#303b2c;font-size:18px}.fine{font:14px sans-serif}.line{stroke:#303b2c;stroke-width:1.6;fill:none}.sphere{stroke:#9c412c;fill:#b95b4030}.cone{stroke:#95701d;fill:#b18a2b25}.cylinder{stroke:#41614b;fill:#41614b15}.cut{stroke:#303b2c;stroke-width:2;stroke-dasharray:5 4}.sphere,.cone,.cylinder{stroke-width:2}.bold{font-weight:bold}.beam-line{stroke:#303b2c;stroke-width:5;stroke-linecap:round}.load{stroke:#303b2c;stroke-width:1.5}.label{paint-order:stroke;stroke:#eee9da;stroke-width:5;stroke-linejoin:round;fill:#303b2c}</style>${content}</svg>`;
+  `<svg xmlns="http://www.w3.org/2000/svg" class="zg-figure" viewBox="0 0 ${w} ${h}" role="img" aria-label="${escapeHTML(title)}"><title>${escapeHTML(title)}</title><desc>${escapeHTML(description)}</desc><style>.zg-figure text{font-family:Georgia,serif;fill:#303b2c;font-size:18px}.zg-figure .fine{font:14px sans-serif}.zg-figure .line{stroke:#303b2c;stroke-width:1.6;fill:none}.zg-figure .sphere{stroke:#9c412c;fill:#b95b4030}.zg-figure .cone{stroke:#95701d;fill:#b18a2b25}.zg-figure .cylinder{stroke:#41614b;fill:#41614b15}.zg-figure .cut{stroke:#303b2c;stroke-width:2;stroke-dasharray:5 4}.zg-figure .sphere,.zg-figure .cone,.zg-figure .cylinder{stroke-width:2}.zg-figure .bold{font-weight:bold}.zg-figure .beam-line{stroke:#303b2c;stroke-width:5;stroke-linecap:round}.zg-figure .load{stroke:#303b2c;stroke-width:1.5}.zg-figure .label{paint-order:stroke;stroke:#eee9da;stroke-width:5;stroke-linejoin:round;fill:#303b2c}</style>${content}</svg>`;
 
 export function profileDrawing(s: State) {
   const cut = section(s.cut, s.arm),
@@ -42,7 +42,7 @@ export function profileDrawing(s: State) {
 
 export function disksDrawing(s: State) {
   const v = section(s.cut, s.arm),
-    values = [v.sphere.value, v.cone.value, 4],
+    values = [v.sphere, v.cone, v.cylinder],
     names = ["Sphere", "Cone", "Cylinder"],
     classes = ["sphere", "cone", "cylinder"];
   return root(
@@ -53,7 +53,7 @@ export function disksDrawing(s: State) {
     values
       .map(
         (a, i) =>
-          `<circle cx="${75 + 145 * i}" cy="60" r="${f(Math.sqrt(a) * 25)}" class="${classes[i]}"/><text x="${75 + 145 * i}" y="128" text-anchor="middle">${names[i]}</text><text x="${75 + 145 * i}" y="151" text-anchor="middle" class="fine">${decimal(a)}πr²</text>`,
+          `<circle cx="${75 + 145 * i}" cy="60" r="${f(Math.sqrt(a.value) * 25)}" class="${classes[i]}"/><text x="${75 + 145 * i}" y="128" text-anchor="middle">${names[i]}</text><text x="${75 + 145 * i}" y="151" text-anchor="middle" class="fine">${a}πr²</text>`,
       )
       .join(""),
   );

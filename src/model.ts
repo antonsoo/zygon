@@ -1,4 +1,4 @@
-/** Exact coefficients: areas multiply pi r^2; moments/volumes multiply pi r^3. */
+/** Exact coefficients: area pi r^2, volume pi r^3, whole-solid moment pi r^4. */
 export class Q {
   readonly n: bigint;
   readonly d: bigint;
