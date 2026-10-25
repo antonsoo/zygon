@@ -1,0 +1,7 @@
+{
+  "publicSource": "cbc152513df3d1f0b4a89ff95066d5e5c94190ed",
+  "node": "v24.21.0",
+  "cleanInstallAndCheck": true,
+  "identicalStaticFiles": 34,
+  "workerSha256": "b07fe54df0512f79d0d46a69df89d34bcb47b1b4ed2f04c246bf980d35ae19e0"
+}

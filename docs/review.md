@@ -1,5 +1,8 @@
 # A sphere on the balance: review
 
+The published build and hosted browser results are recorded separately in
+[publication.md](publication.md).
+
 ## What a learner can do
 
 Move the cutting plane through a sphere, auxiliary cone and auxiliary cylinder.

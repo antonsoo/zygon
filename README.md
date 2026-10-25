@@ -5,6 +5,8 @@
 [Workshop](https://antonsoo.github.io/zygon/) · [Code: MIT](LICENSE) ·
 [Text, images and source licenses](public/sources/NOTICES.txt) · [Model](docs/model.md)
 
+[Public source, hosted build and browser evidence](docs/publication.md)
+
 A circle from a sphere and a circle from a cone can balance a much larger
 circle from a cylinder. Their areas do not have to be equal: their turning
 moments do. This workshop makes the transfer in Archimedes' _Method_ II
