@@ -1,0 +1,145 @@
+{
+  "cleanSource": "1570925",
+  "node": "v24.21.0",
+  "workspaceNode": "v26.7.0",
+  "cleanInstallAndCheck": true,
+  "identicalStaticFiles": 34,
+  "files": {
+    "assets/main-DIj-d9Y8.css": {
+      "bytes": 10374,
+      "sha256": "0133e7ecfc9338e7be4cb061930a9a0bae7889d9bcdd595bcd5732434c1d365c"
+    },
+    "assets/main-DgpGbnRH.js": {
+      "bytes": 64145,
+      "sha256": "15642f68749c3e4b9ca232ba843c2f3cf5648c6f114fcb7230c12d7f60dbf937"
+    },
+    "favicon.svg": {
+      "bytes": 306,
+      "sha256": "79b5696647e6ed95e7e5bbf13bfce48f31748d95bc409770cc5120269578630e"
+    },
+    "fonts/IBMPlex-OFL.txt": {
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    "fonts/IBMPlexSans-Regular.woff2": {
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    "fonts/IBMPlexSans-SemiBold.woff2": {
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    "fonts/NotoSerif-OFL.txt": {
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    "fonts/NotoSerif-Regular.ttf": {
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    "index.html": {
+      "bytes": 723,
+      "sha256": "95fdd42433239ea91b3d3d9fd007e5924298b0affa90188908da111b95fab91b"
+    },
+    "sources/065r-072v_Arch18r_TEI_Netz-Wilson.xml": {
+      "bytes": 29722,
+      "sha256": "5a28db3c31635384208eeec513e7206a4bb540ce3090f7a323ff02c953d382e5"
+    },
+    "sources/066r-071v_Arch17r_TEI_Netz-Wilson.xml": {
+      "bytes": 26721,
+      "sha256": "ffd4147c1ad89638998ec82cedf0be4f805ac53152abd4ef4115037c4b2ddd61"
+    },
+    "sources/066v-071r_Arch17v_TEI_Netz-Wilson.xml": {
+      "bytes": 31060,
+      "sha256": "f089ed9f821a41acb476afe876c198d1b0e4432fd21634c6078d972d49e6385c"
+    },
+    "sources/0_ReadMe.txt": {
+      "bytes": 13812,
+      "sha256": "c69fae3a11e137e2e97ffbdc088c88179a59ac107101c0d0aedfdb2e33fa9825"
+    },
+    "sources/Arch17r-pseudo_no-veil-metadata.txt": {
+      "bytes": 4945,
+      "sha256": "72bb119af5858fb748d45f796336370b215ddf145696bc56fb75f6564691aff2"
+    },
+    "sources/Arch17r-pseudo_no-veil.jpg": {
+      "bytes": 2127263,
+      "sha256": "303ac340945041cb18ee13bb91bc6912e08db08a6bdafb497ca3a05fc9ef678e"
+    },
+    "sources/Arch17r-true_pack8-metadata.txt": {
+      "bytes": 5213,
+      "sha256": "6414baa7daa59ae71982f3871c5daab9307b1b15802723843febc22adc484518"
+    },
+    "sources/Arch17r-true_pack8.jpg": {
+      "bytes": 911788,
+      "sha256": "c1742a26ba97eb558cb53d7c1fc4b13d71e460d067c8888ef96b03e687341e9b"
+    },
+    "sources/Arch17v-pseudo_no-veil-metadata.txt": {
+      "bytes": 4945,
+      "sha256": "d7e535fb2530887f44b4fd9faecf67c231dae3e91e1f206c35d6336cef2381f4"
+    },
+    "sources/Arch17v-pseudo_no-veil.jpg": {
+      "bytes": 2112088,
+      "sha256": "bc439827f3684f7a9fc051a8c205f4f910341cf46e16d3c40275c0525d49507e"
+    },
+    "sources/Arch17v-true_pack8-metadata.txt": {
+      "bytes": 5213,
+      "sha256": "378e2edff3e2abffb431c1193f8b9a1a70a9eeb38518158b2c1919e8b6297cef"
+    },
+    "sources/Arch17v-true_pack8.jpg": {
+      "bytes": 1031023,
+      "sha256": "4067b68554bbf75234e200a16a7a970edb3050b8e564e9f168b46c0fe225802e"
+    },
+    "sources/Arch18r-pseudo_no-veil-metadata.txt": {
+      "bytes": 4945,
+      "sha256": "f83803b80a025c54cd42496960d0c4dad6142eb83d3af44c9701fae936f135d6"
+    },
+    "sources/Arch18r-pseudo_no-veil.jpg": {
+      "bytes": 2174388,
+      "sha256": "9f45bfc8291df6ea4b4b77d1d9f0087136e875d5ee8abd9233b18a7fb9aa9b57"
+    },
+    "sources/Arch18r-true_pack8-metadata.txt": {
+      "bytes": 5213,
+      "sha256": "64c8ae09e87202544c50f58ebbdf8b788546d58abde2e766047aee69d681f535"
+    },
+    "sources/Arch18r-true_pack8.jpg": {
+      "bytes": 796325,
+      "sha256": "ee5eaa43dd0724d085bdae98ea8c0ef65ef1a660a638cfea7831a5a47c0a84a5"
+    },
+    "sources/CC-BY-3.0.txt": {
+      "bytes": 19467,
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    },
+    "sources/CODE-LICENSE.txt": {
+      "bytes": 1071,
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647"
+    },
+    "sources/FolioIndex.txt": {
+      "bytes": 141606,
+      "sha256": "0bc8932ab941072f053845c92c68d7e480cfde64514149dce76d81cfd77a1e73"
+    },
+    "sources/Method-Heiberg-p5.xml": {
+      "bytes": 279684,
+      "sha256": "f5b1930b416eae59009cac0984c96420d169c824cfec56ff7b24b318dbd409d6"
+    },
+    "sources/Method-NW-p5.xml": {
+      "bytes": 386363,
+      "sha256": "91305827c5bab60f95eb39ff8beba549d887a13324f048b9fec0d6d2174822bc"
+    },
+    "sources/NOTICES.txt": {
+      "bytes": 3429,
+      "sha256": "2d4659c789bd567799d3597f32f109c80b604cc85fe2a2450a80724a38aa9783"
+    },
+    "sources/TEI_Encoding.txt": {
+      "bytes": 11571,
+      "sha256": "8cff621177ae55133386c3a39925fa46fee6137c646b7418eccff9dd23933ec8"
+    },
+    "sources/images.json": {
+      "bytes": 5637,
+      "sha256": "217f6c8da287c141f593d77d2b96bd8e19bb32575dcd729c3b43193e9ca0177c"
+    },
+    "sw.js": {
+      "bytes": 6697,
+      "sha256": "b07fe54df0512f79d0d46a69df89d34bcb47b1b4ed2f04c246bf980d35ae19e0"
+    }
+  }
+}
