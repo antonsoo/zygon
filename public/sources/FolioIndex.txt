@@ -1,0 +1,2630 @@
+==================================
+ Archimedes Palimpsest Folio Index
+==================================
+
+:Authors: Will Noel, Doug Emery
+:Date: October 31, 2011
+
+.. contents::
+.. 
+   1 Introduction
+   1.1 2011 amendments
+   2 The folios in the data set
+   3 The texts in the data set
+   4 The foliation of the data set
+   5 Texts by author and work
+     5.1 Alexander of Aphrodisias
+     5.2 Archimedes
+       5.2.1 Equilibrium of Planes
+       5.2.2 On Floating Bodies
+       5.2.3 The Method of Mechanical Theorems
+       5.2.4 Spiral Lines
+       5.2.5 Sphere and Cylinder
+       5.2.6 The Measurement of the Circle
+       5.2.7 The Stomachion
+     5.3 Hyperides
+       5.3.1 Diondas
+       5.3.2 Timandros
+     5.4 Menaion
+     5.5 Life of St. Pantoleon
+     5.6 Unidentified texts
+       5.6.1 Unknown A, 10th Century
+       5.6.2 Unknown B
+   6 Texts by undertext folio
+   7 Texts by prayer book folio
+   8 Concordance of 2008 and 2011 folio designations
+     8.1 Folios listed by 2008 undertext designations
+     8.2 Folios listed by 2011 undertext designations
+     8.3 Folios listed by prayer book foliation
+
+1 Introduction
+==============
+
+The purpose of this document is to make clear which texts appear on
+which folios of the Archimedes Palimpsest, and, where possible, to
+indicate the folio sequence of each text. This document also lists all
+the Archimedes Palimpsest folios included in the data set, organized
+by author and work, undertext folio, and prayer book folio.
+
+1.1 2011 amendments
+-------------------
+
+Since 2008, scholars have learned more about the non-Archimedes
+content of the palimpsest.  New texts have been identified, and
+misattributions of some of the texts have been discovered.  This has
+led to changes to the abbreviations for the textual content of the
+underlying manuscripts.  These changes are used in the Archimedes
+Palimpsest print catalog (Reviel Netz, William Noel, Natalie
+Tchernetska, Nigel Wilson, eds. *The Archimedes Palimpsest*. 2
+vols. Cambridge, UK: Cambridge University Press, 2011).
+
+Although there are new content designations for the folios, the names
+of the image files and supporting metadata have not been changed in
+this data set.  Data added to the set since 2011 conforms with
+information in the print publication.
+
+The final section of this document describes the nomenclature used in
+the 2011 print publication and provides a concordance between the 2008
+and 2011 folio designations.
+
+
+
+2 The Folios in the data set
+============================
+
+This data set consists of evidence of texts that were palimpsested in
+the thirteenth century to make a prayer book, or Euchologion. This
+prayer book is commonly known as the Archimedes Palimpsest.  In total
+there is evidence for 177 palimpsest folios, and the evidence is
+listed below.
+
+ 1. Digital Images of the Archimedes Palimpsest, now in private
+    hands. The Archimedes Palimpsest currently consists of 174
+    parchment folios, and a single gathering of eight paper folios,
+    added at a later date.  The parchment leaves are foliated 1-177 in
+    a modern hand.  Folios 104, 123, and 170 are currently missing.
+    Only the parchment folios are palimpsest, and images of all of the
+    extant folios are in the current data set. The paper folios, which
+    have neither foliation nor pagination, have not been been included
+    in this data set.
+ 
+ 2. Digital images of analog images of the manuscript, taken at
+    various times in the twentieth century.  This includes images that
+    were taken in Constantinople in 1906 at the request of Johan
+    Ludwig Heiberg, the originals of which are in the Royal Library
+    Copenhagen, Ms. Phot. 38. The Heiberg photographs include folios
+    of the palimpsest that have subsequently been excised from the
+    manuscript and are currently missing. These are included in the
+    data set foliation.  These are fol. 123, recto and verso, and
+    fol. 170 recto.
+ 
+ 3. Digital Images of a single leaf of the Archimedes Palimpsest,
+    excised before it was foliated, and now Cambridge University
+    Library Ms. 1879.23. These will be included in the candidate
+    release of this data set.
+ 
+ 4. The only evidence extant for folios 104 and 170v of the manuscript
+    is transcription of the undertext that was seen on them by Johan
+    Ludwig Heiberg between 1906 and 1911. Included in the final
+    release of this data set will be new transcriptions based upon
+    Heiberg’s, by Netz and Wilson.
+
+3 The texts in the data set
+===========================
+
+The Euchologion known as the Archimedes Palimpsest contains several
+palimpsest codices.
+
+ 1. It contains seven treatises by Archimedes, and it forms Codex C in
+    Heiberg’s 1910-15 edition of Archimedes; these seven treatises are
+    Equilibrium of Planes, Spiral Lines, The Measurement of the
+    Circle, Sphere and Cylinder, On Floating Bodies, The Method of
+    Mechanical Theorems, and the Stomachion.
+ 
+ 2. It contains fragments of two speeches by Hyperides, Against
+    Diondas and Against Timandros.
+ 
+ 3. It contains fragments of a philosophical text which has been
+    provisionally identified as Alexander of Aphrodisias, Commentary
+    on Aristotle’s categories.
+ 
+ 4. It contains fragments from a Life of St. Pantoleon.
+ 
+ 5. It contains fragments from a Menaion.
+ 
+ 6. It contains fragments from an unidentified text (Unknown A).
+ 
+ 7. It contains fragments from a second, distinct unidentified text
+    (Unknown B).
+
+4 The foliation of the data set
+===============================
+
+The Euchologion was foliated in the second half of the Nineteenth
+Century in red Arabic numerals, at the top right of each folio.  This
+data set presents images of the Euchologion in a disbound state.
+Hence, when the Euchologion folios are not singletons, they are
+presented as conjoint folios.  Thus it is usually the case that a
+single image of the Euchologion will reference two folio numbers.
+
+There is no evidence in the manuscript for the separate foliation of
+the palimpsested texts.  Foliations for each of the palimpsested
+undertexts have been assigned for the purposes of this data set. The
+texts are identified by abbreviations. The abbreviations used are:
+
+ * Alex -- Alexander of Aphrodisias' Commentary on Aristotle's
+   Categories
+ * Arch -- Archimedes
+ * Hype -- Hyperides
+ * Mena -- Menaion
+ * Pant -- The Life of St. Pantoleon
+ * UnkA -- Unknown text A
+ * UnkB -- Unknown text B
+
+In each case the folios are presented in the data set with the
+undertext reading from the top to the bottom of the image.
+
+5 Texts by author and work
+==========================
+
+The following tables show the palimpsest texts, arranged by author and
+work.
+
+
+5.1 Alexander of Aphrodisias
+----------------------------
+
+There is one text of Alexander of Aphrodisias in the Archimedes
+Palimpsest, his Commentary on Aristotle's Categories.
+
+The Commentary on Aristotle's Categories contains the following
+folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |
+   +==============+===============+
+   | Alex01r      | 143r-146v     |
+   +--------------+---------------+
+   | Alex01v      | 143v-146r     |
+   +--------------+---------------+
+   | Alex02r      | 120r-121v     |
+   +--------------+---------------+
+   | Alex02v      | 120v-121r     |
+   +--------------+---------------+
+   | Alex03r      | 079r-074v     |
+   +--------------+---------------+
+   | Alex03v      | 079v-074r     |
+   +--------------+---------------+
+   | Alex04r      | 075v-078r     |
+   +--------------+---------------+
+   | Alex04v      | 075r-078v     |
+   +--------------+---------------+
+   | Alex05r      | 077r-076v     |
+   +--------------+---------------+
+   | Alex05v      | 077v-076r     |
+   +--------------+---------------+
+   | Alex06r      | 080r-073v     |
+   +--------------+---------------+
+   | Alex06v      | 080v-073r     |
+   +--------------+---------------+
+   | Alex07r      | 119r-122v     |
+   +--------------+---------------+
+   | Alex07v      | 119v-122r     |
+   +--------------+---------------+
+
+5.2 Archimedes
+--------------
+
+The Archimedes Palimpsest has extant folios of all or part of seven
+treatises:
+
+ 1. Equilibrium of Planes
+ 2. On Floating Bodies
+ 3. The Method of Mechanical Theorems
+ 4. Spiral Lines
+ 5. Sphere and Cylinder
+ 6. The Measurement of the Circle
+ 7. The Stomachion
+
+5.2.1 Equilibrium of Planes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Equilibrium of Planes is made up of the following folios.
+
+   +-------------+-------------+
+   | Undertext   | Prayer Book |
+   +=============+=============+
+   | Arch01r     | 027r-022v   |
+   +-------------+-------------+
+   | Arch01v     | 027v-022r   |
+   +-------------+-------------+
+   | Arch02r     | 014r-019v   |
+   +-------------+-------------+
+   | Arch02v     | 014v-019r   |
+   +-------------+-------------+
+   | Arch03r     | 081r-088v   |
+   +-------------+-------------+
+
+5.2.2 On Floating Bodies
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+On Floating Bodies is made up of the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | Arch03r      | 081r-088v     |
+   +--------------+---------------+
+   | Arch03v      | 081v-088r     |
+   +--------------+---------------+
+   | Arch04r      | 056r-049v     |
+   +--------------+---------------+
+   | Arch04v      | 056v-049r     |
+   +--------------+---------------+
+   | Arch05r      | 055r-050v     |
+   +--------------+---------------+
+   | Arch05v      | 055v-050r     |
+   +--------------+---------------+
+   | Arch06r      | 082r-087v     |
+   +--------------+---------------+
+   | Arch06v      | 082v-087r     |
+   +--------------+---------------+
+   | Arch07r      | 017r-016v     |
+   +--------------+---------------+
+   | Arch07v      | 017v-016r     |
+   +--------------+---------------+
+   | Arch08r      | 028r-021v     |
+   +--------------+---------------+
+   | Arch08v      | 028v-021r     |
+   +--------------+---------------+
+   | Arch09r      | 069r-068v     |
+   +--------------+---------------+
+   | Arch09v      | 069v-068r     |
+   +--------------+---------------+
+   | Arch10r      | 128r-129v     |
+   +--------------+---------------+
+   | Arch10v      | 128v-129r     |
+   +--------------+---------------+
+   | Arch11r      | 127r-130v     |
+   +--------------+---------------+
+   | Arch11v      | 127v-130r     |
+   +--------------+---------------+
+   | Arch12r      | 070r-067v     |
+   +--------------+---------------+
+   | Arch12v      | 070v-067r     |
+   +--------------+---------------+
+   | Arch13r      | 002r-001v     |
+   +--------------+---------------+
+   | Arch13v      | 002v-001r     |
+   +--------------+---------------+
+   | Arch14r      | 169r-164v     |
+   +--------------+---------------+
+   | Arch14v      | 169v-164r     |
+   +--------------+---------------+
+   | Arch15r      | 046r-043v     |
+   +--------------+---------------+
+
+5.2.3 The Method of Mechanical Theorems
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Method of Mechanical Theorems is made up of the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | Arch15r      | 046r-043v     |
+   +--------------+---------------+
+   | Arch15v      | 046v-043r     |
+   +--------------+---------------+
+   | Arch16r      | 057r-064v     |
+   +--------------+---------------+
+   | Arch16v      | 057v-064r     |
+   +--------------+---------------+
+   | Arch17r      | 066r-071v     |
+   +--------------+---------------+
+   | Arch17v      | 066v-071r     |
+   +--------------+---------------+
+   | Arch18r      | 065r-072v     |
+   +--------------+---------------+
+   | Arch18v      | 065v-072r     |
+   +--------------+---------------+
+   | Arch19r      | 058r-063v     |
+   +--------------+---------------+
+   | Arch19v      | 058v-063r     |
+   +--------------+---------------+
+   | Arch20r      | 045r-044v     |
+   +--------------+---------------+
+   | Arch20v      | 045v-044r     |
+   +--------------+---------------+
+   | Arch21r      | 170r-163v     |
+   +--------------+---------------+
+   | Arch21v      | 170v-163r     |
+   +--------------+---------------+
+   | Arch22r      | 157r-160v     |
+   +--------------+---------------+
+   | Arch22v      | 157v-160r     |
+   +--------------+---------------+
+   | Arch24r      | 166r-167v     |
+   +--------------+---------------+
+   | Arch24v      | 166v-167r     |
+   +--------------+---------------+
+   | Arch25r      | 048r-041v     |
+   +--------------+---------------+
+   | Arch25v      | 048v-041r     |
+   +--------------+---------------+
+   | Arch26r      | 047r-042v     |
+   +--------------+---------------+
+   | Arch26v      | 047v-042r     |
+   +--------------+---------------+
+   | Arch27r      | 110r-105v     |
+   +--------------+---------------+
+   | Arch27v      | 110v-105r     |
+   +--------------+---------------+
+   | Arch28r      | 158r-159v     |
+   +--------------+---------------+
+   | Arch28v      | 158v-159r     |
+   +--------------+---------------+
+   | Arch29v-30r  | 165r-168v     |
+   +--------------+---------------+
+   | Arch30v-29r  | 168r-165v     |
+   +--------------+---------------+
+
+5.2.4 Spiral Lines
+~~~~~~~~~~~~~~~~~~
+
+Spiral Lines is made up of the following folios.
+
+   
+   +---------------+---------------+
+   | Undertext     | Prayer Book   |
+   +===============+===============+
+   | Arch29v-30r   | 165r-168v     |
+   +---------------+---------------+
+   | Arch30v-29r   | 168r-165v     |
+   +---------------+---------------+
+   | Arch31r       | 059r-062v     |
+   +---------------+---------------+
+   | Arch31v       | 059v-062r     |
+   +---------------+---------------+
+   | Arch32r       | 162r-155v     |
+   +---------------+---------------+
+   | Arch32v       | 162v-155r     |
+   +---------------+---------------+
+   | Arch33r       | 125r-132v     |
+   +---------------+---------------+
+   | Arch33v       | 125v-132r     |
+   +---------------+---------------+
+   | Arch34r       | 126r-131v     |
+   +---------------+---------------+
+   | Arch34v       | 126v-131r     |
+   +---------------+---------------+
+   | Arch35r       | 161r-156v     |
+   +---------------+---------------+
+   | Arch35v       | 161v-156r     |
+   +---------------+---------------+
+   | Arch36r       | 060r-061v     |
+   +---------------+---------------+
+   | Arch36v       | 060v-061r     |
+   +---------------+---------------+
+   | Arch37r       | 030r-033v     |
+   +---------------+---------------+
+   | Arch37v       | 030v-033r     |
+   +---------------+---------------+
+   | Arch38r       | 096r-089v     |
+   +---------------+---------------+
+   | Arch38v       | 096v-089r     |
+   +---------------+---------------+
+   | Arch39r       | 102r-098v     |
+   +---------------+---------------+
+   | Arch39v       | 102v-098r     |
+   +---------------+---------------+
+   | Arch40r       | 147v-142v     |
+   +---------------+---------------+
+   | Arch40v       | 147r-142v     |
+   +---------------+---------------+
+   | Arch41r       | 148v-141v     |
+   +---------------+---------------+
+   | Arch41v       | 148r-141v     |
+   +---------------+---------------+
+   | Arch42r       | 103r-097v     |
+   +---------------+---------------+
+   | Arch42v       | 103v-097r     |
+   +---------------+---------------+
+   | Arch43r       | 095v-090r     |
+   +---------------+---------------+
+   | Arch43v       | 095r-090v     |
+   +---------------+---------------+
+   | Arch44r       | 031r-032v     |
+   +---------------+---------------+
+   | Arch44v       | 031v-032r     |
+   +---------------+---------------+
+   | Arch45r       | 109r-106v     |
+   +---------------+---------------+
+
+5.2.5 Sphere and Cylinder
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sphere and Cylinder is made up of the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | Arch45r      | 109r-106v     |
+   +--------------+---------------+
+   | Arch45v      | 109v-106r     |
+   +--------------+---------------+
+   | Arch46r      | 003r-006v     |
+   +--------------+---------------+
+   | Arch46v      | 003v-006r     |
+   +--------------+---------------+
+   | Arch47r      | 004r-005v     |
+   +--------------+---------------+
+   | Arch47v      | 004v-005r     |
+   +--------------+---------------+
+   | Arch48r      | 108r-107v     |
+   +--------------+---------------+
+   | Arch48v      | 108v-107r     |
+   +--------------+---------------+
+   | Arch49r      | 139r-134v     |
+   +--------------+---------------+
+   | Arch49v      | 139v-134r     |
+   +--------------+---------------+
+   | Arch50r      | 038r-035v     |
+   +--------------+---------------+
+   | Arch50v      | 038v-035r     |
+   +--------------+---------------+
+   | Arch51r      | 099r-101v     |
+   +--------------+---------------+
+   | Arch51v      | 099v-101r     |
+   +--------------+---------------+
+   | Arch52r      | 034r-029v     |
+   +--------------+---------------+
+   | Arch52v      | 034v-029r     |
+   +--------------+---------------+
+   | Arch53r      | 0000-100v     |
+   +--------------+---------------+
+   | Arch53v      | 0000-100r     |
+   +--------------+---------------+
+   | Arch54r      | 037r-036v     |
+   +--------------+---------------+
+   | Arch54v      | 037v-036r     |
+   +--------------+---------------+
+   | Arch55r      | 140r-133v     |
+   +--------------+---------------+
+   | Arch55v      | 140v-133r     |
+   +--------------+---------------+
+   | Arch56r      | 112r-115v     |
+   +--------------+---------------+
+   | Arch56v      | 112v-115r     |
+   +--------------+---------------+
+   | Arch57r      | 149r-154v     |
+   +--------------+---------------+
+   | Arch57v      | 149v-154r     |
+   +--------------+---------------+
+   | Arch58r      | 150r-153v     |
+   +--------------+---------------+
+   | Arch58v      | 150v-153r     |
+   +--------------+---------------+
+   | Arch60r      | 113r-114v     |
+   +--------------+---------------+
+   | Arch60v      | 113v-114r     |
+   +--------------+---------------+
+   | Arch61r      | 123r-118v     |
+   +--------------+---------------+
+   | Arch61v      | 123v-118r     |
+   +--------------+---------------+
+   | Arch62r      | 116r-111v     |
+   +--------------+---------------+
+   | Arch62v      | 116v-111r     |
+   +--------------+---------------+
+   | Arch63r      | 039r-0000     |
+   +--------------+---------------+
+   | Arch63v      | 039v-0000     |
+   +--------------+---------------+
+   | Arch64r      | 094r-091v     |
+   +--------------+---------------+
+   | Arch64v      | 094v-091r     |
+   +--------------+---------------+
+   | Arch65r      | 093r-092v     |
+   +--------------+---------------+
+   | Arch65v      | 093v-092r     |
+   +--------------+---------------+
+   | Arch66r      | 040r-0000     |
+   +--------------+---------------+
+   | Arch66v      | 040v-0000     |
+   +--------------+---------------+
+   | Arch67r      | 124r-117v     |
+   +--------------+---------------+
+   | Arch67v      | 124v-117r     |
+   +--------------+---------------+
+
+5.2.6 The Measurement of the Circle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Measurement of the Circle is made up of the following folios.
+
+   +---------------+---------------+
+   | Undertext     | Prayer Book   |
+   +===============+===============+
+   | Arch68r       | 0000-171v     |
+   +---------------+---------------+
+   | Arch68v       | 0000-171r     |
+   +---------------+---------------+
+   | Arch69r       | 177r-172v     |
+   +---------------+---------------+
+
+
+5.2.7 The Stomachion
+~~~~~~~~~~~~~~~~~~~~
+
+The Stomachion is made up of the following folio.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | Arch69r      | 177r-172v     |
+   +--------------+---------------+
+   | Arch69v      | 177v-172r     |
+   +--------------+---------------+
+
+5.3 Hyperides
+-------------
+
+The Archimedes Palimpsest has extant folios of part of two speeches,
+Diondas and Timandros.
+
+5.3.1 Diondas
+~~~~~~~~~~~~~
+
+Diondas is made up of the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | Hype01r      | 137r-136v     |
+   +--------------+---------------+
+   | Hype01v      | 137v-136r     |
+   +--------------+---------------+
+   | Hype02r      | 145r-144v     |
+   +--------------+---------------+
+   | Hype02v      | 145v-144r     |
+   +--------------+---------------+
+   | Hype03r      | 176r-173v     |
+   +--------------+---------------+
+   | Hype03v      | 176v-173r     |
+   +--------------+---------------+
+   | Hype04r      | 175r-174v     |
+   +--------------+---------------+
+   | Hype04v      | 175v-174r     |
+   +--------------+---------------+
+
+
+5.3.2 Timandros
+~~~~~~~~~~~~~~~~
+
+Timandros is made up of the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | Hype05r      | 138r-135v     |
+   +--------------+---------------+
+   | Hype05v      | 138v-135r     |
+   +--------------+---------------+
+
+
+5.4 Menaion
+-----------
+
+The Archimedes Palimpsest contains parts of a tenth-century Menaion.
+The Menaion is found in the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | Mena01       | 020r-013v     |
+   +--------------+---------------+
+   | Mena01       | 020v-013r     |
+   +--------------+---------------+
+   | Mena02       | 015r-018v     |
+   +--------------+---------------+
+   | Mena02       | 015v-018r     |
+   +--------------+---------------+
+
+5.5 Life of St. Pantoleon
+-------------------------
+
+The Archimedes Palimpsest has extant folios of part of the Life of
+St. Pantoleon.  The Saint's Life is found on the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | Pant01       | 051r-054v     |
+   +--------------+---------------+
+   | Pant01       | 051v-054r     |
+   +--------------+---------------+
+   | Pant02       | 053r-052v     |
+   +--------------+---------------+
+   | Pant02       | 053v-052r     |
+   +--------------+---------------+
+   | Pant03       | 083v-086r     |
+   +--------------+---------------+
+   | Pant03       | 083r-086v     |
+   +--------------+---------------+
+   | Pant04       | 084r-085v     |
+   +--------------+---------------+
+   | Pant04       | 084v-085r     |
+   +--------------+---------------+
+
+5.6 Unidentified texts
+----------------------
+
+The Archimedes Palimpsest contains two unidentified texts.  One of
+these, labelled "Unknown A," has been dated to the 10th  C. 
+
+5.6.1 Unknown A, 10th Century
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Text Unknown A is found in the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | UnkA01       | 023r-026v     |
+   +--------------+---------------+
+   | UnkA01       | 023v-026r     |
+   +--------------+---------------+
+   | UnkA02       | 024v-025r     |
+   +--------------+---------------+
+   | UnkA02       | 024r-025v     |
+   +--------------+---------------+
+   | UnkA03       | 151r-152v     |
+   +--------------+---------------+
+   | UnkA03       | 151v-152r     |
+   +--------------+---------------+
+
+5.6.2 Unknown B
+~~~~~~~~~~~~~~~
+
+Text Unknown A is found in the following folios.
+
+   +--------------+---------------+
+   | Undertext    | Prayer Book   |   
+   +==============+===============+
+   | UnkB01       | 012r-007v     |
+   +--------------+---------------+
+   | UnkB01       | 012v-007r     |
+   +--------------+---------------+
+   | UnkB02       | 011r-008v     |
+   +--------------+---------------+
+   | UnkB02       | 011v-008r     |
+   +--------------+---------------+
+   | UnkB03       | 010r-009v     |
+   +--------------+---------------+
+   | UnkB03       | 010v-009r     |
+   +--------------+---------------+
+
+
+6 Texts by undertext folio
+===========================
+
+The following table shows the text key used throughout the rest of the
+document.
+
+    +--------------+-----------------------------------------------------------------+
+    | Abbreviation | Text                                                            |
+    +--------------+-----------------------------------------------------------------+
+    | AA           | Alexander of Aphrodisias - Commentary on Aristotle's Categories |
+    +--------------+-----------------------------------------------------------------+
+    | EP           | Archimedes - Equilibrium of Planes                              |
+    +--------------+-----------------------------------------------------------------+
+    | FB           | Archimedes - Floating Bodies                                    |
+    +--------------+-----------------------------------------------------------------+
+    | HD           | Hyperides - Diondas                                             |
+    +--------------+-----------------------------------------------------------------+
+    | HT           | Hyperides - Timandros                                           |
+    +--------------+-----------------------------------------------------------------+
+    | MC           | Archimedes - The Measurement of the Circle                      |
+    +--------------+-----------------------------------------------------------------+
+    | ME           | Menaion                                                         |
+    +--------------+-----------------------------------------------------------------+
+    | MT           | Archimedes - The Method of Mechanical Theorems                  |
+    +--------------+-----------------------------------------------------------------+
+    | PA           | Life of St. Pantoleon                                           |
+    +--------------+-----------------------------------------------------------------+
+    | SC           | Archimedes - Sphere and Cylinder                                |
+    +--------------+-----------------------------------------------------------------+
+    | SL           | Archimedes - Spiral Lines                                       |
+    +--------------+-----------------------------------------------------------------+
+    | ST           | Archimedes - Stomachion                                         |
+    +--------------+-----------------------------------------------------------------+
+    | UA           | Unknown A                                                       |
+    +--------------+-----------------------------------------------------------------+
+    | UB           | Unknown B                                                       | 
+    +--------------+-----------------------------------------------------------------+
+  
+
+The following table list the palimpsest folios by their undertext
+designations.
+
+    +---------------------+---------------------+------------+
+    | Undertext folio     | Prayer book folio   | Undertext  |
+    +---------------------+---------------------+------------+
+    | Alex01r             | 143r-146v           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex01v             | 143v-146r           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex02r             | 120r-121v           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex02v             | 120v-121r           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex03r             | 079r-074v           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex03v             | 079v-074r           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex04r             | 078r-075v           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex04v             | 078v-075r           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex05r             | 077r-076v           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex05v             | 077v-076r           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex06r             | 080r-073v           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex06v             | 080v-073r           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex07r             | 119r-122v           | AA         |
+    +---------------------+---------------------+------------+
+    | Alex07v             | 119v-122r           | AA         |
+    +---------------------+---------------------+------------+
+    | Arch01r             | 027r-022v           | EP         |
+    +---------------------+---------------------+------------+
+    | Arch01v             | 027v-022r           | EP         |
+    +---------------------+---------------------+------------+
+    | Arch02r             | 014r-019v           | EP         |
+    +---------------------+---------------------+------------+
+    | Arch02v             | 014v-019r           | EP         |
+    +---------------------+---------------------+------------+
+    | Arch03r             | 081r-088v           | EP, FB     |
+    +---------------------+---------------------+------------+
+    | Arch03v             | 081v-088r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch04r             | 056r-049v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch04v             | 056v-049r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch05r             | 055r-050v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch05v             | 055v-050r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch06r             | 082r-087v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch06v             | 082v-087r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch07r             | 017r-016v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch07v             | 017v-016r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch08r             | 028r-021v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch08v             | 028v-021r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch09r             | 069r-068v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch09v             | 069v-068r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch10r             | 128r-129v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch10v             | 128v-129r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch11r             | 127r-130v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch11v             | 127v-130r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch12r             | 070r-067v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch12v             | 070v-067r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch13r             | 002r-001v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch13v             | 002v-001r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch14r             | 169r-164v           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch14v             | 169v-164r           | FB         |
+    +---------------------+---------------------+------------+
+    | Arch15r             | 046r-043v           | MT, FB     |
+    +---------------------+---------------------+------------+
+    | Arch15v             | 046v-043r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch16r             | 057r-064v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch16v             | 057v-064r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch17r             | 066r-071v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch17v             | 066v-071r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch18r             | 065r-072v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch18v             | 065v-072r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch19r             | 058r-063v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch19v             | 058v-063r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch20r             | 045r-044v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch20v             | 045v-044r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch21r             | 170r-163v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch21v             | 170v-163r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch22r             | 157r-160v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch22v             | 157v-160r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch24r             | 166r-167v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch24v             | 166v-167r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch25r             | 048r-041v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch25v             | 048v-041r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch26r             | 047r-042v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch26v             | 047v-042r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch27r             | 110r-105v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch27v             | 110v-105r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch28r             | 158r-159v           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch28v             | 158v-159r           | MT         |
+    +---------------------+---------------------+------------+
+    | Arch29v-30r         | 165r-168v           | MT,SL      |
+    +---------------------+---------------------+------------+
+    | Arch30v-29r         | 168r-165v           | MT,SL      |
+    +---------------------+---------------------+------------+
+    | Arch31r             | 059r-062v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch31v             | 059v-062r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch32r             | 162r-155v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch32v             | 162v-155r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch33r             | 125r-132v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch33v             | 125v-132r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch34r             | 126r-131v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch34v             | 126v-131r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch35r             | 161r-156v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch35v             | 161v-156r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch36r             | 060r-061v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch36v             | 060v-061r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch37r             | 030r-033v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch37v             | 030v-033r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch38r             | 096r-089v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch38v             | 096v-089r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch39r             | 102r-098v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch39v             | 102v-098r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch40r             | 147v-142r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch40v             | 147r-142v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch41r             | 148v-141r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch41v             | 148r-141v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch42r             | 103r-097v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch42v             | 103v-097r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch43r             | 095r-090v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch43v             | 095v-090r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch44r             | 031r-032v           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch44v             | 031v-032r           | SL         |
+    +---------------------+---------------------+------------+
+    | Arch45r             | 109r-106v           | SL, SC     |
+    +---------------------+---------------------+------------+
+    | Arch45v             | 109v-106r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch46r             | 003r-006v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch46v             | 003v-006r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch47r             | 004r-005v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch47v             | 004v-005r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch48r             | 108r-107v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch48v             | 108v-107r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch49r             | 139r-134v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch49v             | 139v-134r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch50r             | 038r-035v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch50v             | 038v-035r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch51r             | 099r-101v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch51v             | 099v-101r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch52r             | 034r-029v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch52v             | 034v-029r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch53r             | 0000-100v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch53v             | 0000-100r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch54r             | 037r-036v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch54v             | 037v-036r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch55r             | 140r-133v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch55v             | 140v-133r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch56r             | 112r-115v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch56v             | 112v-115r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch57r             | 149r-154v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch57v             | 149v-154r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch58r             | 150r-153v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch58v             | 150v-153r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch60r             | 113r-114v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch60v             | 113v-114r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch61r             | 123r-118v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch61v             | 123v-118r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch62r             | 116r-111v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch62v             | 116v-111r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch63r             | 039r-0000           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch63v             | 039v-0000           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch64r             | 094r-091v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch64v             | 094v-091r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch65r             | 093r-092v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch65v             | 093v-092r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch66r             | 040r-0000           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch66v             | 040v-0000           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch67r             | 124r-117v           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch67v             | 124v-117r           | SC         |
+    +---------------------+---------------------+------------+
+    | Arch68r             | 0000-171v           | MC         |
+    +---------------------+---------------------+------------+
+    | Arch68v             | 0000-171r           | MC         |
+    +---------------------+---------------------+------------+
+    | Arch69r             | 177r-172v           | MC, ST     |
+    +---------------------+---------------------+------------+
+    | Arch69v             | 177v-172r           | ST         |
+    +---------------------+---------------------+------------+
+    | Hype01r             | 137r-136v           | HD         |
+    +---------------------+---------------------+------------+
+    | Hype01v             | 137v-136r           | HD         |
+    +---------------------+---------------------+------------+
+    | Hype02r             | 145r-144v           | HD         |
+    +---------------------+---------------------+------------+
+    | Hype02v             | 145v-144r           | HD         |
+    +---------------------+---------------------+------------+
+    | Hype03r             | 176r-173v           | HD         |
+    +---------------------+---------------------+------------+
+    | Hype03v             | 176v-173r           | HD         |
+    +---------------------+---------------------+------------+
+    | Hype04r             | 175r-174v           | HD         |
+    +---------------------+---------------------+------------+
+    | Hype04v             | 175v-174r           | HD         |
+    +---------------------+---------------------+------------+
+    | Hype05r             | 138r-135v           | HT         |
+    +---------------------+---------------------+------------+
+    | Hype05v             | 138v-135r           | HT         |
+    +---------------------+---------------------+------------+
+    | Mena01              | 020r-013v           | ME         |
+    +---------------------+---------------------+------------+
+    | Mena01              | 020v-013r           | ME         |
+    +---------------------+---------------------+------------+
+    | Mena02              | 015r-018v           | ME         |
+    +---------------------+---------------------+------------+
+    | Mena02              | 015v-018r           | ME         |
+    +---------------------+---------------------+------------+
+    | Pant01              | 051r-054v           | PA         |
+    +---------------------+---------------------+------------+
+    | Pant01              | 051v-054r           | PA         |
+    +---------------------+---------------------+------------+
+    | Pant02              | 053r-052v           | PA         |
+    +---------------------+---------------------+------------+
+    | Pant02              | 053v-052r           | PA         |
+    +---------------------+---------------------+------------+
+    | Pant03              | 083v-086r           | PA         |
+    +---------------------+---------------------+------------+
+    | Pant03              | 083r-086v           | PA         |
+    +---------------------+---------------------+------------+
+    | Pant04              | 084r-085v           | PA         |
+    +---------------------+---------------------+------------+
+    | Pant04              | 084v-085r           | PA         |
+    +---------------------+---------------------+------------+
+    | UnkA01              | 023r-026v           | UA         |
+    +---------------------+---------------------+------------+
+    | UnkA01              | 023v-026r           | UA         |
+    +---------------------+---------------------+------------+
+    | UnkA02              | 024v-025r           | UA         |
+    +---------------------+---------------------+------------+
+    | UnkA02              | 024r-025v           | UA         |
+    +---------------------+---------------------+------------+
+    | UnkA03              | 151r-152v           | UA         |
+    +---------------------+---------------------+------------+
+    | UnkA03              | 151v-152r           | UA         |
+    +---------------------+---------------------+------------+
+    | UnkB01              | 012r-007v           | UB         |
+    +---------------------+---------------------+------------+
+    | UnkB01              | 012v-007r           | UB         |
+    +---------------------+---------------------+------------+
+    | UnkB02              | 011r-008v           | UB         |
+    +---------------------+---------------------+------------+
+    | UnkB02              | 011v-008r           | UB         |
+    +---------------------+---------------------+------------+
+    | UnkB03              | 010r-009v           | UB         |
+    +---------------------+---------------------+------------+
+    | UnkB03              | 010v-009r           | UB         |
+    +---------------------+---------------------+------------+
+
+7 Texts by prayer book folio
+============================
+
+The following table lists the palimpsest folios by their prayer book
+designations.
+
+    +-----------------------+-------------------+------------+
+    | Prayer book folio     | Undertext folio   | Undertext  |
+    +-----------------------+-------------------+------------+
+    | 0000-100r             | Arch53v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 0000-100v             | Arch53r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 0000-171r             | Arch68v           | MC         |
+    +-----------------------+-------------------+------------+
+    | 0000-171v             | Arch68r           | MC         |
+    +-----------------------+-------------------+------------+
+    | 002r-001v             | Arch13r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 002v-001r             | Arch13v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 003r-006v             | Arch46r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 003v-006r             | Arch46v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 004r-005v             | Arch47r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 004v-005r             | Arch47v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 010r-009v             | UnkB03            | UB         |
+    +-----------------------+-------------------+------------+
+    | 010v-009r             | UnkB03            | UB         |
+    +-----------------------+-------------------+------------+
+    | 011r-008v             | UnkB02            | UB         |
+    +-----------------------+-------------------+------------+
+    | 011v-008r             | UnkB02            | UB         |
+    +-----------------------+-------------------+------------+
+    | 012r-007v             | UnkB01            | UB         |
+    +-----------------------+-------------------+------------+
+    | 012v-007r             | UnkB01            | UB         |
+    +-----------------------+-------------------+------------+
+    | 014r-019v             | Arch02r           | EP         |
+    +-----------------------+-------------------+------------+
+    | 014v-019r             | Arch02v           | EP         |
+    +-----------------------+-------------------+------------+
+    | 015r-018v             | Mena02            | ME         |
+    +-----------------------+-------------------+------------+
+    | 015v-018r             | Mena02            | ME         |
+    +-----------------------+-------------------+------------+
+    | 017r-016v             | Arch07r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 017v-016r             | Arch07v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 020r-013v             | Mena01            | ME         |
+    +-----------------------+-------------------+------------+
+    | 020v-013r             | Mena01            | ME         |
+    +-----------------------+-------------------+------------+
+    | 023r-026v             | UnkA01            | UA         |
+    +-----------------------+-------------------+------------+
+    | 023v-026r             | UnkA01            | UA         |
+    +-----------------------+-------------------+------------+
+    | 024r-025v             | UnkA02            | UA         |
+    +-----------------------+-------------------+------------+
+    | 024v-025r             | UnkA02            | UA         |
+    +-----------------------+-------------------+------------+
+    | 027r-022v             | Arch01r           | EP         |
+    +-----------------------+-------------------+------------+
+    | 027v-022r             | Arch01v           | EP         |
+    +-----------------------+-------------------+------------+
+    | 028r-021v             | Arch08r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 028v-021r             | Arch08v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 030r-033v             | Arch37r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 030v-033r             | Arch37v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 031r-032v             | Arch44r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 031v-032r             | Arch44v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 034r-029v             | Arch52r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 034v-029r             | Arch52v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 037r-036v             | Arch54r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 037v-036r             | Arch54v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 038r-035v             | Arch50r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 038v-035r             | Arch50v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 039r-0000             | Arch63r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 039v-0000             | Arch63v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 040r-0000             | Arch66r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 040v-0000             | Arch66v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 045r-044v             | Arch20r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 045v-044r             | Arch20v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 046r-043v             | Arch15r           | MT, FB     |
+    +-----------------------+-------------------+------------+
+    | 046v-043r             | Arch15v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 047r-042v             | Arch26r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 047v-042r             | Arch26v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 048r-041v             | Arch25r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 048v-041r             | Arch25v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 051r-054v             | Pant01            | PA         |
+    +-----------------------+-------------------+------------+
+    | 051v-054r             | Pant01            | PA         |
+    +-----------------------+-------------------+------------+
+    | 053r-052v             | Pant02            | PA         |
+    +-----------------------+-------------------+------------+
+    | 053v-052r             | Pant02            | PA         |
+    +-----------------------+-------------------+------------+
+    | 055r-050v             | Arch05r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 055v-050r             | Arch05v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 056r-049v             | Arch04r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 056v-049r             | Arch04v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 057r-064v             | Arch16r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 057v-064r             | Arch16v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 058r-063v             | Arch19r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 058v-063r             | Arch19v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 059r-062v             | Arch31r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 059v-062r             | Arch31v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 060r-061v             | Arch36r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 060v-061r             | Arch36v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 065r-072v             | Arch18r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 065v-072r             | Arch18v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 066r-071v             | Arch17r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 066v-071r             | Arch17v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 069r-068v             | Arch09r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 069v-068r             | Arch09v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 070r-067v             | Arch12r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 070v-067r             | Arch12v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 077r-076v             | Alex05r           | AA         |
+    +-----------------------+-------------------+------------+
+    | 077v-076r             | Alex05v           | AA         |
+    +-----------------------+-------------------+------------+
+    | 078r-075v             | Alex04r           | AA         |
+    +-----------------------+-------------------+------------+
+    | 078v-075r             | Alex04v           | AA         |
+    +-----------------------+-------------------+------------+
+    | 079r-074v             | Alex03r           | AA         |
+    +-----------------------+-------------------+------------+
+    | 079v-074r             | Alex03v           | AA         |
+    +-----------------------+-------------------+------------+
+    | 080r-073v             | Alex06r           | AA         |
+    +-----------------------+-------------------+------------+
+    | 080v-073r             | Alex06v           | AA         |
+    +-----------------------+-------------------+------------+
+    | 081r-088v             | Arch03r           | EP, FB     |
+    +-----------------------+-------------------+------------+
+    | 081v-088r             | Arch03v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 082r-087v             | Arch06r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 082v-087r             | Arch06v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 083r-086v             | Pant03            | PA         |
+    +-----------------------+-------------------+------------+
+    | 083v-086r             | Pant03            | PA         |
+    +-----------------------+-------------------+------------+
+    | 084r-085v             | Pant04            | PA         |
+    +-----------------------+-------------------+------------+
+    | 084v-085r             | Pant04            | PA         |
+    +-----------------------+-------------------+------------+
+    | 093r-092v             | Arch65r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 093v-092r             | Arch65v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 094r-091v             | Arch64r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 094v-091r             | Arch64v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 095r-090v             | Arch43r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 095v-090r             | Arch43v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 096r-089v             | Arch38r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 096v-089r             | Arch38v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 099r-101v             | Arch51r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 099v-101r             | Arch51v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 102r-098v             | Arch39r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 102v-098r             | Arch39v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 103r-097v             | Arch42r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 103v-097r             | Arch42v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 108r-107v             | Arch48r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 108v-107r             | Arch48v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 109r-106v             | Arch45r           | SL, SC     |
+    +-----------------------+-------------------+------------+
+    | 109v-106r             | Arch45v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 110r-105v             | Arch27r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 110v-105r             | Arch27v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 112r-115v             | Arch56r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 112v-115r             | Arch56v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 113r-114v             | Arch60r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 113v-114r             | Arch60v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 116r-111v             | Arch62r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 116v-111r             | Arch62v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 119r-122v             | Alex07r           | AA         |
+    +-----------------------+-------------------+------------+
+    | 119v-122r             | Alex07v           | AA         |
+    +-----------------------+-------------------+------------+
+    | 120r-121v             | Alex02r           | AA         |
+    +-----------------------+-------------------+------------+
+    | 120v-121r             | Alex02v           | AA         |
+    +-----------------------+-------------------+------------+
+    | 123r-118v             | Arch61r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 123v-118r             | Arch61v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 124r-117v             | Arch67r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 124v-117r             | Arch67v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 125r-132v             | Arch33r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 125v-132r             | Arch33v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 126r-131v             | Arch34r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 126v-131r             | Arch34v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 127r-130v             | Arch11r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 127v-130r             | Arch11v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 128r-129v             | Arch10r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 128v-129r             | Arch10v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 137r-136v             | Hype01r           | HD         |
+    +-----------------------+-------------------+------------+
+    | 137v-136r             | Hype01v           | HD         |
+    +-----------------------+-------------------+------------+
+    | 138r-135v             | Hype05r           | HT         |
+    +-----------------------+-------------------+------------+
+    | 138v-135r             | Hype05v           | HT         |
+    +-----------------------+-------------------+------------+
+    | 139r-134v             | Arch49r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 139v-134r             | Arch49v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 140r-133v             | Arch55r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 140v-133r             | Arch55v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 143r-146v             | Alex01r           | AA         |
+    +-----------------------+-------------------+------------+
+    | 143v-146r             | Alex01v           | AA         |
+    +-----------------------+-------------------+------------+
+    | 145r-144v             | Hype02r           | HD         |
+    +-----------------------+-------------------+------------+
+    | 145v-144r             | Hype02v           | HD         |
+    +-----------------------+-------------------+------------+
+    | 147r-142v             | Arch40v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 147v-142r             | Arch40r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 148r-141v             | Arch41v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 148v-141r             | Arch41r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 149r-154v             | Arch57r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 149v-154r             | Arch57v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 150r-153v             | Arch58r           | SC         |
+    +-----------------------+-------------------+------------+
+    | 150v-153r             | Arch58v           | SC         |
+    +-----------------------+-------------------+------------+
+    | 151r-152v             | UnkA03            | UA         |
+    +-----------------------+-------------------+------------+
+    | 151v-152r             | UnkA03            | UA         |
+    +-----------------------+-------------------+------------+
+    | 157r-160v             | Arch22r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 157v-160r             | Arch22v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 158r-159v             | Arch28r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 158v-159r             | Arch28v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 161r-156v             | Arch35r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 161v-156r             | Arch35v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 162r-155v             | Arch32r           | SL         |
+    +-----------------------+-------------------+------------+
+    | 162v-155r             | Arch32v           | SL         |
+    +-----------------------+-------------------+------------+
+    | 165r-168v             | Arch29v-30r       | MT,SL      |
+    +-----------------------+-------------------+------------+
+    | 166r-167v             | Arch24r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 166v-167r             | Arch24v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 168r-165v             | Arch30v-29r       | MT,SL      |
+    +-----------------------+-------------------+------------+
+    | 169r-164v             | Arch14r           | FB         |
+    +-----------------------+-------------------+------------+
+    | 169v-164r             | Arch14v           | FB         |
+    +-----------------------+-------------------+------------+
+    | 170r-163v             | Arch21r           | MT         |
+    +-----------------------+-------------------+------------+
+    | 170v-163r             | Arch21v           | MT         |
+    +-----------------------+-------------------+------------+
+    | 175r-174v             | Hype04r           | HD         |
+    +-----------------------+-------------------+------------+
+    | 175v-174r             | Hype04v           | HD         |
+    +-----------------------+-------------------+------------+
+    | 176r-173v             | Hype03r           | HD         |
+    +-----------------------+-------------------+------------+
+    | 176v-173r             | Hype03v           | HD         |
+    +-----------------------+-------------------+------------+
+    | 177r-172v             | Arch69r           | MC, ST     |
+    +-----------------------+-------------------+------------+
+    | 177v-172r             | Arch69v           | ST         |
+    +-----------------------+-------------------+------------+
+
+
+8 Concordance of 2008 and 2011 folio designations
+=================================================
+
+This section provides a folio-by-folio cross-walk between 2008 and
+2011 undertext nomenclature. As noted above, the print publication
+uses a set of abbreviations that reflect an updated understanding of
+the textual content of the palimpsest undertexts.
+
+The publication uses this set of abbreviations:
+
+ * ``Arch`` -- Archimedes
+ * ``Hype`` -- Hyperides
+ * ``Comm`` -- Philosophical commentary (formerly ``Alex``)
+ * ``Mena`` -- Menaion
+ * ``Hagi`` -- Hagiographical text (formerly ``Pant`` and ``UnkA``)
+ * ``UnkY`` -- Unknown text 'Y' (folios of the former ``UnkB``)
+ * ``UnkZ`` -- Unknown text 'Z' (a folio of the former ``UnkB``)
+
+Changes:
+
+Hagi 
+   The hagiographical text was previously identified as the Life of
+   St. Pantoleon and given the abbreviation ``Pant``; also, the folios
+   of the text previously called Unknown A were discovered to be a
+   part of this document.
+
+Comm 
+   The philosophical commentary was thought to be the work of
+   Alexander of Aphrodisias and was given the abbreviation ``Alex``.
+   This attribution was found to be uncertain, and so the new
+   designation ``Comm``, for commentary, is now used.
+
+UnkY, UnkZ
+   The text called Unknown B was found to contain not one unidentified
+   manuscripts, but two, now designated ``UnkY`` and ``UnkZ``
+
+The following tables give folio-by-folio crosswalks between the 2008
+and 2011 designations of the undertexts.
+
+8.1 Folios listed by 2008 undertext designations
+------------------------------------------------
+
+Note: Double dashes '--' indicate no change.
+   
+   +-----------------+-----------------+-----------------+
+   | Undertext 2008  | Undertext 2011  | Prayer book     |
+   +=================+=================+=================+
+   | Arch01r         | --              | 027r-022v       |
+   +-----------------+-----------------+-----------------+
+   | Arch01v         | --              | 027v-022r       |
+   +-----------------+-----------------+-----------------+
+   | Arch02r         | --              | 014r-019v       |
+   +-----------------+-----------------+-----------------+
+   | Arch02v         | --              | 014v-019r       |
+   +-----------------+-----------------+-----------------+
+   | Arch03r         | --              | 081r-088v       |
+   +-----------------+-----------------+-----------------+
+   | Arch03v         | --              | 081v-088r       |
+   +-----------------+-----------------+-----------------+
+   | Arch04r         | --              | 056r-049v       |
+   +-----------------+-----------------+-----------------+
+   | Arch04v         | --              | 056v-049r       |
+   +-----------------+-----------------+-----------------+
+   | Arch05r         | --              | 055r-050v       |
+   +-----------------+-----------------+-----------------+
+   | Arch05v         | --              | 055v-050r       |
+   +-----------------+-----------------+-----------------+
+   | Arch06r         | --              | 082r-087v       |
+   +-----------------+-----------------+-----------------+
+   | Arch06v         | --              | 082v-087r       |
+   +-----------------+-----------------+-----------------+
+   | Arch07r         | --              | 017r-016v       |
+   +-----------------+-----------------+-----------------+
+   | Arch07v         | --              | 017v-016r       |
+   +-----------------+-----------------+-----------------+
+   | Arch08r         | --              | 028r-021v       |
+   +-----------------+-----------------+-----------------+
+   | Arch08v         | --              | 028v-021r       |
+   +-----------------+-----------------+-----------------+
+   | Arch09r         | --              | 069r-068v       |
+   +-----------------+-----------------+-----------------+
+   | Arch09v         | --              | 069v-068r       |
+   +-----------------+-----------------+-----------------+
+   | Arch10r         | --              | 128r-129v       |
+   +-----------------+-----------------+-----------------+
+   | Arch10v         | --              | 128v-129r       |
+   +-----------------+-----------------+-----------------+
+   | Arch11r         | --              | 127r-130v       |
+   +-----------------+-----------------+-----------------+
+   | Arch11v         | --              | 127v-130r       |
+   +-----------------+-----------------+-----------------+
+   | Arch12r         | --              | 070r-067v       |
+   +-----------------+-----------------+-----------------+
+   | Arch12v         | --              | 070v-067r       |
+   +-----------------+-----------------+-----------------+
+   | Arch13r         | --              | 002r-001v       |
+   +-----------------+-----------------+-----------------+
+   | Arch13v         | --              | 002v-001r       |
+   +-----------------+-----------------+-----------------+
+   | Arch14r         | --              | 169r-164v       |
+   +-----------------+-----------------+-----------------+
+   | Arch14v         | --              | 169v-164r       |
+   +-----------------+-----------------+-----------------+
+   | Arch15r         | --              | 046r-043v       |
+   +-----------------+-----------------+-----------------+
+   | Arch15v         | --              | 046v-043r       |
+   +-----------------+-----------------+-----------------+
+   | Arch16r         | --              | 057r-064v       |
+   +-----------------+-----------------+-----------------+
+   | Arch16v         | --              | 057v-064r       |
+   +-----------------+-----------------+-----------------+
+   | Arch17r         | --              | 066r-071v       |
+   +-----------------+-----------------+-----------------+
+   | Arch17v         | --              | 066v-071r       |
+   +-----------------+-----------------+-----------------+
+   | Arch18r         | --              | 065r-072v       |
+   +-----------------+-----------------+-----------------+
+   | Arch18v         | --              | 065v-072r       |
+   +-----------------+-----------------+-----------------+
+   | Arch19r         | --              | 058r-063v       |
+   +-----------------+-----------------+-----------------+
+   | Arch19v         | --              | 058v-063r       |
+   +-----------------+-----------------+-----------------+
+   | Arch20r         | --              | 045r-044v       |
+   +-----------------+-----------------+-----------------+
+   | Arch20v         | --              | 045v-044r       |
+   +-----------------+-----------------+-----------------+
+   | Arch21r         | --              | 170r-163v       |
+   +-----------------+-----------------+-----------------+
+   | Arch21v         | --              | 170v-163r       |
+   +-----------------+-----------------+-----------------+
+   | Arch22r         | --              | 157r-160v       |
+   +-----------------+-----------------+-----------------+
+   | Arch22v         | --              | 157v-160r       |
+   +-----------------+-----------------+-----------------+
+   | Arch24r         | --              | 166r-167v       |
+   +-----------------+-----------------+-----------------+
+   | Arch24v         | --              | 166v-167r       |
+   +-----------------+-----------------+-----------------+
+   | Arch25r         | --              | 048r-041v       |
+   +-----------------+-----------------+-----------------+
+   | Arch25v         | --              | 048v-041r       |
+   +-----------------+-----------------+-----------------+
+   | Arch26r         | --              | 047r-042v       |
+   +-----------------+-----------------+-----------------+
+   | Arch26v         | --              | 047v-042r       |
+   +-----------------+-----------------+-----------------+
+   | Arch27r         | --              | 110r-105v       |
+   +-----------------+-----------------+-----------------+
+   | Arch27v         | --              | 110v-105r       |
+   +-----------------+-----------------+-----------------+
+   | Arch28r         | --              | 158r-159v       |
+   +-----------------+-----------------+-----------------+
+   | Arch28v         | --              | 158v-159r       |
+   +-----------------+-----------------+-----------------+
+   | Arch29v-30r     | --              | 165r-168v       |
+   +-----------------+-----------------+-----------------+
+   | Arch30v-29r     | --              | 168r-165v       |
+   +-----------------+-----------------+-----------------+
+   | Arch31r         | --              | 059r-062v       |
+   +-----------------+-----------------+-----------------+
+   | Arch31v         | --              | 059v-062r       |
+   +-----------------+-----------------+-----------------+
+   | Arch32r         | --              | 162r-155v       |
+   +-----------------+-----------------+-----------------+
+   | Arch32v         | --              | 162v-155r       |
+   +-----------------+-----------------+-----------------+
+   | Arch33r         | --              | 125r-132v       |
+   +-----------------+-----------------+-----------------+
+   | Arch33v         | --              | 125v-132r       |
+   +-----------------+-----------------+-----------------+
+   | Arch34r         | --              | 126r-131v       |
+   +-----------------+-----------------+-----------------+
+   | Arch34v         | --              | 126v-131r       |
+   +-----------------+-----------------+-----------------+
+   | Arch35r         | --              | 161r-156v       |
+   +-----------------+-----------------+-----------------+
+   | Arch35v         | --              | 161v-156r       |
+   +-----------------+-----------------+-----------------+
+   | Arch36r         | --              | 060r-061v       |
+   +-----------------+-----------------+-----------------+
+   | Arch36v         | --              | 060v-061r       |
+   +-----------------+-----------------+-----------------+
+   | Arch37r         | --              | 030r-033v       |
+   +-----------------+-----------------+-----------------+
+   | Arch37v         | --              | 030v-033r       |
+   +-----------------+-----------------+-----------------+
+   | Arch38r         | --              | 096r-089v       |
+   +-----------------+-----------------+-----------------+
+   | Arch38v         | --              | 096v-089r       |
+   +-----------------+-----------------+-----------------+
+   | Arch39r         | --              | 102r-098v       |
+   +-----------------+-----------------+-----------------+
+   | Arch39v         | --              | 102v-098r       |
+   +-----------------+-----------------+-----------------+
+   | Arch40r         | --              | 147v-142r       |
+   +-----------------+-----------------+-----------------+
+   | Arch40v         | --              | 147r-142v       |
+   +-----------------+-----------------+-----------------+
+   | Arch41r         | --              | 148v-141r       |
+   +-----------------+-----------------+-----------------+
+   | Arch41v         | --              | 148r-141v       |
+   +-----------------+-----------------+-----------------+
+   | Arch42r         | --              | 103r-097v       |
+   +-----------------+-----------------+-----------------+
+   | Arch42v         | --              | 103v-097r       |
+   +-----------------+-----------------+-----------------+
+   | Arch43r         | --              | 095r-090v       |
+   +-----------------+-----------------+-----------------+
+   | Arch43v         | --              | 095v-090r       |
+   +-----------------+-----------------+-----------------+
+   | Arch44r         | --              | 031r-032v       |
+   +-----------------+-----------------+-----------------+
+   | Arch44v         | --              | 031v-032r       |
+   +-----------------+-----------------+-----------------+
+   | Arch45r         | --              | 109r-106v       |
+   +-----------------+-----------------+-----------------+
+   | Arch45v         | --              | 109v-106r       |
+   +-----------------+-----------------+-----------------+
+   | Arch46r         | --              | 003r-006v       |
+   +-----------------+-----------------+-----------------+
+   | Arch46v         | --              | 003v-006r       |
+   +-----------------+-----------------+-----------------+
+   | Arch47r         | --              | 004r-005v       |
+   +-----------------+-----------------+-----------------+
+   | Arch47v         | --              | 004v-005r       |
+   +-----------------+-----------------+-----------------+
+   | Arch48r         | --              | 108r-107v       |
+   +-----------------+-----------------+-----------------+
+   | Arch48v         | --              | 108v-107r       |
+   +-----------------+-----------------+-----------------+
+   | Arch49r         | --              | 139r-134v       |
+   +-----------------+-----------------+-----------------+
+   | Arch49v         | --              | 139v-134r       |
+   +-----------------+-----------------+-----------------+
+   | Arch50r         | --              | 038r-035v       |
+   +-----------------+-----------------+-----------------+
+   | Arch50v         | --              | 038v-035r       |
+   +-----------------+-----------------+-----------------+
+   | Arch51r         | --              | 099r-101v       |
+   +-----------------+-----------------+-----------------+
+   | Arch51v         | --              | 099v-101r       |
+   +-----------------+-----------------+-----------------+
+   | Arch52r         | --              | 034r-029v       |
+   +-----------------+-----------------+-----------------+
+   | Arch52v         | --              | 034v-029r       |
+   +-----------------+-----------------+-----------------+
+   | Arch53r         | --              | 0000-100v       |
+   +-----------------+-----------------+-----------------+
+   | Arch53v         | --              | 0000-100r       |
+   +-----------------+-----------------+-----------------+
+   | Arch54r         | --              | 037r-036v       |
+   +-----------------+-----------------+-----------------+
+   | Arch54v         | --              | 037v-036r       |
+   +-----------------+-----------------+-----------------+
+   | Arch55r         | --              | 140r-133v       |
+   +-----------------+-----------------+-----------------+
+   | Arch55v         | --              | 140v-133r       |
+   +-----------------+-----------------+-----------------+
+   | Arch56r         | --              | 112r-115v       |
+   +-----------------+-----------------+-----------------+
+   | Arch56v         | --              | 112v-115r       |
+   +-----------------+-----------------+-----------------+
+   | Arch57r         | --              | 149r-154v       |
+   +-----------------+-----------------+-----------------+
+   | Arch57v         | --              | 149v-154r       |
+   +-----------------+-----------------+-----------------+
+   | Arch58r         | --              | 150r-153v       |
+   +-----------------+-----------------+-----------------+
+   | Arch58v         | --              | 150v-153r       |
+   +-----------------+-----------------+-----------------+
+   | Arch60r         | --              | 113r-114v       |
+   +-----------------+-----------------+-----------------+
+   | Arch60v         | --              | 113v-114r       |
+   +-----------------+-----------------+-----------------+
+   | Arch61r         | --              | 123r-118v       |
+   +-----------------+-----------------+-----------------+
+   | Arch61v         | --              | 123v-118r       |
+   +-----------------+-----------------+-----------------+
+   | Arch62r         | --              | 116r-111v       |
+   +-----------------+-----------------+-----------------+
+   | Arch62v         | --              | 116v-111r       |
+   +-----------------+-----------------+-----------------+
+   | Arch63r         | --              | 039r-0000       |
+   +-----------------+-----------------+-----------------+
+   | Arch63v         | --              | 039v-0000       |
+   +-----------------+-----------------+-----------------+
+   | Arch64r         | --              | 094r-091v       |
+   +-----------------+-----------------+-----------------+
+   | Arch64v         | --              | 094v-091r       |
+   +-----------------+-----------------+-----------------+
+   | Arch65r         | --              | 093r-092v       |
+   +-----------------+-----------------+-----------------+
+   | Arch65v         | --              | 093v-092r       |
+   +-----------------+-----------------+-----------------+
+   | Arch66r         | --              | 040r-0000       |
+   +-----------------+-----------------+-----------------+
+   | Arch66v         | --              | 040v-0000       |
+   +-----------------+-----------------+-----------------+
+   | Arch67r         | --              | 124r-117v       |
+   +-----------------+-----------------+-----------------+
+   | Arch67v         | --              | 124v-117r       |
+   +-----------------+-----------------+-----------------+
+   | Arch68r         | --              | 0000-171v       |
+   +-----------------+-----------------+-----------------+
+   | Arch68v         | --              | 0000-171r       |
+   +-----------------+-----------------+-----------------+
+   | Arch69r         | --              | 177r-172v       |
+   +-----------------+-----------------+-----------------+
+   | Arch69v         | --              | 177v-172r       |
+   +-----------------+-----------------+-----------------+
+   | Alex01r         | Comm01r         | 143r-146v       |
+   +-----------------+-----------------+-----------------+
+   | Alex01v         | Comm01v         | 143v-146r       |
+   +-----------------+-----------------+-----------------+
+   | Alex02r         | Comm02r         | 120r-121v       |
+   +-----------------+-----------------+-----------------+
+   | Alex02v         | Comm02v         | 120v-121r       |
+   +-----------------+-----------------+-----------------+
+   | Alex03r         | Comm03r         | 079r-074v       |
+   +-----------------+-----------------+-----------------+
+   | Alex03v         | Comm03v         | 079v-074r       |
+   +-----------------+-----------------+-----------------+
+   | Alex04r         | Comm04r         | 078r-075v       |
+   +-----------------+-----------------+-----------------+
+   | Alex04v         | Comm04v         | 078v-075r       |
+   +-----------------+-----------------+-----------------+
+   | Alex05r         | Comm05r         | 077r-076v       |
+   +-----------------+-----------------+-----------------+
+   | Alex05v         | Comm05v         | 077v-076r       |
+   +-----------------+-----------------+-----------------+
+   | Alex06r         | Comm06r         | 080r-073v       |
+   +-----------------+-----------------+-----------------+
+   | Alex06v         | Comm06v         | 080v-073r       |
+   +-----------------+-----------------+-----------------+
+   | Alex07r         | Comm07r         | 119r-122v       |
+   +-----------------+-----------------+-----------------+
+   | Alex07v         | Comm07v         | 119v-122r       |
+   +-----------------+-----------------+-----------------+
+   | UnkA02          | Hagi01r         | 024v-025r       |
+   +-----------------+-----------------+-----------------+
+   | UnkA02          | Hagi01v         | 024r-025v       |
+   +-----------------+-----------------+-----------------+
+   | UnkA01          | Hagi02r         | 023r-026v       |
+   +-----------------+-----------------+-----------------+
+   | UnkA01          | Hagi02v         | 023v-026r       |
+   +-----------------+-----------------+-----------------+
+   | Pant01          | Hagi03r         | 051v-054r       |
+   +-----------------+-----------------+-----------------+
+   | Pant01          | Hagi03v         | 051r-054v       |
+   +-----------------+-----------------+-----------------+
+   | Pant02          | Hagi04r         | 053v-052r       |
+   +-----------------+-----------------+-----------------+
+   | Pant02          | Hagi04v         | 053r-052v       |
+   +-----------------+-----------------+-----------------+
+   | Pant03          | Hagi05r         | 083r-086v       |
+   +-----------------+-----------------+-----------------+
+   | Pant03          | Hagi05v         | 083v-086r       |
+   +-----------------+-----------------+-----------------+
+   | Pant04          | Hagi06r         | 084v-085r       |
+   +-----------------+-----------------+-----------------+
+   | Pant04          | Hagi06v         | 084r-085v       |
+   +-----------------+-----------------+-----------------+
+   | UnkA03          | Hagi07r         | 151r-152v       |
+   +-----------------+-----------------+-----------------+
+   | UnkA03          | Hagi07v         | 151v-152r       |
+   +-----------------+-----------------+-----------------+
+   | Hype01r         | --              | 137r-136v       |
+   +-----------------+-----------------+-----------------+
+   | Hype01v         | --              | 137v-136r       |
+   +-----------------+-----------------+-----------------+
+   | Hype02r         | --              | 145r-144v       |
+   +-----------------+-----------------+-----------------+
+   | Hype02v         | --              | 145v-144r       |
+   +-----------------+-----------------+-----------------+
+   | Hype03r         | --              | 176r-173v       |
+   +-----------------+-----------------+-----------------+
+   | Hype03v         | --              | 176v-173r       |
+   +-----------------+-----------------+-----------------+
+   | Hype04r         | --              | 175r-174v       |
+   +-----------------+-----------------+-----------------+
+   | Hype04v         | --              | 175v-174r       |
+   +-----------------+-----------------+-----------------+
+   | Hype05r         | --              | 138r-135v       |
+   +-----------------+-----------------+-----------------+
+   | Hype05v         | --              | 138v-135r       |
+   +-----------------+-----------------+-----------------+
+   | Mena02          | Mena01r         | 015v-018r       |
+   +-----------------+-----------------+-----------------+
+   | Mena02          | Mena01v         | 015r-018v       |
+   +-----------------+-----------------+-----------------+
+   | Mena01          | Mena02r         | 020r-013v       |
+   +-----------------+-----------------+-----------------+
+   | Mena01          | Mena02v         | 020v-013r       |
+   +-----------------+-----------------+-----------------+
+   | UnkB02          | UnkY01r         | 011r-008v       |
+   +-----------------+-----------------+-----------------+
+   | UnkB02          | UnkY01v         | 011v-008r       |
+   +-----------------+-----------------+-----------------+
+   | UnkB03          | UnkY02r         | 010r-009v       |
+   +-----------------+-----------------+-----------------+
+   | UnkB03          | UnkY02v         | 010v-009r       |
+   +-----------------+-----------------+-----------------+
+   | UnkB01          | UnkZ01r         | 012v-007r       |
+   +-----------------+-----------------+-----------------+
+   | UnkB01          | UnkZ01v         | 012r-007v       |
+   +-----------------+-----------------+-----------------+
+
+8.2 Folios listed by 2011 undertext designations
+------------------------------------------------
+
+Note: Double dashes '--' indicate no change.
+
+   +-----------------+-----------------+-----------------+
+   | Undertext 2011  | Undertext 2008  | Prayer book     |
+   +=================+=================+=================+
+   | Arch01r         | --              | 027r-022v       |
+   +-----------------+-----------------+-----------------+
+   | Arch01v         | --              | 027v-022r       |
+   +-----------------+-----------------+-----------------+
+   | Arch02r         | --              | 014r-019v       |
+   +-----------------+-----------------+-----------------+
+   | Arch02v         | --              | 014v-019r       |
+   +-----------------+-----------------+-----------------+
+   | Arch03r         | --              | 081r-088v       |
+   +-----------------+-----------------+-----------------+
+   | Arch03v         | --              | 081v-088r       |
+   +-----------------+-----------------+-----------------+
+   | Arch04r         | --              | 056r-049v       |
+   +-----------------+-----------------+-----------------+
+   | Arch04v         | --              | 056v-049r       |
+   +-----------------+-----------------+-----------------+
+   | Arch05r         | --              | 055r-050v       |
+   +-----------------+-----------------+-----------------+
+   | Arch05v         | --              | 055v-050r       |
+   +-----------------+-----------------+-----------------+
+   | Arch06r         | --              | 082r-087v       |
+   +-----------------+-----------------+-----------------+
+   | Arch06v         | --              | 082v-087r       |
+   +-----------------+-----------------+-----------------+
+   | Arch07r         | --              | 017r-016v       |
+   +-----------------+-----------------+-----------------+
+   | Arch07v         | --              | 017v-016r       |
+   +-----------------+-----------------+-----------------+
+   | Arch08r         | --              | 028r-021v       |
+   +-----------------+-----------------+-----------------+
+   | Arch08v         | --              | 028v-021r       |
+   +-----------------+-----------------+-----------------+
+   | Arch09r         | --              | 069r-068v       |
+   +-----------------+-----------------+-----------------+
+   | Arch09v         | --              | 069v-068r       |
+   +-----------------+-----------------+-----------------+
+   | Arch10r         | --              | 128r-129v       |
+   +-----------------+-----------------+-----------------+
+   | Arch10v         | --              | 128v-129r       |
+   +-----------------+-----------------+-----------------+
+   | Arch11r         | --              | 127r-130v       |
+   +-----------------+-----------------+-----------------+
+   | Arch11v         | --              | 127v-130r       |
+   +-----------------+-----------------+-----------------+
+   | Arch12r         | --              | 070r-067v       |
+   +-----------------+-----------------+-----------------+
+   | Arch12v         | --              | 070v-067r       |
+   +-----------------+-----------------+-----------------+
+   | Arch13r         | --              | 002r-001v       |
+   +-----------------+-----------------+-----------------+
+   | Arch13v         | --              | 002v-001r       |
+   +-----------------+-----------------+-----------------+
+   | Arch14r         | --              | 169r-164v       |
+   +-----------------+-----------------+-----------------+
+   | Arch14v         | --              | 169v-164r       |
+   +-----------------+-----------------+-----------------+
+   | Arch15r         | --              | 046r-043v       |
+   +-----------------+-----------------+-----------------+
+   | Arch15v         | --              | 046v-043r       |
+   +-----------------+-----------------+-----------------+
+   | Arch16r         | --              | 057r-064v       |
+   +-----------------+-----------------+-----------------+
+   | Arch16v         | --              | 057v-064r       |
+   +-----------------+-----------------+-----------------+
+   | Arch17r         | --              | 066r-071v       |
+   +-----------------+-----------------+-----------------+
+   | Arch17v         | --              | 066v-071r       |
+   +-----------------+-----------------+-----------------+
+   | Arch18r         | --              | 065r-072v       |
+   +-----------------+-----------------+-----------------+
+   | Arch18v         | --              | 065v-072r       |
+   +-----------------+-----------------+-----------------+
+   | Arch19r         | --              | 058r-063v       |
+   +-----------------+-----------------+-----------------+
+   | Arch19v         | --              | 058v-063r       |
+   +-----------------+-----------------+-----------------+
+   | Arch20r         | --              | 045r-044v       |
+   +-----------------+-----------------+-----------------+
+   | Arch20v         | --              | 045v-044r       |
+   +-----------------+-----------------+-----------------+
+   | Arch21r         | --              | 170r-163v       |
+   +-----------------+-----------------+-----------------+
+   | Arch21v         | --              | 170v-163r       |
+   +-----------------+-----------------+-----------------+
+   | Arch22r         | --              | 157r-160v       |
+   +-----------------+-----------------+-----------------+
+   | Arch22v         | --              | 157v-160r       |
+   +-----------------+-----------------+-----------------+
+   | Arch24r         | --              | 166r-167v       |
+   +-----------------+-----------------+-----------------+
+   | Arch24v         | --              | 166v-167r       |
+   +-----------------+-----------------+-----------------+
+   | Arch25r         | --              | 048r-041v       |
+   +-----------------+-----------------+-----------------+
+   | Arch25v         | --              | 048v-041r       |
+   +-----------------+-----------------+-----------------+
+   | Arch26r         | --              | 047r-042v       |
+   +-----------------+-----------------+-----------------+
+   | Arch26v         | --              | 047v-042r       |
+   +-----------------+-----------------+-----------------+
+   | Arch27r         | --              | 110r-105v       |
+   +-----------------+-----------------+-----------------+
+   | Arch27v         | --              | 110v-105r       |
+   +-----------------+-----------------+-----------------+
+   | Arch28r         | --              | 158r-159v       |
+   +-----------------+-----------------+-----------------+
+   | Arch28v         | --              | 158v-159r       |
+   +-----------------+-----------------+-----------------+
+   | Arch29v-30r     | --              | 165r-168v       |
+   +-----------------+-----------------+-----------------+
+   | Arch30v-29r     | --              | 168r-165v       |
+   +-----------------+-----------------+-----------------+
+   | Arch31r         | --              | 059r-062v       |
+   +-----------------+-----------------+-----------------+
+   | Arch31v         | --              | 059v-062r       |
+   +-----------------+-----------------+-----------------+
+   | Arch32r         | --              | 162r-155v       |
+   +-----------------+-----------------+-----------------+
+   | Arch32v         | --              | 162v-155r       |
+   +-----------------+-----------------+-----------------+
+   | Arch33r         | --              | 125r-132v       |
+   +-----------------+-----------------+-----------------+
+   | Arch33v         | --              | 125v-132r       |
+   +-----------------+-----------------+-----------------+
+   | Arch34r         | --              | 126r-131v       |
+   +-----------------+-----------------+-----------------+
+   | Arch34v         | --              | 126v-131r       |
+   +-----------------+-----------------+-----------------+
+   | Arch35r         | --              | 161r-156v       |
+   +-----------------+-----------------+-----------------+
+   | Arch35v         | --              | 161v-156r       |
+   +-----------------+-----------------+-----------------+
+   | Arch36r         | --              | 060r-061v       |
+   +-----------------+-----------------+-----------------+
+   | Arch36v         | --              | 060v-061r       |
+   +-----------------+-----------------+-----------------+
+   | Arch37r         | --              | 030r-033v       |
+   +-----------------+-----------------+-----------------+
+   | Arch37v         | --              | 030v-033r       |
+   +-----------------+-----------------+-----------------+
+   | Arch38r         | --              | 096r-089v       |
+   +-----------------+-----------------+-----------------+
+   | Arch38v         | --              | 096v-089r       |
+   +-----------------+-----------------+-----------------+
+   | Arch39r         | --              | 102r-098v       |
+   +-----------------+-----------------+-----------------+
+   | Arch39v         | --              | 102v-098r       |
+   +-----------------+-----------------+-----------------+
+   | Arch40r         | --              | 147v-142r       |
+   +-----------------+-----------------+-----------------+
+   | Arch40v         | --              | 147r-142v       |
+   +-----------------+-----------------+-----------------+
+   | Arch41r         | --              | 148v-141r       |
+   +-----------------+-----------------+-----------------+
+   | Arch41v         | --              | 148r-141v       |
+   +-----------------+-----------------+-----------------+
+   | Arch42r         | --              | 103r-097v       |
+   +-----------------+-----------------+-----------------+
+   | Arch42v         | --              | 103v-097r       |
+   +-----------------+-----------------+-----------------+
+   | Arch43r         | --              | 095r-090v       |
+   +-----------------+-----------------+-----------------+
+   | Arch43v         | --              | 095v-090r       |
+   +-----------------+-----------------+-----------------+
+   | Arch44r         | --              | 031r-032v       |
+   +-----------------+-----------------+-----------------+
+   | Arch44v         | --              | 031v-032r       |
+   +-----------------+-----------------+-----------------+
+   | Arch45r         | --              | 109r-106v       |
+   +-----------------+-----------------+-----------------+
+   | Arch45v         | --              | 109v-106r       |
+   +-----------------+-----------------+-----------------+
+   | Arch46r         | --              | 003r-006v       |
+   +-----------------+-----------------+-----------------+
+   | Arch46v         | --              | 003v-006r       |
+   +-----------------+-----------------+-----------------+
+   | Arch47r         | --              | 004r-005v       |
+   +-----------------+-----------------+-----------------+
+   | Arch47v         | --              | 004v-005r       |
+   +-----------------+-----------------+-----------------+
+   | Arch48r         | --              | 108r-107v       |
+   +-----------------+-----------------+-----------------+
+   | Arch48v         | --              | 108v-107r       |
+   +-----------------+-----------------+-----------------+
+   | Arch49r         | --              | 139r-134v       |
+   +-----------------+-----------------+-----------------+
+   | Arch49v         | --              | 139v-134r       |
+   +-----------------+-----------------+-----------------+
+   | Arch50r         | --              | 038r-035v       |
+   +-----------------+-----------------+-----------------+
+   | Arch50v         | --              | 038v-035r       |
+   +-----------------+-----------------+-----------------+
+   | Arch51r         | --              | 099r-101v       |
+   +-----------------+-----------------+-----------------+
+   | Arch51v         | --              | 099v-101r       |
+   +-----------------+-----------------+-----------------+
+   | Arch52r         | --              | 034r-029v       |
+   +-----------------+-----------------+-----------------+
+   | Arch52v         | --              | 034v-029r       |
+   +-----------------+-----------------+-----------------+
+   | Arch53r         | --              | 0000-100v       |
+   +-----------------+-----------------+-----------------+
+   | Arch53v         | --              | 0000-100r       |
+   +-----------------+-----------------+-----------------+
+   | Arch54r         | --              | 037r-036v       |
+   +-----------------+-----------------+-----------------+
+   | Arch54v         | --              | 037v-036r       |
+   +-----------------+-----------------+-----------------+
+   | Arch55r         | --              | 140r-133v       |
+   +-----------------+-----------------+-----------------+
+   | Arch55v         | --              | 140v-133r       |
+   +-----------------+-----------------+-----------------+
+   | Arch56r         | --              | 112r-115v       |
+   +-----------------+-----------------+-----------------+
+   | Arch56v         | --              | 112v-115r       |
+   +-----------------+-----------------+-----------------+
+   | Arch57r         | --              | 149r-154v       |
+   +-----------------+-----------------+-----------------+
+   | Arch57v         | --              | 149v-154r       |
+   +-----------------+-----------------+-----------------+
+   | Arch58r         | --              | 150r-153v       |
+   +-----------------+-----------------+-----------------+
+   | Arch58v         | --              | 150v-153r       |
+   +-----------------+-----------------+-----------------+
+   | Arch60r         | --              | 113r-114v       |
+   +-----------------+-----------------+-----------------+
+   | Arch60v         | --              | 113v-114r       |
+   +-----------------+-----------------+-----------------+
+   | Arch61r         | --              | 123r-118v       |
+   +-----------------+-----------------+-----------------+
+   | Arch61v         | --              | 123v-118r       |
+   +-----------------+-----------------+-----------------+
+   | Arch62r         | --              | 116r-111v       |
+   +-----------------+-----------------+-----------------+
+   | Arch62v         | --              | 116v-111r       |
+   +-----------------+-----------------+-----------------+
+   | Arch63r         | --              | 039r-0000       |
+   +-----------------+-----------------+-----------------+
+   | Arch63v         | --              | 039v-0000       |
+   +-----------------+-----------------+-----------------+
+   | Arch64r         | --              | 094r-091v       |
+   +-----------------+-----------------+-----------------+
+   | Arch64v         | --              | 094v-091r       |
+   +-----------------+-----------------+-----------------+
+   | Arch65r         | --              | 093r-092v       |
+   +-----------------+-----------------+-----------------+
+   | Arch65v         | --              | 093v-092r       |
+   +-----------------+-----------------+-----------------+
+   | Arch66r         | --              | 040r-0000       |
+   +-----------------+-----------------+-----------------+
+   | Arch66v         | --              | 040v-0000       |
+   +-----------------+-----------------+-----------------+
+   | Arch67r         | --              | 124r-117v       |
+   +-----------------+-----------------+-----------------+
+   | Arch67v         | --              | 124v-117r       |
+   +-----------------+-----------------+-----------------+
+   | Arch68r         | --              | 0000-171v       |
+   +-----------------+-----------------+-----------------+
+   | Arch68v         | --              | 0000-171r       |
+   +-----------------+-----------------+-----------------+
+   | Arch69r         | --              | 177r-172v       |
+   +-----------------+-----------------+-----------------+
+   | Arch69v         | --              | 177v-172r       |
+   +-----------------+-----------------+-----------------+
+   | Comm01r         | Alex01r         | 143r-146v       |
+   +-----------------+-----------------+-----------------+
+   | Comm01v         | Alex01v         | 143v-146r       |
+   +-----------------+-----------------+-----------------+
+   | Comm02r         | Alex02r         | 120r-121v       |
+   +-----------------+-----------------+-----------------+
+   | Comm02v         | Alex02v         | 120v-121r       |
+   +-----------------+-----------------+-----------------+
+   | Comm03r         | Alex03r         | 079r-074v       |
+   +-----------------+-----------------+-----------------+
+   | Comm03v         | Alex03v         | 079v-074r       |
+   +-----------------+-----------------+-----------------+
+   | Comm04r         | Alex04r         | 078r-075v       |
+   +-----------------+-----------------+-----------------+
+   | Comm04v         | Alex04v         | 078v-075r       |
+   +-----------------+-----------------+-----------------+
+   | Comm05r         | Alex05r         | 077r-076v       |
+   +-----------------+-----------------+-----------------+
+   | Comm05v         | Alex05v         | 077v-076r       |
+   +-----------------+-----------------+-----------------+
+   | Comm06r         | Alex06r         | 080r-073v       |
+   +-----------------+-----------------+-----------------+
+   | Comm06v         | Alex06v         | 080v-073r       |
+   +-----------------+-----------------+-----------------+
+   | Comm07r         | Alex07r         | 119r-122v       |
+   +-----------------+-----------------+-----------------+
+   | Comm07v         | Alex07v         | 119v-122r       |
+   +-----------------+-----------------+-----------------+
+   | Hagi01r         | UnkA02          | 024v-025r       |
+   +-----------------+-----------------+-----------------+
+   | Hagi01v         | UnkA02          | 024r-025v       |
+   +-----------------+-----------------+-----------------+
+   | Hagi02r         | UnkA01          | 023r-026v       |
+   +-----------------+-----------------+-----------------+
+   | Hagi02v         | UnkA01          | 023v-026r       |
+   +-----------------+-----------------+-----------------+
+   | Hagi03r         | Pant01          | 051v-054r       |
+   +-----------------+-----------------+-----------------+
+   | Hagi03v         | Pant01          | 051r-054v       |
+   +-----------------+-----------------+-----------------+
+   | Hagi04r         | Pant02          | 053v-052r       |
+   +-----------------+-----------------+-----------------+
+   | Hagi04v         | Pant02          | 053r-052v       |
+   +-----------------+-----------------+-----------------+
+   | Hagi05r         | Pant03          | 083r-086v       |
+   +-----------------+-----------------+-----------------+
+   | Hagi05v         | Pant03          | 083v-086r       |
+   +-----------------+-----------------+-----------------+
+   | Hagi06r         | Pant04          | 084v-085r       |
+   +-----------------+-----------------+-----------------+
+   | Hagi06v         | Pant04          | 084r-085v       |
+   +-----------------+-----------------+-----------------+
+   | Hagi07r         | UnkA03          | 151r-152v       |
+   +-----------------+-----------------+-----------------+
+   | Hagi07v         | UnkA03          | 151v-152r       |
+   +-----------------+-----------------+-----------------+
+   | Hype01r         | --              | 137r-136v       |
+   +-----------------+-----------------+-----------------+
+   | Hype01v         | --              | 137v-136r       |
+   +-----------------+-----------------+-----------------+
+   | Hype02r         | --              | 145r-144v       |
+   +-----------------+-----------------+-----------------+
+   | Hype02v         | --              | 145v-144r       |
+   +-----------------+-----------------+-----------------+
+   | Hype03r         | --              | 176r-173v       |
+   +-----------------+-----------------+-----------------+
+   | Hype03v         | --              | 176v-173r       |
+   +-----------------+-----------------+-----------------+
+   | Hype04r         | --              | 175r-174v       |
+   +-----------------+-----------------+-----------------+
+   | Hype04v         | --              | 175v-174r       |
+   +-----------------+-----------------+-----------------+
+   | Hype05r         | --              | 138r-135v       |
+   +-----------------+-----------------+-----------------+
+   | Hype05v         | --              | 138v-135r       |
+   +-----------------+-----------------+-----------------+
+   | Mena01r         | Mena02          | 015v-018r       |
+   +-----------------+-----------------+-----------------+
+   | Mena01v         | Mena02          | 015r-018v       |
+   +-----------------+-----------------+-----------------+
+   | Mena02r         | Mena01          | 020r-013v       |
+   +-----------------+-----------------+-----------------+
+   | Mena02v         | Mena01          | 020v-013r       |
+   +-----------------+-----------------+-----------------+
+   | UnkY01r         | UnkB02          | 011r-008v       |
+   +-----------------+-----------------+-----------------+
+   | UnkY01v         | UnkB02          | 011v-008r       |
+   +-----------------+-----------------+-----------------+
+   | UnkY02r         | UnkB03          | 010r-009v       |
+   +-----------------+-----------------+-----------------+
+   | UnkY02v         | UnkB03          | 010v-009r       |
+   +-----------------+-----------------+-----------------+
+   | UnkZ01r         | UnkB01          | 012v-007r       |
+   +-----------------+-----------------+-----------------+
+   | UnkZ01v         | UnkB01          | 012r-007v       |
+   +-----------------+-----------------+-----------------+
+
+8.3 Folios listed by prayer book foliation
+------------------------------------------
+
+Note: Double dashes '--' indicate no change.
+
+   +-----------------+-----------------+-----------------+
+   | Prayer book     | Undertext 2008  | Undertext 2011  |
+   +=================+=================+=================+
+   | 0000-100r       | Arch53v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 0000-100v       | Arch53r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 0000-171r       | Arch68v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 0000-171v       | Arch68r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 002r-001v       | Arch13r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 002v-001r       | Arch13v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 003r-006v       | Arch46r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 003v-006r       | Arch46v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 004r-005v       | Arch47r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 004v-005r       | Arch47v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 010r-009v       | UnkB03          | UnkY02r         |
+   +-----------------+-----------------+-----------------+
+   | 010v-009r       | UnkB03          | UnkY02v         |
+   +-----------------+-----------------+-----------------+
+   | 011r-008v       | UnkB02          | UnkY01r         |
+   +-----------------+-----------------+-----------------+
+   | 011v-008r       | UnkB02          | UnkY01v         |
+   +-----------------+-----------------+-----------------+
+   | 012r-007v       | UnkB01          | UnkZ01v         |
+   +-----------------+-----------------+-----------------+
+   | 012v-007r       | UnkB01          | UnkZ01r         |
+   +-----------------+-----------------+-----------------+
+   | 014r-019v       | Arch02r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 014v-019r       | Arch02v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 015r-018v       | Mena02          | Mena01v         |
+   +-----------------+-----------------+-----------------+
+   | 015v-018r       | Mena02          | Mena01r         |
+   +-----------------+-----------------+-----------------+
+   | 017r-016v       | Arch07r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 017v-016r       | Arch07v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 020r-013v       | Mena01          | Mena02r         |
+   +-----------------+-----------------+-----------------+
+   | 020v-013r       | Mena01          | Mena02v         |
+   +-----------------+-----------------+-----------------+
+   | 023r-026v       | UnkA01          | Hagi02r         |
+   +-----------------+-----------------+-----------------+
+   | 023v-026r       | UnkA01          | Hagi02v         |
+   +-----------------+-----------------+-----------------+
+   | 024r-025v       | UnkA02          | Hagi01v         |
+   +-----------------+-----------------+-----------------+
+   | 024v-025r       | UnkA02          | Hagi01r         |
+   +-----------------+-----------------+-----------------+
+   | 027r-022v       | Arch01r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 027v-022r       | Arch01v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 028r-021v       | Arch08r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 028v-021r       | Arch08v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 030r-033v       | Arch37r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 030v-033r       | Arch37v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 031r-032v       | Arch44r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 031v-032r       | Arch44v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 034r-029v       | Arch52r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 034v-029r       | Arch52v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 037r-036v       | Arch54r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 037v-036r       | Arch54v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 038r-035v       | Arch50r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 038v-035r       | Arch50v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 039r-0000       | Arch63r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 039v-0000       | Arch63v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 040r-0000       | Arch66r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 040v-0000       | Arch66v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 045r-044v       | Arch20r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 045v-044r       | Arch20v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 046r-043v       | Arch15r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 046v-043r       | Arch15v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 047r-042v       | Arch26r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 047v-042r       | Arch26v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 048r-041v       | Arch25r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 048v-041r       | Arch25v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 051r-054v       | Pant01          | Hagi03v         |
+   +-----------------+-----------------+-----------------+
+   | 051v-054r       | Pant01          | Hagi03r         |
+   +-----------------+-----------------+-----------------+
+   | 053r-052v       | Pant02          | Hagi04v         |
+   +-----------------+-----------------+-----------------+
+   | 053v-052r       | Pant02          | Hagi04r         |
+   +-----------------+-----------------+-----------------+
+   | 055r-050v       | Arch05r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 055v-050r       | Arch05v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 056r-049v       | Arch04r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 056v-049r       | Arch04v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 057r-064v       | Arch16r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 057v-064r       | Arch16v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 058r-063v       | Arch19r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 058v-063r       | Arch19v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 059r-062v       | Arch31r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 059v-062r       | Arch31v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 060r-061v       | Arch36r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 060v-061r       | Arch36v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 065r-072v       | Arch18r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 065v-072r       | Arch18v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 066r-071v       | Arch17r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 066v-071r       | Arch17v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 069r-068v       | Arch09r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 069v-068r       | Arch09v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 070r-067v       | Arch12r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 070v-067r       | Arch12v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 077r-076v       | Alex05r         | Comm05r         |
+   +-----------------+-----------------+-----------------+
+   | 077v-076r       | Alex05v         | Comm05v         |
+   +-----------------+-----------------+-----------------+
+   | 078r-075v       | Alex04r         | Comm04r         |
+   +-----------------+-----------------+-----------------+
+   | 078v-075r       | Alex04v         | Comm04v         |
+   +-----------------+-----------------+-----------------+
+   | 079r-074v       | Alex03r         | Comm03r         |
+   +-----------------+-----------------+-----------------+
+   | 079v-074r       | Alex03v         | Comm03v         |
+   +-----------------+-----------------+-----------------+
+   | 080r-073v       | Alex06r         | Comm06r         |
+   +-----------------+-----------------+-----------------+
+   | 080v-073r       | Alex06v         | Comm06v         |
+   +-----------------+-----------------+-----------------+
+   | 081r-088v       | Arch03r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 081v-088r       | Arch03v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 082r-087v       | Arch06r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 082v-087r       | Arch06v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 083r-086v       | Pant03          | Hagi05r         |
+   +-----------------+-----------------+-----------------+
+   | 083v-086r       | Pant03          | Hagi05v         |
+   +-----------------+-----------------+-----------------+
+   | 084r-085v       | Pant04          | Hagi06v         |
+   +-----------------+-----------------+-----------------+
+   | 084v-085r       | Pant04          | Hagi06r         |
+   +-----------------+-----------------+-----------------+
+   | 093r-092v       | Arch65r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 093v-092r       | Arch65v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 094r-091v       | Arch64r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 094v-091r       | Arch64v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 095r-090v       | Arch43r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 095v-090r       | Arch43v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 096r-089v       | Arch38r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 096v-089r       | Arch38v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 099r-101v       | Arch51r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 099v-101r       | Arch51v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 102r-098v       | Arch39r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 102v-098r       | Arch39v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 103r-097v       | Arch42r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 103v-097r       | Arch42v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 108r-107v       | Arch48r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 108v-107r       | Arch48v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 109r-106v       | Arch45r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 109v-106r       | Arch45v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 110r-105v       | Arch27r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 110v-105r       | Arch27v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 112r-115v       | Arch56r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 112v-115r       | Arch56v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 113r-114v       | Arch60r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 113v-114r       | Arch60v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 116r-111v       | Arch62r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 116v-111r       | Arch62v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 119r-122v       | Alex07r         | Comm07r         |
+   +-----------------+-----------------+-----------------+
+   | 119v-122r       | Alex07v         | Comm07v         |
+   +-----------------+-----------------+-----------------+
+   | 120r-121v       | Alex02r         | Comm02r         |
+   +-----------------+-----------------+-----------------+
+   | 120v-121r       | Alex02v         | Comm02v         |
+   +-----------------+-----------------+-----------------+
+   | 123r-118v       | Arch61r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 123v-118r       | Arch61v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 124r-117v       | Arch67r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 124v-117r       | Arch67v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 125r-132v       | Arch33r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 125v-132r       | Arch33v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 126r-131v       | Arch34r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 126v-131r       | Arch34v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 127r-130v       | Arch11r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 127v-130r       | Arch11v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 128r-129v       | Arch10r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 128v-129r       | Arch10v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 137r-136v       | Hype01r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 137v-136r       | Hype01v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 138r-135v       | Hype05r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 138v-135r       | Hype05v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 139r-134v       | Arch49r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 139v-134r       | Arch49v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 140r-133v       | Arch55r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 140v-133r       | Arch55v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 143r-146v       | Alex01r         | Comm01r         |
+   +-----------------+-----------------+-----------------+
+   | 143v-146r       | Alex01v         | Comm01v         |
+   +-----------------+-----------------+-----------------+
+   | 145r-144v       | Hype02r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 145v-144r       | Hype02v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 147r-142v       | Arch40v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 147v-142r       | Arch40r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 148r-141v       | Arch41v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 148v-141r       | Arch41r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 149r-154v       | Arch57r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 149v-154r       | Arch57v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 150r-153v       | Arch58r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 150v-153r       | Arch58v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 151r-152v       | UnkA03          | Hagi07r         |
+   +-----------------+-----------------+-----------------+
+   | 151v-152r       | UnkA03          | Hagi07v         |
+   +-----------------+-----------------+-----------------+
+   | 157r-160v       | Arch22r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 157v-160r       | Arch22v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 158r-159v       | Arch28r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 158v-159r       | Arch28v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 161r-156v       | Arch35r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 161v-156r       | Arch35v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 162r-155v       | Arch32r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 162v-155r       | Arch32v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 165r-168v       | Arch29v-30r     | --              |
+   +-----------------+-----------------+-----------------+
+   | 166r-167v       | Arch24r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 166v-167r       | Arch24v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 168r-165v       | Arch30v-29r     | --              |
+   +-----------------+-----------------+-----------------+
+   | 169r-164v       | Arch14r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 169v-164r       | Arch14v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 170r-163v       | Arch21r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 170v-163r       | Arch21v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 175r-174v       | Hype04r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 175v-174r       | Hype04v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 176r-173v       | Hype03r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 176v-173r       | Hype03v         | --              |
+   +-----------------+-----------------+-----------------+
+   | 177r-172v       | Arch69r         | --              |
+   +-----------------+-----------------+-----------------+
+   | 177v-172r       | Arch69v         | --              |
+   +-----------------+-----------------+-----------------+

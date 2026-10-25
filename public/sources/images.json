@@ -1,0 +1,137 @@
+{
+  "license": "CC BY 3.0",
+  "images": [
+    {
+      "file": "Arch17r-true_pack8.jpg",
+      "source": "https://archimedespalimpsest.net/Data/066r-071v/066r-071v_Arch17r_Sinar_true_pack8.tif",
+      "sourceSha256": "8e630459fa41e5c2e69422379bcf68c2c7c553a72c75850840ba1b87c526f275",
+      "sourceProjectMd5": "0f11e15c9299831a63eef040904d3c0a",
+      "checksumSource": "https://archimedespalimpsest.net/Data/066r-071v/066r-071v_Arch17r_Sinar_true_pack8.md5",
+      "sourceBytes": 266348854,
+      "sourceSize": [
+        8160,
+        10880
+      ],
+      "size": [
+        2448,
+        3264
+      ],
+      "bytes": 911788,
+      "sha256": "c1742a26ba97eb558cb53d7c1fc4b13d71e460d067c8888ef96b03e687341e9b",
+      "metadata": "Arch17r-true_pack8-metadata.txt",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Full-frame Pillow LANCZOS, maximum 2448 x 3264, JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0"
+    },
+    {
+      "file": "Arch17r-pseudo_no-veil.jpg",
+      "source": "https://archimedespalimpsest.net/Data/066r-071v/066r-071v_Arch17r_Sinar_pseudo_no-veil.tif",
+      "sourceSha256": "b2fbf02067d907d812f42ca15a076ecfe74edfd5a1d812040b6198c3a0f3541e",
+      "sourceProjectMd5": "0d808b07c2a0be4c097a1adf35e5077c",
+      "checksumSource": "https://archimedespalimpsest.net/Data/066r-071v/066r-071v_Arch17r_Sinar_pseudo_no-veil.md5",
+      "sourceBytes": 266348740,
+      "sourceSize": [
+        8160,
+        10880
+      ],
+      "size": [
+        2448,
+        3264
+      ],
+      "bytes": 2127263,
+      "sha256": "303ac340945041cb18ee13bb91bc6912e08db08a6bdafb497ca3a05fc9ef678e",
+      "metadata": "Arch17r-pseudo_no-veil-metadata.txt",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Full-frame Pillow LANCZOS, maximum 2448 x 3264, JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0"
+    },
+    {
+      "file": "Arch17v-true_pack8.jpg",
+      "source": "https://archimedespalimpsest.net/Data/066v-071r/066v-071r_Arch17v_Sinar_true_pack8.tif",
+      "sourceSha256": "bbe04e4f868a7371181496da7fd414f3f34a641fc2863f4905cb29e7a320540f",
+      "sourceProjectMd5": "43798e3c2265086349f922cd443a4380",
+      "checksumSource": "https://archimedespalimpsest.net/Data/066v-071r/066v-071r_Arch17v_Sinar_true_pack8.md5",
+      "sourceBytes": 266348854,
+      "sourceSize": [
+        8160,
+        10880
+      ],
+      "size": [
+        2448,
+        3264
+      ],
+      "bytes": 1031023,
+      "sha256": "4067b68554bbf75234e200a16a7a970edb3050b8e564e9f168b46c0fe225802e",
+      "metadata": "Arch17v-true_pack8-metadata.txt",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Full-frame Pillow LANCZOS, maximum 2448 x 3264, JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0"
+    },
+    {
+      "file": "Arch17v-pseudo_no-veil.jpg",
+      "source": "https://archimedespalimpsest.net/Data/066v-071r/066v-071r_Arch17v_Sinar_pseudo_no-veil.tif",
+      "sourceSha256": "88bd0adb4be15878de6d0b0ed5d060d77352f4271075e4b9768893949720945d",
+      "sourceProjectMd5": "db33e3dfe6587810859821c01f1e048e",
+      "checksumSource": "https://archimedespalimpsest.net/Data/066v-071r/066v-071r_Arch17v_Sinar_pseudo_no-veil.md5",
+      "sourceBytes": 266348740,
+      "sourceSize": [
+        8160,
+        10880
+      ],
+      "size": [
+        2448,
+        3264
+      ],
+      "bytes": 2112088,
+      "sha256": "bc439827f3684f7a9fc051a8c205f4f910341cf46e16d3c40275c0525d49507e",
+      "metadata": "Arch17v-pseudo_no-veil-metadata.txt",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Full-frame Pillow LANCZOS, maximum 2448 x 3264, JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0"
+    },
+    {
+      "file": "Arch18r-true_pack8.jpg",
+      "source": "https://archimedespalimpsest.net/Data/065r-072v/065r-072v_Arch18r_Sinar_true_pack8.tif",
+      "sourceSha256": "896c2705ff76460457c894611832a3f51a07c5664679033ba40016e93f5a561e",
+      "sourceProjectMd5": "2cf88f0d4fa42b7b31d0cddcafcdde80",
+      "checksumSource": "https://archimedespalimpsest.net/Data/065r-072v/065r-072v_Arch18r_Sinar_true_pack8.md5",
+      "sourceBytes": 266348854,
+      "sourceSize": [
+        8160,
+        10880
+      ],
+      "size": [
+        2448,
+        3264
+      ],
+      "bytes": 796325,
+      "sha256": "ee5eaa43dd0724d085bdae98ea8c0ef65ef1a660a638cfea7831a5a47c0a84a5",
+      "metadata": "Arch18r-true_pack8-metadata.txt",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Full-frame Pillow LANCZOS, maximum 2448 x 3264, JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0"
+    },
+    {
+      "file": "Arch18r-pseudo_no-veil.jpg",
+      "source": "https://archimedespalimpsest.net/Data/065r-072v/065r-072v_Arch18r_Sinar_pseudo_no-veil.tif",
+      "sourceSha256": "ab358c8fd7877925ee28ae87897ed66cbc64ae5bab3a98d233fb7a8b4a0e2e4f",
+      "sourceProjectMd5": "a1afd2c9644ccbae930db8f969fe72fe",
+      "checksumSource": "https://archimedespalimpsest.net/Data/065r-072v/065r-072v_Arch18r_Sinar_pseudo_no-veil.md5",
+      "sourceBytes": 266348740,
+      "sourceSize": [
+        8160,
+        10880
+      ],
+      "size": [
+        2448,
+        3264
+      ],
+      "bytes": 2174388,
+      "sha256": "9f45bfc8291df6ea4b4b77d1d9f0087136e875d5ee8abd9233b18a7fb9aa9b57",
+      "metadata": "Arch18r-pseudo_no-veil-metadata.txt",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Full-frame Pillow LANCZOS, maximum 2448 x 3264, JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0"
+    }
+  ]
+}

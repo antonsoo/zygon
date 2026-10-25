@@ -1,0 +1,60 @@
+ZYGON - SOURCES AND REDISTRIBUTION
+
+Code and new diagrams: Copyright (c) 2026 Anton Soloviev. MIT; see LICENSE.
+
+ARCHIMEDES PALIMPSEST DIGITAL RELEASE
+The Owner of the Archimedes Palimpsest; primary transcriptions by Reviel Netz
+and Nigel Wilson. Image creators: Bill Christens-Barry, Roger Easton, Keith Knox.
+With the imaging, conservation, encoding and mapping team.
+Full contributor lists remain in the unmodified TEI headers.
+https://archimedespalimpsest.net/
+Data-set introduction: https://archimedespalimpsest.org/digital/
+Hosted by the University of Pennsylvania Libraries.
+
+The data set, transcriptions, registered images and project documentation are
+licensed under Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+https://creativecommons.org/licenses/by/3.0/
+The full license is included as CC-BY-3.0.txt. The original release introduction
+0_ReadMe.txt, encoding documentation and FolioIndex.txt are included unchanged.
+
+We retain unmodified Method-NW-p5.xml, Method-Heiberg-p5.xml, and the mapped
+Netz-Wilson XML for Arch17r, Arch17v and Arch18r. The Heiberg file reconstructs
+his reading of Codex C from the apparatus; it is NOT his complete critical
+edition. The digital release incorporates updates described in its 2011 notes.
+
+ADAPTATIONS
+Ten selected Greek excerpts use the expanded side of TEI choice, join split
+words and omit marginal/superscript markers and figure labels. Supplied letters have red
+angle brackets, uncertain readings dotted underlines and expanded abbreviation
+letters italic. Word spacing, accents and punctuation are editorial. The reading
+does not silently correct the earlier 'twice' to the later 'four times'.
+
+Six images are full-frame JPEG reductions of the project's registered TIFFs:
+Sinar_true_pack8 and Sinar_pseudo_no-veil for the three folios. images.json
+records original URLs, TIFF hashes, dimensions and exact reduction parameters.
+Selection rectangles reuse the project's line coordinates. They are not new
+recognition, retouched letters, or claims of an independently deciphered reading.
+The visible composite and processed image are distinct supplied project products.
+
+New English translations, Latin study renderings, language notes and teaching
+prose: Copyright (c) 2026 Anton Soloviev, CC BY 3.0. The Latin was newly composed
+for this workshop in 2026; it is not an ancient witness or Heiberg's translation.
+Translations are teaching aids and have not received independent philological
+peer review. Attribute the project and the source contributors when adapting.
+
+The project requests copies of published articles based on its data be sent to
+The Curator of Manuscripts, The Walters Art Museum, 600 North Charles Street,
+Baltimore MD 21201. No correspondence is implied by this application's release.
+
+MATHEMATICAL CROSS-CHECK
+T. L. Heath, The Method of Archimedes, recently discovered by Heiberg (Cambridge,
+1912), proposition 2, printed pp. 18-21. Public-domain English translation.
+https://www.wilbourhall.org/pdfs/archimedes/archimedesHeiberg.pdf
+Our new English and Latin are not presented as Heath's words. The source labels
+follow the Greek transcription, including Theta (Theta is often H in redrawings).
+
+FONTS
+Noto Serif and IBM Plex Sans: SIL Open Font License 1.1. Their complete notices
+are included in ../fonts/ and embedded in portable studies alongside the fonts.
+
+No source institution, source editor or contributor endorses this application.
