@@ -124,13 +124,11 @@ try {
                   status: document.querySelector("#fl-offline")?.textContent,
                   source: document.querySelector("#fl-source-status")?.textContent,
                   caches: await caches.keys(),
-                  registration: await navigator.serviceWorker
-                    .getRegistration()
-                    .then((r) => ({
-                      installing: r?.installing?.state,
-                      waiting: r?.waiting?.state,
-                      active: r?.active?.state,
-                    })),
+                  registration: await navigator.serviceWorker.getRegistration().then((r) => ({
+                    installing: r?.installing?.state,
+                    waiting: r?.waiting?.state,
+                    active: r?.active?.state,
+                  })),
                 })),
               );
               throw error;

@@ -4,7 +4,6 @@
 
 Open [It floats. Will it stay upright?](https://antonsoo.github.io/zygon/float.html#fl-bench)
 or choose **Floating bodies** in the balance room's navigation.
-
 1. Choose **Tall, light solid**, then **Stand upright**. Equal weight and buoyancy
    share one vertical line, but the upright position is unstable.
 2. Use **Tilt 5° farther right**. The buoyancy line moves left of the weight line,
@@ -33,18 +32,18 @@ separate microscope's scale are stated.
 
 ## What was directly reviewed
 
-| Boundary | Evidence and observed result |
-| --- | --- |
-| Analytic geometry | [Independent disk-integration receipt](float-model-review.json): 252 cases; 122 dry-base cases integrated, 130 contact/outside cases with results withheld; maximum centre/lever discrepancy below 9.24e-10 length units |
-| Source identity and extraction | [Source receipt](float-source-review.json): six reproducible excerpts, 37 mapped lines, three complete manuscript frames, four complete Latin pages; original XML bytes and TIFF checksum sidecars checked online |
-| Browser workflow | [Local browser receipt](float-browser-review.json): Chromium and Firefox at 1440px and 375px; actual controls, source frames, sixteen word notes, shared URLs, malformed imports and downloads |
-| Retained HTML | The actual saved HTML reopened from disk with page scripts disabled in all four configurations; no remote asset request; native JSON/CSV/SVG downloads retained the selected trial |
-| Substituted source | An HTTP 200 containing another source was refused for display, and the illustrated export was withheld in both engines |
-| Offline edition | The matching active worker and complete inventory were required before disconnecting; both the original balance and new floating room operated offline, including a new illustrated export |
-| Genuine upgrade | [Upgrade receipt](float-upgrade-review.json): preceding public worker `9b445eb`'s edition to this two-room edition, in both engines; successful upgrade and wrong-source/failure/retry; old tabs withhold readiness and the old cache retires |
-| Actual PDF | [Print receipt](float-print-review.json): 71 complete passage/note fields, all sixteen word notes, seven exact source JPEGs recovered, 6,918 extracted words inside checked A4 margins, 26 pages |
-| Clean installation | [Fresh archive receipt](float-build-review.json), separate from in-place browser review |
-| Public delivery | [Publication record](float-publication.md); local behavior does not establish hosted identity |
+| Boundary                       | Evidence and observed result                                                                                                                                                                                                                  |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Analytic geometry              | [Independent disk-integration receipt](float-model-review.json): 252 cases; 122 dry-base cases integrated, 130 contact/outside cases with results withheld; maximum centre/lever discrepancy below 9.24e-10 length units                      |
+| Source identity and extraction | [Source receipt](float-source-review.json): six reproducible excerpts, 37 mapped lines, three complete manuscript frames, four complete Latin pages; original XML bytes and TIFF checksum sidecars checked online                             |
+| Browser workflow               | [Local browser receipt](float-browser-review.json): Chromium and Firefox at 1440px and 375px; actual controls, source frames, sixteen word notes, shared URLs, malformed imports and downloads                                                |
+| Retained HTML                  | The actual saved HTML reopened from disk with page scripts disabled in all four configurations; no remote asset request; native JSON/CSV/SVG downloads retained the selected trial                                                            |
+| Substituted source             | An HTTP 200 containing another source was refused for display, and the illustrated export was withheld in both engines                                                                                                                        |
+| Offline edition                | The matching active worker and complete inventory were required before disconnecting; both the original balance and new floating room operated offline, including a new illustrated export                                                    |
+| Genuine upgrade                | [Upgrade receipt](float-upgrade-review.json): preceding public worker `9b445eb`'s edition to this two-room edition, in both engines; successful upgrade and wrong-source/failure/retry; old tabs withhold readiness and the old cache retires |
+| Actual PDF                     | [Print receipt](float-print-review.json): 71 complete passage/note fields, all sixteen word notes, seven exact source JPEGs recovered, 6,918 extracted words inside checked A4 margins, 26 pages                                              |
+| Clean installation             | [Fresh archive receipt](float-build-review.json), separate from in-place browser review                                                                                                                                                       |
+| Public delivery                | [Publication record](float-publication.md); local behavior does not establish hosted identity                                                                                                                                                 |
 
 At the critical density, classification compares the selected density with the
 computed bound. A tiny nonzero tilt is not called balanced just because its
@@ -63,12 +62,12 @@ Phone drawings have their own layout and readable labels; source frames scroll
 with the keyboard when enlarged. A microscope enlarges only the horizontal gap.
 No body diagram has its vertical scale stretched to make the force gap visible.
 
-| Configuration | Working bench | Greek and its frame | Saved file |
-| --- | --- | --- | --- |
+| Configuration | Working bench                                 | Greek and its frame                               | Saved file                                                   |
+| ------------- | --------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------ |
 | Chromium 1440 | [Bench](assets/float-chromium-1440-bench.png) | [Reading](assets/float-chromium-1440-reading.png) | [Native HTML](assets/float-chromium-1440-native-reading.png) |
-| Chromium 375 | [Bench](assets/float-chromium-375-bench.png) | [Reading](assets/float-chromium-375-reading.png) | [Native HTML](assets/float-chromium-375-native-reading.png) |
-| Firefox 1440 | [Bench](assets/float-firefox-1440-bench.png) | [Reading](assets/float-firefox-1440-reading.png) | [Native HTML](assets/float-firefox-1440-native-reading.png) |
-| Firefox 375 | [Bench](assets/float-firefox-375-bench.png) | [Reading](assets/float-firefox-375-reading.png) | [Native HTML](assets/float-firefox-375-native-reading.png) |
+| Chromium 375  | [Bench](assets/float-chromium-375-bench.png)  | [Reading](assets/float-chromium-375-reading.png)  | [Native HTML](assets/float-chromium-375-native-reading.png)  |
+| Firefox 1440  | [Bench](assets/float-firefox-1440-bench.png)  | [Reading](assets/float-firefox-1440-reading.png)  | [Native HTML](assets/float-firefox-1440-native-reading.png)  |
+| Firefox 375   | [Bench](assets/float-firefox-375-bench.png)   | [Reading](assets/float-firefox-375-reading.png)   | [Native HTML](assets/float-firefox-375-native-reading.png)   |
 
 Gecko's page-side Promise callback does not settle while page scripts are
 disabled. The file review keeps scripts disabled and polls synchronous font

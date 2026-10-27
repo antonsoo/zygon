@@ -16,9 +16,7 @@
       "shared": "http://127.0.0.1:4352/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
       "inventory": {
         "controller": true,
-        "caches": [
-          "zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"
-        ],
+        "caches": ["zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"],
         "files": 52
       },
       "nativeScripts": false,
@@ -41,9 +39,7 @@
       "shared": "http://127.0.0.1:4352/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
       "inventory": {
         "controller": true,
-        "caches": [
-          "zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"
-        ],
+        "caches": ["zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"],
         "files": 52
       },
       "nativeScripts": false,
@@ -66,9 +62,7 @@
       "shared": "http://127.0.0.1:4352/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
       "inventory": {
         "controller": true,
-        "caches": [
-          "zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"
-        ],
+        "caches": ["zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"],
         "files": 52
       },
       "nativeScripts": false,
@@ -91,9 +85,7 @@
       "shared": "http://127.0.0.1:4352/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
       "inventory": {
         "controller": true,
-        "caches": [
-          "zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"
-        ],
+        "caches": ["zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"],
         "files": 52
       },
       "nativeScripts": false,

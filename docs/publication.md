@@ -3,14 +3,14 @@
 The public workshop is <https://antonsoo.github.io/zygon/>. Its first publication
 was reviewed on 25 October 2026 UTC.
 
-| Boundary | Recorded identity or result |
-| --- | --- |
-| Public source | [cbc1525](https://github.com/antonsoo/zygon/tree/cbc152513df3d1f0b4a89ff95066d5e5c94190ed) |
-| Pages branch | `9b445eb` |
-| Fresh public clone | [Node 24 install, checks and build](public-clone-review.json); all 34 static files identical to the reviewed build |
-| Canonical hosted bytes | [34 of 34 files](hosted-files.json), with the root HTML checked before and after the inventory |
-| Hosted browser behavior | [Chromium and Firefox, 1440px and 375px](hosted-browser.json) |
-| Hosted worker SHA-256 | `b07fe54df0512f79d0d46a69df89d34bcb47b1b4ed2f04c246bf980d35ae19e0` |
+| Boundary                | Recorded identity or result                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Public source           | [cbc1525](https://github.com/antonsoo/zygon/tree/cbc152513df3d1f0b4a89ff95066d5e5c94190ed)                         |
+| Pages branch            | `9b445eb`                                                                                                          |
+| Fresh public clone      | [Node 24 install, checks and build](public-clone-review.json); all 34 static files identical to the reviewed build |
+| Canonical hosted bytes  | [34 of 34 files](hosted-files.json), with the root HTML checked before and after the inventory                     |
+| Hosted browser behavior | [Chromium and Firefox, 1440px and 375px](hosted-browser.json)                                                      |
+| Hosted worker SHA-256   | `b07fe54df0512f79d0d46a69df89d34bcb47b1b4ed2f04c246bf980d35ae19e0`                                                 |
 
 The hosted browser review operated the controls, restored shared state, inspected
 the registered source images, saved and reopened the actual SVG, CSV and complete
