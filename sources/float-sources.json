@@ -1,0 +1,112 @@
+{
+  "images": [
+    {
+      "file": "float-Arch07v.jpg",
+      "caption": "Arch07v / project pseudo_no-veil processed image, full frame reduced from 8160 x 10880",
+      "source": "https://archimedespalimpsest.net/Data/017v-016r/017v-016r_Arch07v_Sinar_pseudo_no-veil.tif",
+      "sourceBytes": 266348740,
+      "sourceSha256": "b7484e0075ad953dd4bffb6aa5439997f28a6aa2485b4b4e364233fb511835eb",
+      "checksumSource": "https://archimedespalimpsest.net/Data/017v-016r/017v-016r_Arch07v_Sinar_pseudo_no-veil.md5",
+      "sourceMd5": "7cac6ee484212718eca3a53852f71031",
+      "size": [
+        2448,
+        3264
+      ],
+      "metadata": "float-Arch07v-metadata.txt",
+      "license": "CC BY 3.0",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Pillow LANCZOS full frame to 2448 x 3264; JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0",
+      "bytes": 2087271,
+      "sha256": "462f00eea5f916e61a772d994f824f5b19e3ae36c9e6adc3175f81d48bab5623"
+    },
+    {
+      "file": "float-Arch08r.jpg",
+      "caption": "Arch08r / project pseudo_no-veil processed image, full frame reduced from 8160 x 10880",
+      "source": "https://archimedespalimpsest.net/Data/028r-021v/028r-021v_Arch08r_Sinar_pseudo_no-veil.tif",
+      "sourceBytes": 266348740,
+      "sourceSha256": "d87ce7684cbf99c1a46a90a061f9872b9845f376624a708b96b983309bb5da56",
+      "checksumSource": "https://archimedespalimpsest.net/Data/028r-021v/028r-021v_Arch08r_Sinar_pseudo_no-veil.md5",
+      "sourceMd5": "d215360f98ce16c7d209e369a7c6b7b8",
+      "size": [
+        2448,
+        3264
+      ],
+      "metadata": "float-Arch08r-metadata.txt",
+      "license": "CC BY 3.0",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Pillow LANCZOS full frame to 2448 x 3264; JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0",
+      "bytes": 2004736,
+      "sha256": "db79ecc8d1dc39df9d4af63fdeb2300e37e4e1b04217330f448feb5e65ba9d3d"
+    },
+    {
+      "file": "float-Arch08v.jpg",
+      "caption": "Arch08v / project pseudo_no-veil processed image, full frame reduced from 8160 x 10880",
+      "source": "https://archimedespalimpsest.net/Data/028v-021r/028v-021r_Arch08v_Sinar_pseudo_no-veil.tif",
+      "sourceBytes": 266348740,
+      "sourceSha256": "91a878605f38ed535caca23bf52e633af34e37443ffd45a79d37400fa03fc7cf",
+      "checksumSource": "https://archimedespalimpsest.net/Data/028v-021r/028v-021r_Arch08v_Sinar_pseudo_no-veil.md5",
+      "sourceMd5": "396d605a5be17fb915ca931ff70055ff",
+      "size": [
+        2448,
+        3264
+      ],
+      "metadata": "float-Arch08v-metadata.txt",
+      "license": "CC BY 3.0",
+      "creators": "Bill Christens-Barry, Roger Easton, Keith Knox",
+      "derivation": "Pillow LANCZOS full frame to 2448 x 3264; JPEG quality 82, subsampling 2",
+      "pillow": "12.2.0",
+      "bytes": 2135256,
+      "sha256": "f28cc35dbe62474330221a8351f3d65cbf3b4fe73f3113d0e27913f4cb78a8a9"
+    },
+    {
+      "file": "float-latin-376.jpg",
+      "caption": "Heiberg, Archimedis Opera omnia II (1881), printed p. 376; Latin transmitted through the pre-palimpsest edition",
+      "source": "https://archive.org/download/archimedisopera04eutogoog/archimedisopera04eutogoog.pdf",
+      "sourceSha256": "85cf138bc1368260a71d7324e8b9892e89c1a6751286093519982babbcc9ffcf",
+      "pdfPage": 419,
+      "printedPage": 376,
+      "license": "Public domain",
+      "derivation": "Poppler pdftoppm, scale-to 2000, JPEG quality 85; full page",
+      "bytes": 471894,
+      "sha256": "3fcbdc8a621fdb9b435f75e4a04013563622c873fd85794ee1b460e0955951c5"
+    },
+    {
+      "file": "float-latin-377.jpg",
+      "caption": "Heiberg, Archimedis Opera omnia II (1881), printed p. 377; Latin transmitted through the pre-palimpsest edition",
+      "source": "https://archive.org/download/archimedisopera04eutogoog/archimedisopera04eutogoog.pdf",
+      "sourceSha256": "85cf138bc1368260a71d7324e8b9892e89c1a6751286093519982babbcc9ffcf",
+      "pdfPage": 420,
+      "printedPage": 377,
+      "license": "Public domain",
+      "derivation": "Poppler pdftoppm, scale-to 2000, JPEG quality 85; full page",
+      "bytes": 328610,
+      "sha256": "ec3cc394f807333dc1ffd42f32800730da31acb2fcf9b76f6a4fbc0c9945ca32"
+    },
+    {
+      "file": "float-latin-379.jpg",
+      "caption": "Heiberg, Archimedis Opera omnia II (1881), printed p. 379; Latin transmitted through the pre-palimpsest edition",
+      "source": "https://archive.org/download/archimedisopera04eutogoog/archimedisopera04eutogoog.pdf",
+      "sourceSha256": "85cf138bc1368260a71d7324e8b9892e89c1a6751286093519982babbcc9ffcf",
+      "pdfPage": 422,
+      "printedPage": 379,
+      "license": "Public domain",
+      "derivation": "Poppler pdftoppm, scale-to 2000, JPEG quality 85; full page",
+      "bytes": 427787,
+      "sha256": "3ea9f46623515a70db1723f246eb7a308e783236cbc275bd228347503ab7904a"
+    },
+    {
+      "file": "float-latin-380.jpg",
+      "caption": "Heiberg, Archimedis Opera omnia II (1881), printed p. 380; Latin transmitted through the pre-palimpsest edition",
+      "source": "https://archive.org/download/archimedisopera04eutogoog/archimedisopera04eutogoog.pdf",
+      "sourceSha256": "85cf138bc1368260a71d7324e8b9892e89c1a6751286093519982babbcc9ffcf",
+      "pdfPage": 423,
+      "printedPage": 380,
+      "license": "Public domain",
+      "derivation": "Poppler pdftoppm, scale-to 2000, JPEG quality 85; full page",
+      "bytes": 435578,
+      "sha256": "258c81307c448ef6b77e552516c33bdc290e1daef55ff6cd7005f05097d6aece"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+Zygon / It floats. Will it stay upright?
+
+Ancient work: Archimedes, On Floating Bodies II.2 and II.4.
+
+Greek transcriptions and processed manuscript images:
+Archimedes Palimpsest Digital Release, hosted by University of Pennsylvania Libraries.
+https://archimedespalimpsest.net/
+Primary transcription: Reviel Netz and Nigel Wilson.
+Sponsor: The Owner of the Archimedes Palimpsest.
+Images: Bill Christens-Barry, Roger Easton, Keith Knox and the imaging team.
+The complete original creator and source records remain in the three
+float-Arch*-metadata.txt files and the unmodified per-folio TEI headers.
+Arch07v: https://archimedespalimpsest.net/Data/017v-016r/
+Arch08r: https://archimedespalimpsest.net/Data/028r-021v/
+Arch08v: https://archimedespalimpsest.net/Data/028v-021r/
+Transcription, images, adapted excerpts and new teaching translations/notes:
+Creative Commons Attribution 3.0 Unported. See CC-BY-3.0.txt.
+No endorsement by the project or contributors is implied.
+
+Changes: full registered 8160 x 10880 TIFF frames reduced to 2448 x 3264
+with Pillow LANCZOS, JPEG quality 82, subsampling 2. No crop, recolouring,
+retouching or new decipherment. Published line coordinates are reused.
+Greek excerpts select expanded abbreviations, join split words and retain
+supplied, uncertain and sic flags. Accents/spacing/punctuation are editorial.
+New English and contextual notes are teaching aids by Anton Soloviev (2026),
+without independent philological review. No new Latin translation is supplied.
+
+Latin witness:
+Archimedis Opera omnia cum commentariis Eutocii, edited by J. L. Heiberg,
+volume II, Leipzig: B. G. Teubner, 1881, printed pp. 376-377 and 379-380.
+https://archive.org/details/archimedisopera04eutogoog
+https://archive.org/download/archimedisopera04eutogoog/archimedisopera04eutogoog.pdf
+Public-domain printed text and images. Full pages rendered by Poppler.
+This is the pre-palimpsest edition: its Latin proof of II.2 breaks off,
+and II.4 omits a denominator that Heiberg supplies in a footnote.
+The retained Latin excerpts follow the body text, including that omission.
+
+Modern mathematical comparison:
+Kurt Girstmair and Gerhard Kirchner, Towards a Completion of Archimedes'
+Treatise on Floating Bodies (2007), section 1, arXiv:0706.0119.
+https://arxiv.org/abs/0706.0119
+The analytic dry-base cap/centre conditions are independently derived in
+docs/float-model.md. The paper is a reference, not redistributed content.
+The workshop does not solve the paper's base-crossing extension.
+
+Source identities and image reduction provenance: float-sources.json.
+Code and new diagrams: MIT, Copyright (c) 2026 Anton Soloviev.
+Noto Serif: SIL Open Font License 1.1; fonts/NotoSerif-OFL.txt.
+IBM Plex Sans: SIL Open Font License 1.1; fonts/IBMPlex-OFL.txt.
