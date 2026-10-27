@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-27T07:42:06.419177+00:00",
+  "cases": 252,
+  "integratedDryCases": 122,
+  "withheldContactOrOutsideCases": 130,
+  "maximumCentroidOrLeverError": 9.231698530620669e-10,
+  "tolerance": 8e-07,
+  "method": "Independent circular-disk segment integration with adaptive Simpson quadrature; volume and two first moments of the actual truncated solid.",
+  "scope": "Numerical cross-check of static analytic geometry, not physical flotation or historical proof."
+}

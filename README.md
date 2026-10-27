@@ -1,6 +1,6 @@
 # Zygon
 
-**Discover a sphere's volume on Archimedes' balance. Then read the move in Greek.**
+**Operate Archimedes' balance and floating bodies. Then read the conditions in Greek.**
 
 [Workshop](https://antonsoo.github.io/zygon/) · [Code: MIT](LICENSE) ·
 [Text, images and source licenses](public/sources/NOTICES.txt) · [Model](docs/model.md)
@@ -13,6 +13,56 @@ moments do. This workshop makes the transfer in Archimedes' _Method_ II
 operable, then follows the argument into its surviving manuscript evidence.
 
 ![The sections, shared axial construction and unequal turning moments](docs/assets/balance.png)
+
+## It floats. Will it stay upright?
+
+The new [floating-body room](https://antonsoo.github.io/zygon/float.html#fl-bench)
+starts with a solid that is balanced upright but unstable. Give it a small tilt:
+equal weight and buoyancy act through different vertical lines, turning it
+farther over. Find its separate **32.3115332°** dry-base equilibrium, then test
+both sides. Keep the shape and increase its density; upright becomes stable.
+
+![The computed oblique equilibrium, force lines and keyboard controls](docs/assets/float-desktop.png)
+- Change shape, density and tilt with native keyboard controls. A separate
+  microscope enlarges small force-line gaps without distorting the body.
+- Inspect the critical density: zero linear stiffness still allows a finite
+  restoring turn. Balanced, stable and critical remain different claims.
+- Tilt beyond base contact. The workshop withholds displaced volume and force
+  results, rather than extending the dry-base cap formula through the solid's cut.
+- Read six Greek/English passages, five corresponding Latin excerpts and sixteen
+  contextual word notes. Inspect three complete processed manuscript frames and
+  four full printed pages, with mapped line focus and keyboard panning.
+- Compare two real transmission problems: the 1881 Latin proof stops early, and
+  its taller-solid condition omits a denominator supplied in a footnote. The
+  missing Latin continuation is not invented; supplied Greek letters stay marked.
+- Save editable JSON, a turning CSV, a font-embedded SVG or one script-free
+  illustrated reading with all source images, original transcriptions, fonts and
+  licenses. Both rooms work after the complete offline edition is saved.
+
+This is a modern static model of a uniform solid paraboloid in flat, still,
+unbounded liquid. It does not simulate a timed return, hollow boat, waves,
+material manufacture or a measured physical object. The source's geometrical
+arguments remain distinct from our coordinates and numerical cross-checks.
+
+[Source and derivation](docs/float-model.md) ·
+[Actual workflow and review](docs/float-review.md) ·
+[Retained illustrated reading, gzip](examples/floating-reading.html.gz) ·
+[Actual browser PDF](examples/floating-reading.pdf) ·
+[Editable experiment](examples/floating-experiment.json) ·
+[Turning CSV](examples/floating-turning.csv) · [Drawn SVG](examples/floating-drawing.svg).
+Decompress the retained HTML before opening it.
+
+```sh
+npm run verify:float
+npm run verify:float-sources -- --online
+npm run test:float -- http://127.0.0.1:4350/zygon/ /tmp/zygon-floating
+npm run verify:float-print -- /tmp/zygon-floating/chromium-1440/reading.pdf /tmp/zygon-floating/print.json
+```
+
+Build and serve the production edition with `npm run build` and `npm run preview`
+before the browser review. It uses the existing Playwright Chromium and Firefox
+installations. Source-image reproduction requires the identified original TIFFs,
+1881 PDF, Pillow and Poppler; normal learner use downloads none of those TIFFs.
 
 ## Find one arm for every cut
 

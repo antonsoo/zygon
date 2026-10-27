@@ -1,0 +1,11 @@
+{
+  "format": "zygon-floating",
+  "version": 1,
+  "scope": "Uniform solid paraboloid; flat, still, unbounded liquid; parallel gravity; base wholly dry. Static forces, not motion or a vessel reconstruction.",
+  "settings": {
+    "height": 1.5,
+    "density": 16,
+    "angle": 32.311533237423845,
+    "reading": 5
+  }
+}
