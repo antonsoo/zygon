@@ -1,0 +1,114 @@
+Identifier 40211
+Date 2008-05-05T19:38:29-04:00
+Creator Christens-Barry, Bill
+Creator Easton, Roger
+Creator Knox, Keith
+Subject Euchologion Image
+Subject Archimedes Palimpsest Image
+Subject Palimpsest Image
+Subject Multispectral Image
+Subject Digital Image
+Subject Greek Manuscript Image
+Subject Byzantine Manuscript Image
+Subject Parchment Manuscript Image
+Subject 13th Century Manuscript Image
+Subject 10th Century Manuscript Image
+Subject Private Collection
+Publisher Owner of the Archimedes Palimpsest
+Contributor Auer, Kevin
+Contributor Emery, Doug
+Contributor Gerry, Kate
+Contributor Noel, Will
+Contributor Potter, Daniel
+Contributor Quandt, Abigail
+Contributor Stokes, John R.
+Contributor Stokes, John T.
+Contributor Tabritha, Ariel
+Contributor Tilghman, Ben
+Contributor Toth, Michael
+Type image/tiff
+Source Processed from image with Identifier 16466, 028v-021r_Arch08v_Sinar_LED625_01_raw.tif
+Source Processed from image with Identifier 30031, 028v-021r_Arch08v_Sinar_LED365_01_corr.tif
+Coverage Walters Art Museum
+Coverage 2007-08-06 to 2007-08-26
+Coverage Baltimore, MD
+Coverage USA
+license http://creativecommons.org/licenses/by/3.0/legalcode
+license Licensed for use under Creative Commons Attribution 3.0 Unported
+accessRights Copies of any articles published based on the data must be sent to William Noel, Walters Art Museum, Baltimore, MD.
+ID_File_Name 028v-021r_Arch08v_Sinar_pseudo_no-veil.tif
+SPTL_Coordinate_Unit_of_Measure millimeter
+SPTL_X_Resolution 32.8
+SPTL_Y_Resolution 32.8
+SPTL_X_Resolution_Unit_of_Measure pixels per millimeter
+SPTL_Y_Resolution_Unit_of_Measure pixels per millimeter
+SPTL_UpLeft_X_Coordinate 0.00
+SPTL_UpLeft_Y_Coordinate 0.00
+SPTL_LoRight_X_Coordinate 247.65
+SPTL_LoRight_Y_Coordinate 330.20
+SPTL_UpLeft_X_BoundingCoordinate 0.00
+SPTL_UpLeft_Y_BoundingCoordinate 0.00
+SPTL_LoRight_X_BoundingCoordinate 247.65
+SPTL_LoRight_Y_BoundingCoordinate 330.20
+SPTL_Grid_Coordinate_System Archimedes text UP, running horizontally starting at 0:0 at upper left corner of image
+SPTL_X_Offset_Upper_Left 0
+SPTL_Y_Offset_Upper_Left 0
+SPTL_X_Posn_Accuracy 1 Pixel
+SPTL_Y_Posn_Accuracy 1 Pixel
+SPTL_Count_Horizontal_Regions_on_Folio 1
+SPTL_Count_Vertical_Regions_on_Folio 1
+SPTL_Position_Number_Folio_Region 0
+SPTL_Count_Total_Regions_on_Folio 1
+IMG_Imaging_System StokesCaptureStation comprising large format color camera whose sensor has an embedded color filter array and the capability of half-pixel and full-pixel piezoelectric driven translation
+IMG_Imaging_Device_Make Sinar
+IMG_Imaging_Device_Model 54H
+IMG_Lens_Brand Sinaron Macro 70 Degrees F5.6
+IMG_Sensor_Spectral_Range 350-1080
+IMG_Sensor_Spectral_Range_Unit_of_Measure nm
+IMG_Lens_Focal_Length 120
+IMG_Lens_Focal_Length_Unit_of_Measure mm
+IMG_Aperture_f 9.5
+IMG_Camera_Incidence_Angle_deg 0
+IMG_Camera_Imaging_Mode RGB
+IMG_Camera_Imaging_Depth_bits 16
+IMG_White_Balance None
+Format image/tiff
+DAT_Format_Version_Number 6
+DAT_Format_Version_Date 1992-06-03
+DAT_Compression_Technique None
+DAT_Decompression_Technique None
+DAT_File_Size 266348878
+DAT_File_Processing A mask that separates the black regions from the lighter regions is created from the visible file using an Otsu thresholding algorithm implemented on a sliding 30x30 window. The visible and ultraviolet images are adjusted on a sliding 401x401 window by changing the center pixel of the sliding window so that the width and mean within the window is similar across the image. The visible and ultraviolet images each have three color separations, which are added together before being processed and combined in pseudocolor.
+DAT_Joining_Same_Parts_of_Folio Yes
+DAT_Joining_Different_Parts_of_Folio No
+DAT_Samples_per_Pixel 3
+DAT_Bits_per_Sample 8
+DAT_Type_of_Contrast_Adjustment Adjustable over a sliding window.
+DAT_Type_of_Image_Processing Variable enhancement
+DAT_Software_Version 1.2
+DAT_Processing_Program Archie 1.2, otsumask, pseudomask
+DAT_Processing_Comments The differences between the visibility of the erased characters in ultraviolet and visible illumination are emphasized using pseudocolor.
+CONT_Content_Keyword Content Archimedes
+CONT_Source_Info Palimpsest Leaf
+CONT_Foliation_Scheme Prayerbook
+CONT_Folio1_Number 028
+CONT_Folio1_R_V v
+CONT_Folio2_Number 021
+CONT_Folio2_R_V r
+CONT_Secondary_Foliation_Scheme Under text
+CONT_Secondary_Folio1_Number Arch08
+CONT_Secondary_Folio1_R_V v
+CONT_Source_Citation The Archimedes Palimpsest (New York: Christie's, 1998)
+CONT_Source_Citation Heiberg, J. L., ed., Archimedes Opera omnia cum commentariis Eutocii (Leipzig: Teubner, 1910-15, reprinted 1972)
+CONT_Language Greek
+MET_Set_ID 103
+MET_Metadata_Status Valid
+MET_Metadata_Date 2007-08-21
+MET_Review_Date 2008-05-14T22:43:06-04:00
+MET_Future_Review_Date None
+MET_Metadata_Contact Emery, Doug
+MET_Metadata_Contact Toth, Michael
+MET_Standard_Name Archimedes Metadata Standard (Including ISO 15836:2003, Dublin Core Metadata Elements)
+MET_Standard_Version 1.1
+MET_Extensions None
+
