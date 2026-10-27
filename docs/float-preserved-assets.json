@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-27T08:03:27.081984+00:00",
+  "base": "https://antonsoo.github.io/zygon/",
+  "precedingRef": "HEAD^^",
+  "preservedAssetFiles": 2,
+  "files": [
+    {
+      "path": "assets/main-DIj-d9Y8.css",
+      "bytes": 10374,
+      "sha256": "0133e7ecfc9338e7be4cb061930a9a0bae7889d9bcdd595bcd5732434c1d365c"
+    },
+    {
+      "path": "assets/main-DgpGbnRH.js",
+      "bytes": 64145,
+      "sha256": "15642f68749c3e4b9ca232ba843c2f3cf5648c6f114fcb7230c12d7f60dbf937"
+    }
+  ],
+  "precedingRevision": "9b445eba1da6d505cc14ee5ce3f4cbce3c739166",
+  "publishedRevision": "674e357df7bc0d44a13878bbeaf3c62aff1082bb"
+}

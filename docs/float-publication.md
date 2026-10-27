@@ -8,7 +8,7 @@ behaviour and the portable reading. Review date: 27 October 2026 UTC.
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Reviewed public source | [093e1ba](https://github.com/antonsoo/zygon/tree/093e1baad8355133e51c63706bcff4c00445d639)                                                                                                                |
 | Clean archive build    | [Node 24.21.0 / npm 11.19.0 receipt](float-build-review.json), archive of `76d8e29`; later source changes before publication are documentation only                                                       |
-| Static branch          | `8b3c8bc3aadfe16d12b475e51f78a119b7bfe23c`, a fast-forward of the preceding static branch                                                                                                                 |
+| Static branch          | `674e357df7bc0d44a13878bbeaf3c62aff1082bb`; the payload was introduced by `8b3c8bc`, then preceding bundle URLs were retained                                                                             |
 | Canonical delivery     | [53 of 53 reviewed build files](float-hosted-files.json) match; canonical entry checked before and after the inventory                                                                                    |
 | Actual public workflow | [Chromium and Firefox, 1440px and 375px](float-hosted-browser.json): keyboard controls, six readings, sixteen word notes, source images, shared state, downloads, native reopening and both rooms offline |
 | Public source examples | [Six source/artifact files](float-public-artifacts.json) match their local bytes, including the compressed illustrated reading, PDF and binary attributes                                                 |
@@ -34,6 +34,8 @@ These receipts do not establish physical stability measurements, manufacture,
 independent philological review, tagged-PDF accessibility, physical printer
 results or a remote CI result. The analytic static model and its source limits
 are documented in [float-model.md](float-model.md).
+
+Two [preceding bundle URLs](float-preserved-assets.json) were also checked against their original static bytes. Retaining them lets cached entry pages request their original dependencies. They are additional hosted files, separate from the 53-file current build and its complete offline inventory.
 
 ## Reproduction
 
