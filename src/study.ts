@@ -30,16 +30,19 @@ const toBase64 = (bytes: Uint8Array) => {
 async function collect() {
   const data: Record<string, Uint8Array> = {};
   await Promise.all(
-    Object.entries(assets).map(async ([name, hash]) => {
-      const response = await fetch(import.meta.env.BASE_URL + name);
-      if (!response.ok) throw new Error("Study asset unavailable");
-      const bytes = new Uint8Array(await response.arrayBuffer());
-      const actual = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", bytes)), (b) =>
-        b.toString(16).padStart(2, "0"),
-      ).join("");
-      if (actual !== hash) throw new Error("Study asset identity mismatch");
-      data[name] = bytes;
-    }),
+    Object.entries(assets)
+      .filter(([name]) => !name.startsWith("sources/float-"))
+      .map(async ([name, hash]) => {
+        const response = await fetch(import.meta.env.BASE_URL + name);
+        if (!response.ok) throw new Error("Study asset unavailable");
+        const bytes = new Uint8Array(await response.arrayBuffer());
+        const actual = Array.from(
+          new Uint8Array(await crypto.subtle.digest("SHA-256", bytes)),
+          (b) => b.toString(16).padStart(2, "0"),
+        ).join("");
+        if (actual !== hash) throw new Error("Study asset identity mismatch");
+        data[name] = bytes;
+      }),
   );
   return data;
 }

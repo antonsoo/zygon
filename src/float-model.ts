@@ -106,18 +106,28 @@ export function floatModel(s: FloatState) {
   const clearance = cos * (a - c - Math.abs(b) * Math.sqrt(a));
   const dry = capTop < a - 1e-10;
   const touching = Math.abs(capTop - a) <= 1e-10;
-  const lever = capB.x - G.x;
-  const stiffness = 0.5 - (2 * (a - d)) / 3;
-  const stable = stiffness > 1e-10 ? "stable" : stiffness < -1e-10 ? "unstable" : "critical";
+  const criticalDensity = a <= 0.75 ? null : 100 * (1 - 0.75 / a) ** 2;
+  const stable =
+    criticalDensity === null || s.density > criticalDensity
+      ? "stable"
+      : s.density < criticalDensity
+        ? "unstable"
+        : "critical";
+  const stiffness = stable === "critical" ? 0 : 0.5 - (2 * (a - d)) / 3;
+  // Use the factored lever so a small nonzero tilt does not become a claimed
+  // equilibrium merely because two world coordinates nearly cancel.
+  const lever = sin * (stiffness + (b * b) / 4);
   const tanSquared = (8 * (a - d)) / 3 - 2;
   const obliqueAngle =
-    tanSquared > 1e-10 ? (Math.atan(Math.sqrt(tanSquared)) * 180) / Math.PI : null;
+    stable === "unstable" && tanSquared > 0
+      ? (Math.atan(Math.sqrt(tanSquared)) * 180) / Math.PI
+      : null;
   const obliqueDry =
     obliqueAngle !== null && (Math.sqrt(tanSquared) / 2 + Math.sqrt(d)) ** 2 < a - 1e-10;
   const contactAngle = (Math.atan(2 * (Math.sqrt(a) - Math.sqrt(d))) * 180) / Math.PI;
   const turning = !dry
     ? "outside"
-    : Math.abs(lever) < 1e-9
+    : s.angle === 0 || (obliqueAngle !== null && Math.abs(s.angle) === obliqueAngle)
       ? "balanced"
       : lever > 0
         ? "left"
@@ -146,18 +156,20 @@ export function floatModel(s: FloatState) {
     obliqueDry,
     contactAngle,
     turning,
-    criticalDensity: a <= 0.75 ? null : 100 * (1 - 0.75 / a) ** 2,
+    criticalDensity,
   };
 }
 
 export function floatCSV(s: FloatState): string {
   const lines = [
-    "tilt_degrees,base_status,submerged_volume,body_volume,buoyancy_minus_weight_x,turn,scope",
+    "axis_a,relative_density,tilt_degrees,base_status,displaced_volume_length_units_cubed,solid_volume_length_units_cubed,B_minus_G_x_length_units,turn,scope",
   ];
   for (let angle = -60; angle <= 60; angle += 0.5) {
     const m = floatModel({ ...s, angle });
     lines.push(
       [
+        s.height,
+        s.density / 100,
         angle,
         m.dry ? "dry" : m.touching ? "touching" : "outside_dry_base_model",
         m.submerged ?? "",

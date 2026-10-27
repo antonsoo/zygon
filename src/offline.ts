@@ -16,8 +16,8 @@ export async function offlineStatus(element: HTMLElement) {
     // is trying to activate; wait for controllerchange instead.
     if (pending()) {
       element.textContent = registration.active
-        ? "Downloading the updated balance & sources…"
-        : "Downloading balance & sources for offline use…";
+        ? "Downloading both updated workshops & sources…"
+        : "Downloading both workshops & sources for offline use…";
       return;
     }
     const worker = navigator.serviceWorker.controller;
@@ -38,9 +38,9 @@ export async function offlineStatus(element: HTMLElement) {
       if (attempt !== inspection || worker !== navigator.serviceWorker.controller) return;
       element.textContent =
         saved.complete && saved.edition === __ZYGON_EDITION__
-          ? "Balance & sources saved offline"
+          ? "Both workshops & sources saved offline"
           : pending()
-            ? "Downloading the updated balance & sources…"
+            ? "Downloading both updated workshops & sources…"
             : failed
               ? "Offline update incomplete; reload online to retry."
               : "A different offline edition is saved. Reload online to finish updating.";

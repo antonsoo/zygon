@@ -86,3 +86,9 @@ test("a malformed import preserves the caller's current state", () => {
     assert.throws(() => importFloat(record));
   }
 });
+
+test("a tiny nonzero turn and nearby density do not become false equilibria", () => {
+  assert.equal(floatModel({ ...FLOAT_DEFAULT, angle: 1e-8 }).turning, "right");
+  assert.equal(floatModel({ ...FLOAT_DEFAULT, density: 25 + 1e-9 }).stable, "stable");
+  assert.equal(floatModel({ ...FLOAT_DEFAULT, density: 25 - 1e-9 }).stable, "unstable");
+});

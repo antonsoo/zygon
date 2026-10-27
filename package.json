@@ -35,7 +35,12 @@
     "verify:model": "node --import tsx scripts/model-cases.ts | python3 scripts/model-oracle.py",
     "test:browser": "node scripts/browser-review.mjs",
     "verify:sources": "python3 scripts/source-review.py",
-    "verify:print": "node --import tsx scripts/print-review.ts"
+    "verify:print": "node --import tsx scripts/print-review.ts",
+    "verify:float": "node --import tsx scripts/float-cases.ts | python3 scripts/float-oracle.py",
+    "verify:float-sources": "python3 scripts/float-sources.py",
+    "test:float": "node scripts/float-browser.mjs",
+    "test:float-upgrade": "node scripts/float-upgrade.mjs",
+    "verify:float-print": "node --import tsx scripts/float-print.ts"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

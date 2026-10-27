@@ -1,0 +1,323 @@
+.fl-page {
+  --fl-water: #245c53;
+  max-width: 1380px;
+}
+.fl-hero {
+  padding-block: 3.5rem 2.5rem;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: end;
+}
+.fl-hero h1 {
+  font:
+    400 clamp(2.8rem, 5.8vw, 5rem) / 1.1 Cabinet Serif,
+    serif;
+  letter-spacing: -0.045em;
+  margin: 0;
+}
+.fl-hero em {
+  color: var(--fl-water);
+  font-style: normal;
+}
+.fl-hero .intro {
+  font:
+    1.12rem / 1.65 Cabinet Serif,
+    serif;
+  margin: 0;
+  max-width: 34rem;
+}
+.fl-bench {
+  border-block: 1px solid var(--rule);
+  padding-block: 1.8rem 2rem;
+}
+.fl-bench h2,
+.fl-section h2 {
+  font:
+    400 clamp(1.8rem, 3vw, 2.5rem) / 1.25 Cabinet Serif,
+    serif;
+  margin: 0.4rem 0 1.2rem;
+}
+.fl-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+.fl-visual,
+.fl-controls,
+.fl-read,
+.fl-images {
+  min-width: 0;
+}
+.fl-visual figure {
+  margin: 0;
+}
+.fl-visual svg,
+.fl-curve svg,
+.fl-gap svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.fl-caption {
+  font-size: 0.83rem;
+  line-height: 1.6;
+  margin: 0.7rem 0;
+}
+.fl-caption strong {
+  font-weight: 600;
+}
+.fl-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.fl-controls label {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+.fl-controls output {
+  color: var(--fl-water);
+  font-weight: 600;
+}
+.fl-controls .control {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-block: 1rem;
+  border-top: 1px solid var(--rule);
+}
+.fl-controls small {
+  display: block;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+.fl-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 1rem;
+}
+.fl-result {
+  padding-block: 1rem;
+  border-block: 2px solid var(--fl-water);
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+.fl-result h3 {
+  font:
+    400 1.35rem / 1.3 Cabinet Serif,
+    serif;
+  margin: 0 0 0.6rem;
+}
+.fl-result p {
+  margin: 0.5rem 0;
+}
+.fl-limit {
+  color: #783321;
+  border-block: 1px solid #a96748;
+  padding: 1rem 0;
+}
+.fl-section {
+  padding-block: 2.7rem;
+  border-bottom: 1px solid var(--rule);
+}
+.fl-explanation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.fl-explanation p {
+  line-height: 1.7;
+}
+.fl-formula {
+  font:
+    1.1rem / 1.7 Cabinet Serif,
+    serif;
+}
+.fl-table {
+  margin-top: 1.5rem;
+}
+.fl-table caption {
+  text-align: left;
+  margin-bottom: 0.6rem;
+  font-size: 0.85rem;
+}
+.fl-table th,
+.fl-table td {
+  padding: 0.6rem;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  font-size: 0.86rem;
+  vertical-align: top;
+}
+.fl-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.fl-reader {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2rem;
+}
+.fl-reader select {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.fl-read .greek {
+  line-height: 1.9;
+  font-size: 1.15rem;
+  overflow-wrap: anywhere;
+}
+.fl-read p {
+  line-height: 1.65;
+}
+.fl-read h3 {
+  font:
+    400 1.5rem / 1.3 Cabinet Serif,
+    serif;
+}
+.fl-read [lang="la"] {
+  font-family:
+    Cabinet Serif,
+    serif;
+}
+.fl-sic {
+  text-decoration: underline wavy var(--ochre);
+  text-underline-offset: 3px;
+}
+.fl-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.fl-words button {
+  font-family:
+    Cabinet Serif,
+    serif;
+}
+.fl-word {
+  min-height: 6rem;
+  line-height: 1.7;
+}
+.fl-source-frame {
+  max-height: 680px;
+  overflow: auto;
+  background: #e0d9c9;
+  border: 1px solid var(--rule);
+  margin-block: 0.7rem;
+}
+.fl-source-frame svg,
+.fl-source-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.fl-source-frame[data-zoom="true"] svg,
+.fl-source-frame[data-zoom="true"] img {
+  width: 180%;
+  max-width: none;
+}
+.fl-source-frame rect {
+  fill: #e4c64422;
+  stroke: #cda43a;
+  stroke-width: 12;
+}
+.fl-source-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.fl-keep .export-row {
+  flex-wrap: wrap;
+}
+.fl-keep input[type="file"] {
+  max-width: 100%;
+  font-size: 0.85rem;
+}
+.fl-keep label {
+  display: block;
+  margin-block: 1rem 0.5rem;
+}
+.fl-share {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 0.85rem;
+}
+.fl-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 2rem;
+  line-height: 1.7;
+  font-size: 0.85rem;
+}
+.fl-prompt {
+  padding-block: 0.6rem;
+  line-height: 1.7;
+}
+.fl-prompt summary {
+  cursor: pointer;
+}
+.fl-prompt select {
+  margin: 0.5rem;
+}
+.fl-page [hidden] {
+  display: none !important;
+}
+@media (max-width: 900px) {
+  .fl-layout {
+    grid-template-columns: minmax(0, 1.25fr) minmax(260px, 1fr);
+    gap: 1.2rem;
+  }
+  .fl-hero {
+    gap: 1.6rem;
+  }
+}
+@media (max-width: 700px) {
+  .fl-hero,
+  .fl-layout,
+  .fl-explanation,
+  .fl-reader {
+    display: block;
+  }
+  .fl-hero {
+    padding-block: 2rem;
+  }
+  .fl-hero h1 {
+    margin-bottom: 1.5rem;
+  }
+  .fl-controls {
+    margin-top: 1.5rem;
+  }
+  .fl-images {
+    margin-top: 2rem;
+  }
+  .fl-visual {
+    margin-inline: -0.4rem;
+  }
+  .fl-caption {
+    margin-inline: 0.4rem;
+  }
+  .fl-section {
+    padding-block: 2rem;
+  }
+  .fl-table th,
+  .fl-table td {
+    padding-inline: 0.3rem;
+    font-size: 0.8rem;
+  }
+  .fl-page .mast {
+    align-items: start;
+  }
+  .fl-page .mast nav {
+    flex-wrap: wrap;
+    justify-content: end;
+    font-size: 0.78rem;
+    gap: 0.5rem 1rem;
+  }
+}
