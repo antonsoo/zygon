@@ -1,0 +1,254 @@
+{
+  "artifacts": [
+    {
+      "configuration": "chromium-1440",
+      "path": "experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc"
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "turning.csv",
+      "bytes": 54355,
+      "sha256": "20b210fcf0cff0d371f577d1bd70ef50dc874c6c2302f58eeed407a71f90f2b6"
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53"
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "reading.html",
+      "bytes": 11601503,
+      "sha256": "224114f2bc099f9d4e13b4054f66967a03bac9db6f53efc4f6a4b80403d4615e"
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "native-experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc"
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "native-turning.csv",
+      "bytes": 54355,
+      "sha256": "20b210fcf0cff0d371f577d1bd70ef50dc874c6c2302f58eeed407a71f90f2b6"
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "native-drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53"
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc"
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "turning.csv",
+      "bytes": 54355,
+      "sha256": "20b210fcf0cff0d371f577d1bd70ef50dc874c6c2302f58eeed407a71f90f2b6"
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53"
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "reading.html",
+      "bytes": 11601503,
+      "sha256": "224114f2bc099f9d4e13b4054f66967a03bac9db6f53efc4f6a4b80403d4615e"
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "native-experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc"
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "native-turning.csv",
+      "bytes": 54355,
+      "sha256": "20b210fcf0cff0d371f577d1bd70ef50dc874c6c2302f58eeed407a71f90f2b6"
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "native-drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53"
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc"
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "turning.csv",
+      "bytes": 54355,
+      "sha256": "61a015879bff29793b092d53d695c773342d4b841428b4f51e21a70f5a5e302c"
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53"
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "reading.html",
+      "bytes": 11601503,
+      "sha256": "92dbca910c1bcf65579667c60464a16fcc19a8a0c137027a9aed3594c4fdfd66"
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "native-experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc"
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "native-turning.csv",
+      "bytes": 54355,
+      "sha256": "61a015879bff29793b092d53d695c773342d4b841428b4f51e21a70f5a5e302c"
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "native-drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53"
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc"
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "turning.csv",
+      "bytes": 54355,
+      "sha256": "61a015879bff29793b092d53d695c773342d4b841428b4f51e21a70f5a5e302c"
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53"
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "reading.html",
+      "bytes": 11601503,
+      "sha256": "92dbca910c1bcf65579667c60464a16fcc19a8a0c137027a9aed3594c4fdfd66"
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "native-experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc"
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "native-turning.csv",
+      "bytes": 54355,
+      "sha256": "61a015879bff29793b092d53d695c773342d4b841428b4f51e21a70f5a5e302c"
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "native-drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53"
+    }
+  ],
+  "screenshots": [
+    {
+      "configuration": "chromium-1440",
+      "path": "bench.png",
+      "identical": true
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "reading.png",
+      "identical": true
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "native-reading.png",
+      "identical": true
+    },
+    {
+      "configuration": "chromium-1440",
+      "path": "outside-model.png",
+      "identical": true
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "bench.png",
+      "identical": true
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "reading.png",
+      "identical": true
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "native-reading.png",
+      "identical": true
+    },
+    {
+      "configuration": "chromium-375",
+      "path": "outside-model.png",
+      "identical": true
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "bench.png",
+      "identical": true
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "reading.png",
+      "identical": true
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "native-reading.png",
+      "identical": true
+    },
+    {
+      "configuration": "firefox-1440",
+      "path": "outside-model.png",
+      "identical": true
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "bench.png",
+      "identical": true
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "reading.png",
+      "identical": true
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "native-reading.png",
+      "identical": true
+    },
+    {
+      "configuration": "firefox-375",
+      "path": "outside-model.png",
+      "identical": true
+    }
+  ]
+}

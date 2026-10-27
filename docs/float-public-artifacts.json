@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-27T07:52:13.496770+00:00",
+  "source": "093e1baad8355133e51c63706bcff4c00445d639",
+  "files": [
+    {
+      "path": "examples/floating-experiment.json",
+      "bytes": 317,
+      "sha256": "8766371713f8df878ba962100c9c3527a49de69ab61f07f19316afbff27793bc",
+      "url": "https://raw.githubusercontent.com/antonsoo/zygon/093e1baad8355133e51c63706bcff4c00445d639/examples/floating-experiment.json"
+    },
+    {
+      "path": "examples/floating-turning.csv",
+      "bytes": 54355,
+      "sha256": "20b210fcf0cff0d371f577d1bd70ef50dc874c6c2302f58eeed407a71f90f2b6",
+      "url": "https://raw.githubusercontent.com/antonsoo/zygon/093e1baad8355133e51c63706bcff4c00445d639/examples/floating-turning.csv"
+    },
+    {
+      "path": "examples/floating-drawing.svg",
+      "bytes": 89617,
+      "sha256": "4d05eace23355b6f3fd93a81516385144f7cd6f8f8da5a04a63692e71bd0da53",
+      "url": "https://raw.githubusercontent.com/antonsoo/zygon/093e1baad8355133e51c63706bcff4c00445d639/examples/floating-drawing.svg"
+    },
+    {
+      "path": "examples/floating-reading.html.gz",
+      "bytes": 8307157,
+      "sha256": "13c07dd89d859d2c6db0e8c696767123fff83d28c89ed4876e93dffaa4d3c627",
+      "url": "https://raw.githubusercontent.com/antonsoo/zygon/093e1baad8355133e51c63706bcff4c00445d639/examples/floating-reading.html.gz"
+    },
+    {
+      "path": "examples/floating-reading.pdf",
+      "bytes": 8429734,
+      "sha256": "131983ed573a2465f077693c0268b7e6991a63ff3a36243382a573945c3ca02e",
+      "url": "https://raw.githubusercontent.com/antonsoo/zygon/093e1baad8355133e51c63706bcff4c00445d639/examples/floating-reading.pdf"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 79,
+      "sha256": "c7927e3eae36e75be1a5306fd70de7749085e61adaf5c618ba12520671a4ca6c",
+      "url": "https://raw.githubusercontent.com/antonsoo/zygon/093e1baad8355133e51c63706bcff4c00445d639/.gitattributes"
+    }
+  ]
+}
