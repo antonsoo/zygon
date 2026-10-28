@@ -1,0 +1,14 @@
+{
+  "format": "zygon-parabola",
+  "version": 1,
+  "state": {
+    "width": "7/3",
+    "height": "5/2",
+    "cut": 50,
+    "arm": 100,
+    "depth": 4,
+    "view": "fill",
+    "reading": 5,
+    "page": 7
+  }
+}

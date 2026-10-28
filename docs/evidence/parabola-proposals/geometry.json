@@ -1,0 +1,8 @@
+{
+  "cases": 636,
+  "drawnPolygonsMeasuredByShoelace": 12144,
+  "tangentCoverInteriorChecks": 42840,
+  "exactPolynomialIntegral": true,
+  "allMomentAndFiniteCorrectionIdentities": true,
+  "oracle": "Independent Fraction coordinates, shoelace areas, endpoint tangents and polynomial primitive"
+}

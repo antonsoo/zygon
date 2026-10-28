@@ -13,6 +13,7 @@ import {
   parabolaAccount,
   parabolaAsset,
   parabolaFacts,
+  parabolaProposalAccount,
   parabolaStudy,
   parabolaSvg,
 } from "./parabola-files";
@@ -23,6 +24,7 @@ import {
   parabolaFraction,
   parabolaJson,
   parabolaModel,
+  parabolaProposalFraction,
   parabolaQuery,
   readParabolaJson,
   readParabolaQuery,
@@ -55,7 +57,7 @@ el("app").innerHTML =
 <div id="pa-fill-controls" hidden><label for="pa-depth">Final complete layer <output id="pa-depth-value" for="pa-depth"></output></label><input id="pa-depth" type="range" min="0" max="7"><div class="pa-actions"><button id="pa-add" type="button">Add a layer</button><button id="pa-remove" type="button">Remove a layer</button><button id="pa-small-gap" type="button" class="primary">Make the bound gap less than 1/100 of the first triangle</button></div><p class="pa-note">Each child has an eighth of its parent’s area. Two children make a quarter. The last layer is a whole group.</p></div>
 <button id="pa-read-step" type="button">Read the current step</button><p id="pa-status" role="status">${e(startup)}</p></aside><div class="pa-working"><div class="pa-plate-head"><span id="pa-plate-title"></span><button id="pa-enlarge" type="button" aria-pressed="false">Enlarge geometry</button></div><div id="pa-frame" tabindex="0" role="region" aria-label="Measured geometry; when enlarged use arrow keys to pan"><div id="pa-diagram"></div></div><p id="pa-scale-note" class="pa-note"></p><div class="pa-outcome" aria-live="polite" aria-atomic="true"><h3 id="pa-verdict"></h3><p id="pa-result"></p></div></div></div>
 <div id="pa-mechanics"><h3>A separate working beam</h3><p class="pa-note">The source’s slanted arm ratios are drawn horizontally here. Section heights share one scale; rectangle widths are symbolic. This is a static moment comparison, not a simulation of motion.</p><div id="pa-beam"></div><div id="pa-facts"></div></div>
-<div id="pa-finite" hidden><h3>The last layer’s third is not another filled triangle.</h3><p id="pa-identity"></p><div id="pa-account"></div><p class="pa-note">The red mark lies between the bounds. The lower ruler enlarges only their remaining interval; it does not make the curved remainder larger. Displaying seven refinements is a drawing limit, not a mathematical endpoint.</p></div>
+<div id="pa-finite" hidden><h3>The last layer’s third is not another filled triangle.</h3><p id="pa-identity"></p><div id="pa-account"></div><p class="pa-note">The red mark lies between the bounds. The lower ruler enlarges only their remaining interval; it does not make the curved remainder larger. Displaying seven refinements is a drawing limit, not a mathematical endpoint.</p><div class="pa-challenge" aria-labelledby="pa-challenge-title"><h3 id="pa-challenge-title">Can a finite construction rule out your proposed area?</h3><p>Propose a ratio of curved area to first triangle. A value still inside this layer’s bounds has survived one check; it has not become a theorem.</p><label for="pa-proposal">Proposed ratio, from 1 to 2</label><input id="pa-proposal" type="text" inputmode="text" aria-describedby="pa-proposal-help"><p id="pa-proposal-status" role="status"></p><p id="pa-proposal-help" class="pa-note">Use an exact fraction, with up to eight digits in each part. The diagram’s red mark remains the source’s four-thirds candidate.</p><div class="pa-actions"><button id="pa-guess-small" type="button">Try 5/4</button><button id="pa-guess-large" type="button">Try 7/5</button><button id="pa-guess-close" type="button">Try 1333333/1000000</button><button id="pa-guess-source" type="button">Restore 4/3</button><button id="pa-reject" type="button" class="primary">Find a finite rejection</button></div><div id="pa-proposal-account" role="status"></div></div></div>
 </section>
 <section class="pa-section pa-proof" aria-labelledby="pa-proof-title"><div><p class="eyebrow">What each argument earns</p><h2 id="pa-proof-title">Discovery leaves a proof to supply.</h2><p>The large tangent triangle is four times the small inscribed one. Its centre of weight lies a third of the way along ΚΓ. Balancing it with the curved segment suggests a ratio of four to three.</p><p>The source immediately says that the preceding reasoning has not proved the result. A finite collection of balanced sections does not itself establish the full area.</p><button id="pa-read-warning" type="button">Read “has not been demonstrated”</button></div><div><h3>Keep the bounds finite</h3><p>Every filled polygon stays below the curve. The endpoint tangents enclose each remaining curved piece, supplying a strict upper cover. Each further layer quarters the gap between these bounds.</p><p>Both the proposed four-thirds area and the actual curved area remain inside every such interval. A proposed positive difference between them can always exceed a sufficiently narrowed gap: a contradiction. This modern coordinate exhaustion argument supports the result while the printed <i>Quadrature</i> follows its own comparisons.</p><p><a href="https://github.com/antonsoo/zygon/blob/main/docs/parabola-model.md">Coordinates, finite identity, source boundaries and model notes</a>.</p></div></section>
 <section id="pa-reading" class="pa-section" aria-labelledby="pa-reading-title"><p class="eyebrow">Greek / Heiberg’s Latin / new English</p><h2 id="pa-reading-title">Read the comparison, then its qualification.</h2><p>These are two edited texts, not one invented manuscript. The 1881 <i>Quadrature</i> predates discovery of the palimpsest; the <i>Method</i> comes from the later edition. Complete pages keep their margins and critical apparatus.</p><label for="pa-reading-select">Passage</label><select id="pa-reading-select">${parabolaReadings.map((r, i) => `<option value="${i}">${i + 1}. ${e(r.title)}</option>`).join("")}</select><div id="pa-reading-text"></div><div class="pa-actions"><button id="pa-greek-page" type="button">Open its Greek page</button><button id="pa-latin-page" type="button">Open its Latin page</button></div>
@@ -91,6 +93,8 @@ function draw() {
   el("pa-beam").innerHTML = parabolaBeam(state);
   el("pa-facts").innerHTML = parabolaFacts(state);
   el("pa-account").innerHTML = parabolaAccount(state);
+  el<HTMLInputElement>("pa-proposal").value = state.proposal;
+  el("pa-proposal-account").innerHTML = parabolaProposalAccount(state);
   el("pa-verdict").textContent = fill
     ? "No finite layer has filled the curve."
     : m.inconclusive
@@ -127,6 +131,41 @@ for (const key of ["width", "height"] as const)
       el<HTMLInputElement>(`pa-${key}`).value = state[key];
     }
   });
+el("pa-proposal").addEventListener("input", () => {
+  revision++;
+  el("pa-proposal-status").textContent = "";
+});
+el("pa-proposal").addEventListener("change", () => {
+  try {
+    state.proposal = parabolaProposalFraction(
+      el<HTMLInputElement>("pa-proposal").value.trim(),
+    ).toString();
+    changed();
+  } catch (error) {
+    el("pa-proposal-status").textContent = (error as Error).message;
+    el<HTMLInputElement>("pa-proposal").value = state.proposal;
+  }
+});
+for (const [id, proposal] of [
+  ["small", "5/4"],
+  ["large", "7/5"],
+  ["close", "1333333/1000000"],
+  ["source", "4/3"],
+])
+  el(`pa-guess-${id}`).addEventListener("click", () => {
+    state.proposal = proposal as string;
+    state.depth = 0;
+    changed();
+  });
+el("pa-reject").addEventListener("click", () => {
+  const witness = parabolaModel(state).proposalWitness;
+  if (witness) {
+    state.depth = Math.min(7, witness.depth);
+    changed();
+  } else
+    el("pa-proposal-status").textContent =
+      "No finite rejection: 4/3 lies strictly between every pair of finite bounds. The shrinking-gap argument is still needed.";
+});
 for (const key of ["cut", "arm", "depth"] as const)
   el<HTMLInputElement>(`pa-${key}`).addEventListener("input", (event) => {
     state[key] = Number((event.target as HTMLInputElement).value);

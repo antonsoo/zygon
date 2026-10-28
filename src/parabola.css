@@ -93,7 +93,8 @@
   display: block;
   margin-top: 1rem;
 }
-.pa-controls input[type="text"] {
+.pa-controls input[type="text"],
+#pa-proposal {
   display: block;
   width: 100%;
   min-height: 44px;
@@ -101,6 +102,25 @@
   color: #303b2c;
   border: 1px solid var(--rule);
   padding: 0.5rem;
+}
+.pa-challenge {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+#pa-proposal {
+  max-width: 24rem;
+  margin-top: 0.5rem;
+}
+#pa-proposal-account {
+  overflow-wrap: anywhere;
+  max-width: 70ch;
+}
+.pa-proposal-verdict {
+  font-family:
+    Cabinet Serif,
+    serif;
+  font-size: 1.25rem;
 }
 .pa-controls output {
   float: right;

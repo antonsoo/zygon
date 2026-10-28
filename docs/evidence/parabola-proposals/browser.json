@@ -1,0 +1,68 @@
+{
+  "base": "http://127.0.0.1:4372/zygon/",
+  "edition": "ca49c18be3e0a00ed8347d21641d3acb6f165184d404b0a254b0c96626a44ab4",
+  "files": 72,
+  "scope": "Actual production browser operation and downloads; source delivery is local or public according to the recorded base URL. Offline after matching controller and full inventory.",
+  "records": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "sourceImagesVerified": 16,
+      "fontsVerified": 2,
+      "licensesVerified": 3,
+      "nativeDownloads": ["JSON", "CSV", "SVG", "HTML"],
+      "offlineRooms": 3,
+      "cacheFiles": 72,
+      "proposalCases": "5/4 and 7/5 rejected by layer 1; close proposal needs exact layer 10 beyond the drawn mesh; 4/3 finite survival remains distinct from proof; v1 migration and v2 retention",
+      "standalone": "Actual local file with scripts disabled and browser offline; native JSON reopened",
+      "axeViolations": [],
+      "errors": [],
+      "outside": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "sourceImagesVerified": 16,
+      "fontsVerified": 2,
+      "licensesVerified": 3,
+      "nativeDownloads": ["JSON", "CSV", "SVG", "HTML"],
+      "offlineRooms": 3,
+      "cacheFiles": 72,
+      "proposalCases": "5/4 and 7/5 rejected by layer 1; close proposal needs exact layer 10 beyond the drawn mesh; 4/3 finite survival remains distinct from proof; v1 migration and v2 retention",
+      "standalone": "Actual local file with scripts disabled and browser offline; native JSON reopened",
+      "axeViolations": [],
+      "errors": [],
+      "outside": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "sourceImagesVerified": 16,
+      "fontsVerified": 2,
+      "licensesVerified": 3,
+      "nativeDownloads": ["JSON", "CSV", "SVG", "HTML"],
+      "offlineRooms": 3,
+      "cacheFiles": 72,
+      "proposalCases": "5/4 and 7/5 rejected by layer 1; close proposal needs exact layer 10 beyond the drawn mesh; 4/3 finite survival remains distinct from proof; v1 migration and v2 retention",
+      "standalone": "Actual local file with scripts disabled and browser offline; native JSON reopened",
+      "axeViolations": [],
+      "errors": [],
+      "outside": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "sourceImagesVerified": 16,
+      "fontsVerified": 2,
+      "licensesVerified": 3,
+      "nativeDownloads": ["JSON", "CSV", "SVG", "HTML"],
+      "offlineRooms": 3,
+      "cacheFiles": 72,
+      "proposalCases": "5/4 and 7/5 rejected by layer 1; close proposal needs exact layer 10 beyond the drawn mesh; 4/3 finite survival remains distinct from proof; v1 migration and v2 retention",
+      "standalone": "Actual local file with scripts disabled and browser offline; native JSON reopened",
+      "axeViolations": [],
+      "errors": [],
+      "outside": []
+    }
+  ]
+}

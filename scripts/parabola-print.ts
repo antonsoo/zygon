@@ -6,6 +6,8 @@ import os from "node:os";
 import path from "node:path";
 import { parabolaReadings, parabolaWords, sourceManifest } from "../src/parabola-content";
 
+import { parabolaModel, readParabolaJson } from "../src/parabola-model";
+
 const pdf = process.argv[2],
   output = process.argv[3];
 assert(pdf && output, "Pass the actual saved PDF and an output receipt.");
@@ -46,6 +48,22 @@ try {
   );
   for (const p of sourceManifest.pages)
     assert(hashes.has(p.sha256), `Missing original JPEG: ${p.file}`);
+  const experiment = readParabolaJson(
+    await readFile(path.join(path.dirname(pdf), "experiment.json"), "utf8"),
+  );
+  const m = parabolaModel(experiment),
+    w = m.proposalWitness;
+  for (const value of [
+    `Proposed ratio ${m.proposal} times the first triangle; proposed area ${m.proposed}.`,
+    ...(w
+      ? [
+          `First rejecting layer: ${w.depth}. Its ${w.triangles} inscribed triangles give the exact lower bound ${w.lower}; the tangent upper bound is ${w.upper}.`,
+        ]
+      : ["surviving a finite check is insufficient"]),
+  ]) {
+    assert(text.includes(norm(value)), `Incomplete printed proposal account: ${value}`);
+    fields++;
+  }
   // Any extra raster image would hide a recurrence of the per-cover PDF shader explosion.
   const imageList = execFileSync("pdfimages", ["-list", pdf], { encoding: "utf8" });
   assert.equal(

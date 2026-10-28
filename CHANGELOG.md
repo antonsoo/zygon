@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 - 2026-10-28
+
+- Test a learner's exact proposed area against strict finite bounds, including equality with either bound.
+- Find the first rejecting layer; retain an exact account beyond the displayed mesh for close wrong guesses.
+- Distinguish finite survival from proof and retain the four-thirds candidate as a separate source comparison.
+- Store proposals in v2 JSON/CSV/SVG/readings, preserve v1 geometry and reject ambiguous migrations.
+- Audit minimal finite witnesses independently, including eight-digit guesses requiring layer 14.
+
 ## 0.2.0 - 2026-10-28
 
 - Add Method I's parabola balance and Quadrature XXI-XXIV's finite remainder account.

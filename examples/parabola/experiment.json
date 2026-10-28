@@ -1,6 +1,6 @@
 {
   "format": "zygon-parabola",
-  "version": 1,
+  "version": 2,
   "state": {
     "width": "7/3",
     "height": "5/2",
@@ -9,6 +9,7 @@
     "depth": 4,
     "view": "fill",
     "reading": 5,
-    "page": 7
+    "page": 7,
+    "proposal": "1333333/1000000"
   }
 }

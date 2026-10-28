@@ -16,6 +16,7 @@ jobs:
       - run: npm run verify:model
       - run: npm run verify:float
       - run: npm run verify:parabola
+      - run: npm run verify:proposals
       - run: npm run verify:float-sources
       - run: python3 scripts/extract-readings.py
       - run: git diff --exit-code -- src/readings.json src/float-readings.json

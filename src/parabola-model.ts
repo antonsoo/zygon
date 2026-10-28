@@ -10,6 +10,7 @@ export interface ParabolaState {
   view: "balance" | "fill";
   reading: number;
   page: number;
+  proposal: string;
 }
 export const initialParabola: ParabolaState = {
   width: "2",
@@ -20,7 +21,34 @@ export const initialParabola: ParabolaState = {
   view: "balance",
   reading: 0,
   page: 0,
+  proposal: "4/3",
 };
+export function parabolaProposalFraction(value: unknown): Q {
+  if (typeof value !== "string" || !/^\d{1,8}(?:\/\d{1,8})?$/.test(value))
+    throw new Error("Propose a whole number or fraction with at most eight digits in each part.");
+  const [n, d = "1"] = value.split("/");
+  const ratio = new Q(BigInt(n as string), BigInt(d));
+  if (ratio.n < ratio.d || ratio.n > 2n * ratio.d)
+    throw new Error("Choose a proposed ratio from 1 to 2 times the first triangle.");
+  return ratio;
+}
+export function parabolaBounds(first: Q, depth: number) {
+  const last = first.over(new Q(4n ** BigInt(depth)));
+  const lower = first.times(q(4, 3)).minus(last.over(q(3)));
+  return { lower, upper: lower.plus(last.over(q(2))), last };
+}
+export function parabolaProposalWitness(proposal: Q, first = q(1)) {
+  const area = proposal.times(first);
+  if (proposal.minus(q(4, 3)).n === 0n) return null;
+  // Eight-digit rational inputs need fewer than 32 refinements. This finite
+  // account does not allocate or pretend to draw its exponentially many triangles.
+  for (let depth = 0; depth <= 32; depth++) {
+    const bounds = parabolaBounds(first, depth);
+    if (area.minus(bounds.lower).n <= 0n || area.minus(bounds.upper).n >= 0n)
+      return { depth, ...bounds, triangles: (2n ** BigInt(depth + 1) - 1n).toString() };
+  }
+  throw new Error("No finite witness found within this exact-account limit.");
+}
 export function parabolaFraction(value: unknown): Q {
   if (typeof value !== "string" || !/^\d{1,4}(?:\/\d{1,4})?$/.test(value))
     throw new Error("Use a positive whole number or a fraction such as 3/2.");
@@ -51,6 +79,7 @@ export function validateParabola(value: unknown): ParabolaState {
     ...s,
     width: parabolaFraction(s.width).toString(),
     height: parabolaFraction(s.height).toString(),
+    proposal: parabolaProposalFraction(s.proposal).toString(),
   } as unknown as ParabolaState;
 }
 export function parabolaQuery(s: ParabolaState): string {
@@ -63,7 +92,7 @@ export function readParabolaQuery(search: string): ParabolaState {
   for (const [key, value] of params) {
     if (!Object.hasOwn(s, key) || params.getAll(key).length !== 1)
       throw new Error("The link has unknown or repeated settings.");
-    if (["width", "height", "view"].includes(key)) s[key] = value;
+    if (["width", "height", "view", "proposal"].includes(key)) s[key] = value;
     else {
       if (!/^\d{1,3}$/.test(value)) throw new Error("The link has an invalid numeric setting.");
       s[key] = Number(value);
@@ -72,7 +101,7 @@ export function readParabolaQuery(search: string): ParabolaState {
   return validateParabola(s);
 }
 export function parabolaJson(s: ParabolaState): string {
-  return `${JSON.stringify({ format: "zygon-parabola", version: 1, state: validateParabola(s) }, null, 2)}\n`;
+  return `${JSON.stringify({ format: "zygon-parabola", version: 2, state: validateParabola(s) }, null, 2)}\n`;
 }
 export function readParabolaJson(text: string): ParabolaState {
   if (text.length > 8192) throw new Error("Choose an experiment smaller than 8 KB.");
@@ -92,10 +121,25 @@ export function readParabolaJson(text: string): ParabolaState {
     !("format" in record) ||
     record.format !== "zygon-parabola" ||
     !("version" in record) ||
-    record.version !== 1 ||
+    ![1, 2].includes(record.version as number) ||
     !("state" in record)
   )
-    throw new Error("Choose a version 1 Zygon parabola experiment.");
+    throw new Error("Choose a version 1 or 2 Zygon parabola experiment.");
+  if (record.version === 1) {
+    const old = record.state;
+    if (
+      !old ||
+      typeof old !== "object" ||
+      Array.isArray(old) ||
+      Object.keys(old).sort().join() !==
+        Object.keys(initialParabola)
+          .filter((k) => k !== "proposal")
+          .sort()
+          .join()
+    )
+      throw new Error("The version 1 experiment has missing or unknown settings.");
+    return validateParabola({ ...old, proposal: "4/3" });
+  }
   return validateParabola(record.state);
 }
 export interface ParabolaPoint {
@@ -144,6 +188,14 @@ export function parabolaModel(s: ParabolaState) {
   );
   const gap = last.over(q(2)),
     upper = sum.plus(gap);
+  const proposal = parabolaProposalFraction(s.proposal),
+    proposed = proposal.times(first);
+  const proposalStatus =
+    proposed.minus(sum).n <= 0n
+      ? "too small"
+      : proposed.minus(upper).n >= 0n
+        ? "too large"
+        : "not excluded at this layer";
   return {
     width,
     height,
@@ -169,6 +221,10 @@ export function parabolaModel(s: ParabolaState) {
     gap,
     candidateInside: candidate.minus(sum).n > 0n && upper.minus(candidate).n > 0n,
     relativeGap: gap.over(first),
+    proposal,
+    proposed,
+    proposalStatus,
+    proposalWitness: parabolaProposalWitness(proposal, first),
   };
 }
 export function parabolaCsv(s: ParabolaState): string {
@@ -190,6 +246,14 @@ export function parabolaCsv(s: ParabolaState): string {
     ["moment_difference", m.difference.toString(), "left minus right"],
     ["all_interior_cuts_fit", String(m.universalFit), "identity; not a sampled grid"],
     ["first_triangle", m.first.toString(), "area"],
+    ["proposed_ratio", m.proposal.toString(), "relative to the first triangle"],
+    ["proposed_area", m.proposed.toString(), "area; a learner hypothesis"],
+    ["proposal_status", m.proposalStatus, "comparison with the current strict bounds"],
+    [
+      "first_rejecting_layer",
+      m.proposalWitness ? String(m.proposalWitness.depth) : "none",
+      "exact finite bounds; may exceed the drawn depth",
+    ],
     ...m.layers.map((l) => [`layer_${l.depth}_area`, l.area.toString(), `${l.count} triangles`]),
     ["inscribed_sum", m.sum.toString(), "strict lower area bound"],
     ["tangent_upper_bound", m.upper.toString(), "strict upper area bound"],

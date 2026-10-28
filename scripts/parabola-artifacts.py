@@ -24,11 +24,23 @@ expected = dict(base=w,height=h,cut_fraction=u,left_arm_fraction=arm,
  inscribed_sum=lower,tangent_upper_bound=lower+last/2,last_layer_third=last/3,
  four_thirds_first=4*A/3,bound_gap=last/2)
 expected.update({f'layer_{i}_area': a for i,a in enumerate(layers)})
-assert set(actual) == set(expected)|{'all_interior_cuts_fit'}
+expected['proposed_ratio']=F(s['proposal'])
+expected['proposed_area']=A*F(s['proposal'])
+assert set(actual) == set(expected)|{'all_interior_cuts_fit','proposal_status','first_rejecting_layer'}
+status='too small' if expected['proposed_area']<=lower else 'too large' if expected['proposed_area']>=lower+last/2 else 'not excluded at this layer'
+assert actual['proposal_status']==status
+reject=None
+lo,layer=A,A
+for depth in range(33):
+ if expected['proposed_area']<=lo or expected['proposed_area']>=lo+layer/2:reject=depth;break
+ layer/=4;lo+=layer
+assert actual['first_rejecting_layer']==('none' if reject is None else str(reject))
 for key,value in expected.items(): assert F(actual[key]) == value, key
 assert actual['all_interior_cuts_fit'] == str(arm==1).lower()
 svg = ET.parse(root/'drawing.svg').getroot()
 ns={'s':'http://www.w3.org/2000/svg'}
+desc=svg.find('s:desc',ns).text
+assert json.loads(desc[desc.index('{'):])==json.loads((root/'experiment.json').read_text())
 triangles = svg.findall('.//s:polygon[@data-pa-layer]',ns)
 covers = svg.findall('.//s:polygon[@data-pa-cover]',ns)
 assert s['view'] == 'fill', 'Audit expects a downloaded fill experiment.'

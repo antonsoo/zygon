@@ -30,6 +30,9 @@ exactly four-thirds of the first triangle. **That third has not filled another
 piece of the curve.** Modern tangent covers give strict outer bounds and a
 shrinking gap. Even the last displayed layer remains a finite polygon.
 - Enter exact fractional chord and height; retain exact moments and area bounds.
+- Test a proposed area. Reject 5/4 and 7/5 with finite bounds; distinguish a
+  close guess needing layer 10 from the seven layers actually drawn. Surviving
+  a finite check never becomes a proof of equality.
 - Read seven Greek/Latin/English passages and fourteen contextual word notes.
   `ἐπίτριτον` and `tertia parte maius` mean a third greater, in the ratio 4:3.
 - Inspect sixteen complete printed scans, including margins and apparatus.

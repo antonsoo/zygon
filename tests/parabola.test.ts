@@ -4,6 +4,8 @@ import {
   initialParabola,
   parabolaJson,
   parabolaModel,
+  parabolaProposalFraction,
+  parabolaProposalWitness,
   parabolaQuery,
   readParabolaJson,
   readParabolaQuery,
@@ -17,6 +19,42 @@ test("one arm balances all interior slices; both endpoints cannot select it", ()
       assert.equal(m.universalFit, arm === 100);
       assert.equal(m.inconclusive, cut === 0 || cut === 100);
     }
+});
+test("strict finite bounds reject boundary equality and close guesses beyond the drawn mesh", () => {
+  for (const [proposal, depth, status] of [
+    ["5/4", 1, "too small"],
+    ["7/5", 1, "too large"],
+    ["1333333/1000000", 10, "not excluded at this layer"],
+  ] as const) {
+    const m = parabolaModel({ ...initialParabola, proposal, depth: Math.min(7, depth) });
+    assert.equal(m.proposalWitness?.depth, depth);
+    assert.equal(m.proposalStatus, status);
+  }
+  assert.equal(parabolaProposalWitness(parabolaProposalFraction("4/3")), null);
+  assert.equal(
+    parabolaModel({ ...initialParabola, proposal: "3/2", depth: 0 }).proposalStatus,
+    "too large",
+  );
+  for (const proposal of ["0", "1/0", "3", "NaN", "100000000/75000000"])
+    assert.throws(() => parabolaProposalFraction(proposal));
+});
+test("version 1 records retain their geometry and acquire only the original four-thirds proposal", () => {
+  const { proposal: _proposal, ...old } = {
+    ...initialParabola,
+    width: "7/3",
+    height: "5/2",
+    depth: 4,
+  };
+  assert.deepEqual(
+    readParabolaJson(JSON.stringify({ format: "zygon-parabola", version: 1, state: old })),
+    { ...old, proposal: "4/3" },
+  );
+  assert.throws(() =>
+    readParabolaJson(
+      JSON.stringify({ format: "zygon-parabola", version: 1, state: { ...old, proposal: "7/5" } }),
+    ),
+  );
+  assert.equal(readParabolaQuery("?width=7/3&depth=4").proposal, "4/3");
 });
 test("the added third is a finite algebraic correction, never an inscribed triangle", () => {
   for (let depth = 0; depth <= 7; depth++) {

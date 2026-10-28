@@ -34,6 +34,31 @@ After the README quickstart, open `/zygon/parabola.html#pa-bench`.
    actual saved HTML also prints a 28-page PDF with three landscape source
    openings. The retained example uses the nonintegral experiment in step 7.
 
+## Try a finite rejection
+
+The 0.3 extension adds an operable comparison below the finite account.
+Choose **Try 5/4** at layer 0: it is still between the bounds. **Find a finite
+rejection** selects layer 1, whose strict lower bound equals that guess and
+therefore excludes it. **Try 7/5** fails on the other side at the same layer.
+Choose **Try 1333333/1000000**: layer 7 still cannot exclude it, while the exact
+layer-10 account can. The 2,047 triangles in that account are not claimed drawn.
+Restore 4/3: no finite rejection exists, leaving the shrinking-gap argument to
+establish equality.
+
+Native version 2 records preserve the proposed ratio. Reopen the retained
+[original v1 file](../examples/parabola/experiment-v1.json): its geometry and
+reader settings remain intact with the original 4/3 proposal. The current
+illustrated example retains the close wrong guess at layer 4, together with
+its separate layer-10 rejecting account.
+
+[Proposal receipts](evidence/parabola-proposals/) include 153 independent exact
+witness accounts (deepest 14), the expanded actual browser workflow and native
+v2/v1 behavior. The 28-page saved PDF retains 86 complete checked fields,
+3,762 words within checked margins, all licenses and all sixteen original
+source JPEGs. Local proposal artifact checks cover all 25 CSV quantities and
+measure the actual SVG polygons independently. Source identity and the
+636-case geometric audit remain separate.
+
 ## What the lesson claims
 
 The modern coordinates make the moment identity exact and build explicit
@@ -94,7 +119,7 @@ and floating-body browser journeys also run against the three-room build. The
 sphere regression exposed and fixed a pre-existing saved-reading failure:
 its source-download list included files deliberately excluded from collection.
 
-The actual PDF retains all 84 checked passage/word-note fields and all three
+The initial 0.2 PDF retains all 84 checked passage/word-note fields and all three
 licenses, with 3,658 text words inside checked page margins. Its sixteen source
 JPEGs are recovered byte-for-byte. Tags are present; no PDF/UA or physical
 printer claim is made. The generated construction remains vector.

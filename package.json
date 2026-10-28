@@ -1,6 +1,6 @@
 {
   "name": "@antonsoloviev/zygon",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Operate Archimedes' balances, finite parabola bounds and floating bodies; read their Greek and Latin sources.",
   "type": "module",
@@ -48,7 +48,8 @@
     "test:parabola": "node scripts/parabola-browser.mjs",
     "test:parabola-guards": "node scripts/parabola-guards.mjs",
     "test:parabola-upgrade": "node scripts/parabola-upgrade.mjs",
-    "verify:parabola-print": "node --import tsx scripts/parabola-print.ts"
+    "verify:parabola-print": "node --import tsx scripts/parabola-print.ts",
+    "verify:proposals": "node --import tsx scripts/parabola-proposal-cases.ts | python3 scripts/parabola-proposals.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

@@ -76,6 +76,42 @@ this is an exhaustion argument, not a decimal agreement or an infinite sum
 asserted from a slider. The interface illustrates finitely many levels. It
 must identify the geometric argument for the continuing bounds separately.
 
+## A proposed area can fail a finite test
+
+The learner can propose an exact ratio p/q between 1 and 2 times the first
+triangle. At layer n, a proposed area G is excluded if G <= S_n or G >= U_n.
+Equality with either bound is excluded because the curved area lies strictly
+between them. A value inside the interval has survived this finite test; it has
+not been proved equal to the curved area.
+
+For A = 1, 5/4 is rejected at layer 1 by equality with its lower bound. The
+proposal 7/5 exceeds that layer's 11/8 upper bound. A closer proposal,
+1333333/1000000, survives all seven displayed refinements but is excluded by
+layer 10: its lower bound 1398101/1048576 already exceeds the proposal.
+That account has 2,047 inscribed triangles. It is computed exactly without
+claiming to draw them; the geometry remains capped at layer 7.
+
+The witness search computes finite rational accounts without allocating their
+meshes. Each fraction part accepts at most eight digits. If p/q differs from
+4/3, their distance is at least 1/(3q); the lower-bound distance at depth 14 is
+1/(3*4^14), already smaller than this for every admitted denominator. Thus a
+wrong admitted ratio has a finite witness by layer 14. The implementation's
+32-step safety limit is finite; it does not approximate an infinite search.
+The four-thirds ratio has no rejecting layer. The shrinking-gap argument
+remains necessary for equality.
+
+Version 2 JSON stores the proposed ratio. Version 1's nine geometry/reader
+fields migrate with proposal 4/3, the original fixed comparison. Unknown or
+repeated keys remain rejected, including an unexpected proposal in a version 1
+record. Old query links acquire the same default. The original native v1 file
+is retained as `examples/parabola/experiment-v1.json`.
+
+The independent proposal audit checks 153 actual witness accounts, including
+eight-digit ratios requiring layer 14. Python Fraction grows the inscribed
+sum by successive quarter layers and verifies the first rejecting layer,
+both exact bounds and the conceptual triangle count. This is separate from
+the 636-case polygon/section audit.
+
 ## Source boundaries
 
 - Method: complete scanned openings for printed pp. 434-439, Greek and Latin,

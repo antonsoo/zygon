@@ -128,6 +128,31 @@ for (const [engine, driver] of [
       await p.locator("#pa-depth").focus();
       await p.keyboard.press("Home");
       await expect(p.locator("#pa-account")).toContainText("3/2");
+      for (const [id, expected] of [
+        ["small", "too small"],
+        ["large", "too large"],
+      ]) {
+        await p.locator(`#pa-guess-${id}`).click();
+        await expect(p.locator("#pa-proposal-account")).toContainText("has not excluded");
+        await p.locator("#pa-reject").click();
+        await expect(p.locator("#pa-depth")).toHaveValue("1");
+        await expect(p.locator("#pa-proposal-account")).toContainText(expected);
+      }
+      await p.locator("#pa-guess-close").click();
+      await p.locator("#pa-reject").click();
+      await expect(p.locator("#pa-depth")).toHaveValue("7");
+      await expect(p.locator("#pa-proposal-account")).toContainText("First rejecting layer: 10");
+      await expect(p.locator("#pa-proposal-account")).toContainText(
+        "does not display these extra triangles",
+      );
+      await expect(p.locator("#pa-proposal-account")).toContainText("has not excluded");
+      await p.locator(".pa-challenge").screenshot({ path: path.join(dir, "challenge.png") });
+      await p.locator("#pa-guess-source").click();
+      await p.locator("#pa-reject").click();
+      await expect(p.locator("#pa-proposal-status")).toContainText("No finite rejection");
+      await p.locator("#pa-open").setInputFiles("examples/parabola/experiment-v1.json");
+      await expect(p.locator("#pa-save-status")).toContainText("reopened");
+      await expect(p.locator("#pa-proposal")).toHaveValue("4/3");
       for (const [id, value] of [
         ["pa-width", "7/3"],
         ["pa-height", "5/2"],
@@ -177,12 +202,16 @@ for (const [engine, driver] of [
         .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
         .analyze();
       assert.deepEqual(axe.violations, []);
+      await p.locator("#pa-proposal").fill("1333333/1000000");
+      await p.locator("#pa-proposal").press("Tab");
       const json = await download(p, "#pa-save-json", path.join(dir, "experiment.json"));
       const csv = await download(p, "#pa-save-csv", path.join(dir, "account.csv"));
       const svg = await download(p, "#pa-save-svg", path.join(dir, "drawing.svg"));
       const html = await download(p, "#pa-save-html", path.join(dir, "reading.html"));
       const native = JSON.parse(json),
         text = html.toString();
+      assert.equal(native.version, 2);
+      assert.equal(native.state.proposal, "1333333/1000000");
       assert.equal(native.state.width, "7/3");
       assert.equal(native.state.depth, 4);
       assert.equal(native.state.view, "fill");
@@ -309,6 +338,8 @@ for (const [engine, driver] of [
         nativeDownloads: ["JSON", "CSV", "SVG", "HTML"],
         offlineRooms: 3,
         cacheFiles: inventory,
+        proposalCases:
+          "5/4 and 7/5 rejected by layer 1; close proposal needs exact layer 10 beyond the drawn mesh; 4/3 finite survival remains distinct from proof; v1 migration and v2 retention",
         standalone:
           "Actual local file with scripts disabled and browser offline; native JSON reopened",
         axeViolations: [],
