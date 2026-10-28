@@ -32,7 +32,9 @@ jobs:
             git worktree add --detach "$publish_dir" HEAD
             git -C "$publish_dir" switch --orphan pages-output
           fi
-          rsync -a --delete --exclude=.git dist/ "$publish_dir/"
+          # Existing open tabs may still request a preceding hashed JS/CSS file.
+          # Replace canonical files while retaining those immutable asset URLs.
+          rsync -a --exclude=.git dist/ "$publish_dir/"
           touch "$publish_dir/.nojekyll"
           git -C "$publish_dir" config user.name 'github-actions[bot]'
           git -C "$publish_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
