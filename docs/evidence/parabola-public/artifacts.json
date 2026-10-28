@@ -1,0 +1,13 @@
+{
+  "scope": "Actual native downloads; independent exact Fraction CSV and rounded SVG shoelace areas, not generated expectations.",
+  "csvQuantities": 21,
+  "inscribedPolygons": 31,
+  "tangentCovers": 32,
+  "lower": "11935/3072",
+  "upper": "23905/6144",
+  "sha256": {
+    "experiment.json": "0c18685bddc462166a9b2852719cd2de3b7e16945705bf17bbbe7f6e31aa11e5",
+    "account.csv": "8952897cd6d4052d96eb879b610ce5096959ce7612cf73229b5a34a838ae8c25",
+    "drawing.svg": "bc6c33949d049e4b81439d8b20e184a869b95adb4f59466750f8e9b3a61a76d5"
+  }
+}

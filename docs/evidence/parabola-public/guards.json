@@ -1,0 +1,31 @@
+{
+  "base": "https://antonsoo.github.io/zygon/",
+  "checkedAt": "2026-10-28T10:50:57.492Z",
+  "scope": "Actual browser fault injection with service workers blocked to isolate page-level identities and asynchronous state changes.",
+  "records": [
+    {
+      "engine": "chromium",
+      "wrongValidJpegRejected": true,
+      "sourceRetry": true,
+      "lateSourceDoesNotReplaceNewerPage": true,
+      "wrongFontRejected": true,
+      "exportRetry": true,
+      "exportKeepsClickSnapshot": true,
+      "lateImportPreservesNewerTrial": true,
+      "lateImportPreservesUncommittedTyping": true,
+      "newerFileWins": true
+    },
+    {
+      "engine": "firefox",
+      "wrongValidJpegRejected": true,
+      "sourceRetry": true,
+      "lateSourceDoesNotReplaceNewerPage": true,
+      "wrongFontRejected": true,
+      "exportRetry": true,
+      "exportKeepsClickSnapshot": true,
+      "lateImportPreservesNewerTrial": true,
+      "lateImportPreservesUncommittedTyping": true,
+      "newerFileWins": true
+    }
+  ]
+}

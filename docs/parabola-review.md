@@ -101,6 +101,23 @@ printer claim is made. The generated construction remains vector.
 
 ## Publication boundary
 
-The user authorized pushing. Local reviews do not establish hosted delivery.
-The publication record is added only after independently comparing the deployed
-files and operating the actual public route.
+The user authorized publication. Source `f03edc9` and fast-forward Pages
+`22d826e` were pushed on 2026-10-28. Every one of 73 canonical production files
+matched the fresh Node 24 build, both before and after public browser operation.
+Chromium and Firefox at 1440 and 375 pixels exercised the actual hosted lesson,
+all sources, native downloads, explicit shared links and all three offline rooms
+after matching controller and the complete 72-file inventory.
+
+The public downloads independently pass the exact CSV/drawn SVG and 28-page
+PDF audits. Public fault injection passes both engines' source/font identity,
+retry, click-snapshot and delayed-import cases. The repaired sphere study also
+passes the actual public four-case browser/download/offline matrix. All seven
+preceding hashed asset files remain available with unchanged public bytes.
+Nine immutable public source/example files equal their committed Git blobs.
+[Public receipts](evidence/parabola-public/).
+
+Edition: `ac5e3b409c6e6d13c2f7005d87147ff3e5ce7b8b668fc26cb371a485738f9c19`.
+CI 40674861715 and source Pages workflow 40674861697 failed with no executed
+steps; they are not validation evidence. Legacy Pages build/deploy 40675011843
+succeeded independently. These boundaries remain separate from local tests,
+source identity and actual hosted behavior.

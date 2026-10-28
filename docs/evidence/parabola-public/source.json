@@ -1,0 +1,51 @@
+{
+  "sourceCommit": "f03edc919276c7135d372f95815b5c8ff522d143",
+  "scope": "Actual immutable public raw files equal local committed Git blobs; source and native example artifacts verified separately from Pages delivery.",
+  "files": [
+    {
+      "path": "src/parabola-model.ts",
+      "bytes": 7814,
+      "sha256": "f6deca9b5fcfe3b46662f80a1b6c3d83b1093828840a97dd1a606d4dd33193f9"
+    },
+    {
+      "path": "src/parabola-content.ts",
+      "bytes": 10478,
+      "sha256": "2e4f47b42ed92cc86a471f6646fe3a7dd568ade7fd8d06e6f213d14a60ca4f3b"
+    },
+    {
+      "path": "src/parabola-sources.json",
+      "bytes": 7493,
+      "sha256": "8bfd87c6258a72f137834cb6a59341fecd9e70664d7bf4750cdb75b902bd7e5f"
+    },
+    {
+      "path": "docs/parabola-review.md",
+      "bytes": 5981,
+      "sha256": "1e8e26d82977d00146c788f925e06a26926d4058017c0dae59926cf9bb084312"
+    },
+    {
+      "path": "examples/parabola/experiment.json",
+      "bytes": 207,
+      "sha256": "0c18685bddc462166a9b2852719cd2de3b7e16945705bf17bbbe7f6e31aa11e5"
+    },
+    {
+      "path": "examples/parabola/account.csv",
+      "bytes": 1040,
+      "sha256": "8952897cd6d4052d96eb879b610ce5096959ce7612cf73229b5a34a838ae8c25"
+    },
+    {
+      "path": "examples/parabola/drawing.svg",
+      "bytes": 705093,
+      "sha256": "bc6c33949d049e4b81439d8b20e184a869b95adb4f59466750f8e9b3a61a76d5"
+    },
+    {
+      "path": "examples/parabola/reading.html.gz",
+      "bytes": 8252547,
+      "sha256": "d16f6a7b0d13bc4ff158caa9efd42efeeaa627fd4fdfa129d3f8c25ea4718cb3"
+    },
+    {
+      "path": "examples/parabola/reading.pdf",
+      "bytes": 8256660,
+      "sha256": "219b59833bb5fc3e86eab310256a24102921cc805762d900bcf8628fdab4340f"
+    }
+  ]
+}
