@@ -1,0 +1,66 @@
+{
+  "sourceCommit": "2d4335c79c4255f3c4c383f3800dbc0a7a48773e",
+  "scope": "Actual immutable public source and v2/v1/native example bytes equal committed Git blobs; distinct from Pages build delivery.",
+  "files": [
+    {
+      "path": "src/parabola-model.ts",
+      "bytes": 10598,
+      "sha256": "ff6147b89f676230c13e0cd8272e9529cd5a85355dd313697bc54cb384680f2b"
+    },
+    {
+      "path": "src/parabola-files.ts",
+      "bytes": 14973,
+      "sha256": "4b8f1032be57783a6d67af0c0185e4a28cbdbc3ce843d65bec242eb45372538f"
+    },
+    {
+      "path": "src/parabola-sources.json",
+      "bytes": 7493,
+      "sha256": "8bfd87c6258a72f137834cb6a59341fecd9e70664d7bf4750cdb75b902bd7e5f"
+    },
+    {
+      "path": "docs/parabola-model.md",
+      "bytes": 8519,
+      "sha256": "7b22f7ae9839030c4a618a15babae58d254e86c2c5cb2a6e8b4d64b3a9a71116"
+    },
+    {
+      "path": "docs/parabola-review.md",
+      "bytes": 8540,
+      "sha256": "74bc6cec8161885b01cbbb921d97ee2db2eb50a493ec5a12b1c958099dfcb784"
+    },
+    {
+      "path": "scripts/parabola-proposals.py",
+      "bytes": 1337,
+      "sha256": "3630f65164eeb6bb50b1b498499e74e5520cb9886ab95318e605e9eff95649c2"
+    },
+    {
+      "path": "examples/parabola/experiment.json",
+      "bytes": 242,
+      "sha256": "e6e8d0863a06da130ace5a079556f02aa85a04651f7c4aa3004cbe4e700f4a0c"
+    },
+    {
+      "path": "examples/parabola/experiment-v1.json",
+      "bytes": 207,
+      "sha256": "0c18685bddc462166a9b2852719cd2de3b7e16945705bf17bbbe7f6e31aa11e5"
+    },
+    {
+      "path": "examples/parabola/account.csv",
+      "bytes": 1345,
+      "sha256": "e8941553d2918dfae3c03ffbf6fbc504eeda22ccaed66143f76a5e224b7fae14"
+    },
+    {
+      "path": "examples/parabola/drawing.svg",
+      "bytes": 705254,
+      "sha256": "faaaabfc8f796c1716703413c1ab76cb9e915731ac7c5c0eac466088693d37fe"
+    },
+    {
+      "path": "examples/parabola/reading.html.gz",
+      "bytes": 8253224,
+      "sha256": "b53d358206cab2ad215fb36fc97d8fdc2803aba50383c9342cf2a2ac1d912645"
+    },
+    {
+      "path": "examples/parabola/reading.pdf",
+      "bytes": 8258537,
+      "sha256": "9bc2fd080d92101f07775db2bcc7af6c0115b191c3d83a2cc39fbc03dae3841a"
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 1,
+  "node": "v26.7.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 30000,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
+  "baseURL": "https://antonsoo.github.io/zygon/",
+  "state": "verified",
+  "attempts": 1,
+  "startedAtUtc": "2026-10-28T11:11:22.408Z",
+  "checkedAtUtc": "2026-10-28T11:11:27.148Z",
+  "buildManifestSha256": "ed458d1bd4b86775d8abcc475050ee66e761c488ecf4648cde324cc65de7d07a",
+  "expectedFileCount": 73,
+  "checkedFileCount": 73,
+  "verifiedFileCount": 73,
+  "rootBefore": {
+    "path": "index.html",
+    "bytes": 890,
+    "sha256": "c0511e8942eb410446a7ef659bf0aeb22ae5c502f5d4d58cd7d2d33413c89e5e",
+    "url": "https://antonsoo.github.io/zygon/",
+    "httpStatus": 200,
+    "observedBytes": 890,
+    "observedSha256": "c0511e8942eb410446a7ef659bf0aeb22ae5c502f5d4d58cd7d2d33413c89e5e",
+    "state": "verified"
+  },
+  "rootAfter": {
+    "path": "index.html",
+    "bytes": 890,
+    "sha256": "c0511e8942eb410446a7ef659bf0aeb22ae5c502f5d4d58cd7d2d33413c89e5e",
+    "url": "https://antonsoo.github.io/zygon/",
+    "httpStatus": 200,
+    "observedBytes": 890,
+    "observedSha256": "c0511e8942eb410446a7ef659bf0aeb22ae5c502f5d4d58cd7d2d33413c89e5e",
+    "state": "verified"
+  },
+  "files": [
+    {
+      "path": "assets/assets-0Ag2Ifrl.js",
+      "bytes": 17392,
+      "sha256": "03ce45ce6f9483455ef0aa39d176701e391e5803110300e434de19b1a967fc55",
+      "url": "https://antonsoo.github.io/zygon/assets/assets-0Ag2Ifrl.js",
+      "httpStatus": 200,
+      "observedBytes": 17392,
+      "observedSha256": "03ce45ce6f9483455ef0aa39d176701e391e5803110300e434de19b1a967fc55",
+      "state": "verified"
+    },
+    {
+      "path": "assets/assets-DIj-d9Y8.css",
+      "bytes": 10374,
+      "sha256": "0133e7ecfc9338e7be4cb061930a9a0bae7889d9bcdd595bcd5732434c1d365c",
+      "url": "https://antonsoo.github.io/zygon/assets/assets-DIj-d9Y8.css",
+      "httpStatus": 200,
+      "observedBytes": 10374,
+      "observedSha256": "0133e7ecfc9338e7be4cb061930a9a0bae7889d9bcdd595bcd5732434c1d365c",
+      "state": "verified"
+    },
+    {
+      "path": "assets/float-CJ5GRBMD.js",
+      "bytes": 58626,
+      "sha256": "b15d159239c8c5f291344b497dc6f821354d82f9f0aa2553c93d041a89057597",
+      "url": "https://antonsoo.github.io/zygon/assets/float-CJ5GRBMD.js",
+      "httpStatus": 200,
+      "observedBytes": 58626,
+      "observedSha256": "b15d159239c8c5f291344b497dc6f821354d82f9f0aa2553c93d041a89057597",
+      "state": "verified"
+    },
+    {
+      "path": "assets/float-rW_I_LH0.css",
+      "bytes": 4259,
+      "sha256": "f805ea508b5d35c8dea5b9c5e4b7126947f6a807c176883f05231cb3a948b889",
+      "url": "https://antonsoo.github.io/zygon/assets/float-rW_I_LH0.css",
+      "httpStatus": 200,
+      "observedBytes": 4259,
+      "observedSha256": "f805ea508b5d35c8dea5b9c5e4b7126947f6a807c176883f05231cb3a948b889",
+      "state": "verified"
+    },
+    {
+      "path": "assets/main-CTHk2cXq.js",
+      "bytes": 19513,
+      "sha256": "2943928e613c8e062e3ef290246bd73caaf38e0378a7a671ef9a60901a2308ff",
+      "url": "https://antonsoo.github.io/zygon/assets/main-CTHk2cXq.js",
+      "httpStatus": 200,
+      "observedBytes": 19513,
+      "observedSha256": "2943928e613c8e062e3ef290246bd73caaf38e0378a7a671ef9a60901a2308ff",
+      "state": "verified"
+    },
+    {
+      "path": "assets/parabola-D0e78wC1.css",
+      "bytes": 6462,
+      "sha256": "8e48bab37dcef58bb04e03b1c6289fd8daa2e0431403b686093a66a55eded12f",
+      "url": "https://antonsoo.github.io/zygon/assets/parabola-D0e78wC1.css",
+      "httpStatus": 200,
+      "observedBytes": 6462,
+      "observedSha256": "8e48bab37dcef58bb04e03b1c6289fd8daa2e0431403b686093a66a55eded12f",
+      "state": "verified"
+    },
+    {
+      "path": "assets/parabola-DUQW1EGw.js",
+      "bytes": 60764,
+      "sha256": "1e62e917a96e99dd4fd3ae9ea1f942173432fc8035736be7a5183fc8a9255d92",
+      "url": "https://antonsoo.github.io/zygon/assets/parabola-DUQW1EGw.js",
+      "httpStatus": 200,
+      "observedBytes": 60764,
+      "observedSha256": "1e62e917a96e99dd4fd3ae9ea1f942173432fc8035736be7a5183fc8a9255d92",
+      "state": "verified"
+    },
+    {
+      "path": "assets/study-B7g-A3eQ.js",
+      "bytes": 30933,
+      "sha256": "41f6a6fc8e1a19196a8fefc15657ba167c8ffb65be55e09358b688e639a9d2ca",
+      "url": "https://antonsoo.github.io/zygon/assets/study-B7g-A3eQ.js",
+      "httpStatus": 200,
+      "observedBytes": 30933,
+      "observedSha256": "41f6a6fc8e1a19196a8fefc15657ba167c8ffb65be55e09358b688e639a9d2ca",
+      "state": "verified"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 306,
+      "sha256": "79b5696647e6ed95e7e5bbf13bfce48f31748d95bc409770cc5120269578630e",
+      "url": "https://antonsoo.github.io/zygon/favicon.svg",
+      "httpStatus": 200,
+      "observedBytes": 306,
+      "observedSha256": "79b5696647e6ed95e7e5bbf13bfce48f31748d95bc409770cc5120269578630e",
+      "state": "verified"
+    },
+    {
+      "path": "float.html",
+      "bytes": 926,
+      "sha256": "9c208d76b2466658f23729451f5531f3c88b3bdc74509b6f075072d80508265b",
+      "url": "https://antonsoo.github.io/zygon/float.html",
+      "httpStatus": 200,
+      "observedBytes": 926,
+      "observedSha256": "9c208d76b2466658f23729451f5531f3c88b3bdc74509b6f075072d80508265b",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "url": "https://antonsoo.github.io/zygon/fonts/IBMPlex-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4456,
+      "observedSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "url": "https://antonsoo.github.io/zygon/fonts/IBMPlexSans-Regular.woff2",
+      "httpStatus": 200,
+      "observedBytes": 63020,
+      "observedSha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "url": "https://antonsoo.github.io/zygon/fonts/IBMPlexSans-SemiBold.woff2",
+      "httpStatus": 200,
+      "observedBytes": 67060,
+      "observedSha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "url": "https://antonsoo.github.io/zygon/fonts/NotoSerif-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4396,
+      "observedSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "url": "https://antonsoo.github.io/zygon/fonts/NotoSerif-Regular.ttf",
+      "httpStatus": 200,
+      "observedBytes": 444064,
+      "observedSha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "state": "verified"
+    },
+    {
+      "path": "index.html",
+      "bytes": 890,
+      "sha256": "c0511e8942eb410446a7ef659bf0aeb22ae5c502f5d4d58cd7d2d33413c89e5e",
+      "url": "https://antonsoo.github.io/zygon/index.html",
+      "httpStatus": 200,
+      "observedBytes": 890,
+      "observedSha256": "c0511e8942eb410446a7ef659bf0aeb22ae5c502f5d4d58cd7d2d33413c89e5e",
+      "state": "verified"
+    },
+    {
+      "path": "parabola.html",
+      "bytes": 924,
+      "sha256": "03e0174fcde69c6ed94cf4c287efaa670f41a75a7134bec488345325f3279926",
+      "url": "https://antonsoo.github.io/zygon/parabola.html",
+      "httpStatus": 200,
+      "observedBytes": 924,
+      "observedSha256": "03e0174fcde69c6ed94cf4c287efaa670f41a75a7134bec488345325f3279926",
+      "state": "verified"
+    },
+    {
+      "path": "sources/065r-072v_Arch18r_TEI_Netz-Wilson.xml",
+      "bytes": 29722,
+      "sha256": "5a28db3c31635384208eeec513e7206a4bb540ce3090f7a323ff02c953d382e5",
+      "url": "https://antonsoo.github.io/zygon/sources/065r-072v_Arch18r_TEI_Netz-Wilson.xml",
+      "httpStatus": 200,
+      "observedBytes": 29722,
+      "observedSha256": "5a28db3c31635384208eeec513e7206a4bb540ce3090f7a323ff02c953d382e5",
+      "state": "verified"
+    },
+    {
+      "path": "sources/066r-071v_Arch17r_TEI_Netz-Wilson.xml",
+      "bytes": 26721,
+      "sha256": "ffd4147c1ad89638998ec82cedf0be4f805ac53152abd4ef4115037c4b2ddd61",
+      "url": "https://antonsoo.github.io/zygon/sources/066r-071v_Arch17r_TEI_Netz-Wilson.xml",
+      "httpStatus": 200,
+      "observedBytes": 26721,
+      "observedSha256": "ffd4147c1ad89638998ec82cedf0be4f805ac53152abd4ef4115037c4b2ddd61",
+      "state": "verified"
+    },
+    {
+      "path": "sources/066v-071r_Arch17v_TEI_Netz-Wilson.xml",
+      "bytes": 31060,
+      "sha256": "f089ed9f821a41acb476afe876c198d1b0e4432fd21634c6078d972d49e6385c",
+      "url": "https://antonsoo.github.io/zygon/sources/066v-071r_Arch17v_TEI_Netz-Wilson.xml",
+      "httpStatus": 200,
+      "observedBytes": 31060,
+      "observedSha256": "f089ed9f821a41acb476afe876c198d1b0e4432fd21634c6078d972d49e6385c",
+      "state": "verified"
+    },
+    {
+      "path": "sources/0_ReadMe.txt",
+      "bytes": 13812,
+      "sha256": "c69fae3a11e137e2e97ffbdc088c88179a59ac107101c0d0aedfdb2e33fa9825",
+      "url": "https://antonsoo.github.io/zygon/sources/0_ReadMe.txt",
+      "httpStatus": 200,
+      "observedBytes": 13812,
+      "observedSha256": "c69fae3a11e137e2e97ffbdc088c88179a59ac107101c0d0aedfdb2e33fa9825",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch17r-pseudo_no-veil-metadata.txt",
+      "bytes": 4945,
+      "sha256": "72bb119af5858fb748d45f796336370b215ddf145696bc56fb75f6564691aff2",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch17r-pseudo_no-veil-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 4945,
+      "observedSha256": "72bb119af5858fb748d45f796336370b215ddf145696bc56fb75f6564691aff2",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch17r-pseudo_no-veil.jpg",
+      "bytes": 2127263,
+      "sha256": "303ac340945041cb18ee13bb91bc6912e08db08a6bdafb497ca3a05fc9ef678e",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch17r-pseudo_no-veil.jpg",
+      "httpStatus": 200,
+      "observedBytes": 2127263,
+      "observedSha256": "303ac340945041cb18ee13bb91bc6912e08db08a6bdafb497ca3a05fc9ef678e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch17r-true_pack8-metadata.txt",
+      "bytes": 5213,
+      "sha256": "6414baa7daa59ae71982f3871c5daab9307b1b15802723843febc22adc484518",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch17r-true_pack8-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 5213,
+      "observedSha256": "6414baa7daa59ae71982f3871c5daab9307b1b15802723843febc22adc484518",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch17r-true_pack8.jpg",
+      "bytes": 911788,
+      "sha256": "c1742a26ba97eb558cb53d7c1fc4b13d71e460d067c8888ef96b03e687341e9b",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch17r-true_pack8.jpg",
+      "httpStatus": 200,
+      "observedBytes": 911788,
+      "observedSha256": "c1742a26ba97eb558cb53d7c1fc4b13d71e460d067c8888ef96b03e687341e9b",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch17v-pseudo_no-veil-metadata.txt",
+      "bytes": 4945,
+      "sha256": "d7e535fb2530887f44b4fd9faecf67c231dae3e91e1f206c35d6336cef2381f4",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch17v-pseudo_no-veil-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 4945,
+      "observedSha256": "d7e535fb2530887f44b4fd9faecf67c231dae3e91e1f206c35d6336cef2381f4",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch17v-pseudo_no-veil.jpg",
+      "bytes": 2112088,
+      "sha256": "bc439827f3684f7a9fc051a8c205f4f910341cf46e16d3c40275c0525d49507e",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch17v-pseudo_no-veil.jpg",
+      "httpStatus": 200,
+      "observedBytes": 2112088,
+      "observedSha256": "bc439827f3684f7a9fc051a8c205f4f910341cf46e16d3c40275c0525d49507e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch17v-true_pack8-metadata.txt",
+      "bytes": 5213,
+      "sha256": "378e2edff3e2abffb431c1193f8b9a1a70a9eeb38518158b2c1919e8b6297cef",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch17v-true_pack8-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 5213,
+      "observedSha256": "378e2edff3e2abffb431c1193f8b9a1a70a9eeb38518158b2c1919e8b6297cef",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch17v-true_pack8.jpg",
+      "bytes": 1031023,
+      "sha256": "4067b68554bbf75234e200a16a7a970edb3050b8e564e9f168b46c0fe225802e",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch17v-true_pack8.jpg",
+      "httpStatus": 200,
+      "observedBytes": 1031023,
+      "observedSha256": "4067b68554bbf75234e200a16a7a970edb3050b8e564e9f168b46c0fe225802e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch18r-pseudo_no-veil-metadata.txt",
+      "bytes": 4945,
+      "sha256": "f83803b80a025c54cd42496960d0c4dad6142eb83d3af44c9701fae936f135d6",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch18r-pseudo_no-veil-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 4945,
+      "observedSha256": "f83803b80a025c54cd42496960d0c4dad6142eb83d3af44c9701fae936f135d6",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch18r-pseudo_no-veil.jpg",
+      "bytes": 2174388,
+      "sha256": "9f45bfc8291df6ea4b4b77d1d9f0087136e875d5ee8abd9233b18a7fb9aa9b57",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch18r-pseudo_no-veil.jpg",
+      "httpStatus": 200,
+      "observedBytes": 2174388,
+      "observedSha256": "9f45bfc8291df6ea4b4b77d1d9f0087136e875d5ee8abd9233b18a7fb9aa9b57",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch18r-true_pack8-metadata.txt",
+      "bytes": 5213,
+      "sha256": "64c8ae09e87202544c50f58ebbdf8b788546d58abde2e766047aee69d681f535",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch18r-true_pack8-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 5213,
+      "observedSha256": "64c8ae09e87202544c50f58ebbdf8b788546d58abde2e766047aee69d681f535",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Arch18r-true_pack8.jpg",
+      "bytes": 796325,
+      "sha256": "ee5eaa43dd0724d085bdae98ea8c0ef65ef1a660a638cfea7831a5a47c0a84a5",
+      "url": "https://antonsoo.github.io/zygon/sources/Arch18r-true_pack8.jpg",
+      "httpStatus": 200,
+      "observedBytes": 796325,
+      "observedSha256": "ee5eaa43dd0724d085bdae98ea8c0ef65ef1a660a638cfea7831a5a47c0a84a5",
+      "state": "verified"
+    },
+    {
+      "path": "sources/CC-BY-3.0.txt",
+      "bytes": 19467,
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+      "url": "https://antonsoo.github.io/zygon/sources/CC-BY-3.0.txt",
+      "httpStatus": 200,
+      "observedBytes": 19467,
+      "observedSha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+      "state": "verified"
+    },
+    {
+      "path": "sources/CODE-LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "f4cec46403514e2601f3b917ad36bfc8cd9a6d97359ac2f9bb554d2062a251eb",
+      "url": "https://antonsoo.github.io/zygon/sources/CODE-LICENSE.txt",
+      "httpStatus": 200,
+      "observedBytes": 1071,
+      "observedSha256": "f4cec46403514e2601f3b917ad36bfc8cd9a6d97359ac2f9bb554d2062a251eb",
+      "state": "verified"
+    },
+    {
+      "path": "sources/FolioIndex.txt",
+      "bytes": 141606,
+      "sha256": "0bc8932ab941072f053845c92c68d7e480cfde64514149dce76d81cfd77a1e73",
+      "url": "https://antonsoo.github.io/zygon/sources/FolioIndex.txt",
+      "httpStatus": 200,
+      "observedBytes": 141606,
+      "observedSha256": "0bc8932ab941072f053845c92c68d7e480cfde64514149dce76d81cfd77a1e73",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Method-Heiberg-p5.xml",
+      "bytes": 279684,
+      "sha256": "f5b1930b416eae59009cac0984c96420d169c824cfec56ff7b24b318dbd409d6",
+      "url": "https://antonsoo.github.io/zygon/sources/Method-Heiberg-p5.xml",
+      "httpStatus": 200,
+      "observedBytes": 279684,
+      "observedSha256": "f5b1930b416eae59009cac0984c96420d169c824cfec56ff7b24b318dbd409d6",
+      "state": "verified"
+    },
+    {
+      "path": "sources/Method-NW-p5.xml",
+      "bytes": 386363,
+      "sha256": "91305827c5bab60f95eb39ff8beba549d887a13324f048b9fec0d6d2174822bc",
+      "url": "https://antonsoo.github.io/zygon/sources/Method-NW-p5.xml",
+      "httpStatus": 200,
+      "observedBytes": 386363,
+      "observedSha256": "91305827c5bab60f95eb39ff8beba549d887a13324f048b9fec0d6d2174822bc",
+      "state": "verified"
+    },
+    {
+      "path": "sources/NOTICES.txt",
+      "bytes": 3830,
+      "sha256": "d39cde844b2247a04cd07b78975f9279a8808fdde5f0590be00f79fa702b9993",
+      "url": "https://antonsoo.github.io/zygon/sources/NOTICES.txt",
+      "httpStatus": 200,
+      "observedBytes": 3830,
+      "observedSha256": "d39cde844b2247a04cd07b78975f9279a8808fdde5f0590be00f79fa702b9993",
+      "state": "verified"
+    },
+    {
+      "path": "sources/TEI_Encoding.txt",
+      "bytes": 11571,
+      "sha256": "8cff621177ae55133386c3a39925fa46fee6137c646b7418eccff9dd23933ec8",
+      "url": "https://antonsoo.github.io/zygon/sources/TEI_Encoding.txt",
+      "httpStatus": 200,
+      "observedBytes": 11571,
+      "observedSha256": "8cff621177ae55133386c3a39925fa46fee6137c646b7418eccff9dd23933ec8",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch07v-metadata.txt",
+      "bytes": 4945,
+      "sha256": "5ed4f8e5de94fdce13fb4db855ecd03526cf8e122e02a00075235ae41ebe5740",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch07v-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 4945,
+      "observedSha256": "5ed4f8e5de94fdce13fb4db855ecd03526cf8e122e02a00075235ae41ebe5740",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch07v.jpg",
+      "bytes": 2087271,
+      "sha256": "462f00eea5f916e61a772d994f824f5b19e3ae36c9e6adc3175f81d48bab5623",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch07v.jpg",
+      "httpStatus": 200,
+      "observedBytes": 2087271,
+      "observedSha256": "462f00eea5f916e61a772d994f824f5b19e3ae36c9e6adc3175f81d48bab5623",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch07v.xml",
+      "bytes": 25619,
+      "sha256": "1958ff14513f30b59355deb8c27e2c1fab2fe5331c8e3021a9a78f22af461829",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch07v.xml",
+      "httpStatus": 200,
+      "observedBytes": 25619,
+      "observedSha256": "1958ff14513f30b59355deb8c27e2c1fab2fe5331c8e3021a9a78f22af461829",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch08r-metadata.txt",
+      "bytes": 4945,
+      "sha256": "28235cf3752412d80806c18e64d840cd0467db79ce90c20414ca8bb5ebc79372",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch08r-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 4945,
+      "observedSha256": "28235cf3752412d80806c18e64d840cd0467db79ce90c20414ca8bb5ebc79372",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch08r.jpg",
+      "bytes": 2004736,
+      "sha256": "db79ecc8d1dc39df9d4af63fdeb2300e37e4e1b04217330f448feb5e65ba9d3d",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch08r.jpg",
+      "httpStatus": 200,
+      "observedBytes": 2004736,
+      "observedSha256": "db79ecc8d1dc39df9d4af63fdeb2300e37e4e1b04217330f448feb5e65ba9d3d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch08r.xml",
+      "bytes": 26315,
+      "sha256": "1c33af117ec9a8696d8fac579011c6a36c9b603f3c82f3499ab212e8b39c8f20",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch08r.xml",
+      "httpStatus": 200,
+      "observedBytes": 26315,
+      "observedSha256": "1c33af117ec9a8696d8fac579011c6a36c9b603f3c82f3499ab212e8b39c8f20",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch08v-metadata.txt",
+      "bytes": 4945,
+      "sha256": "83a55a0f31fbc47752dcadae127fb8f9e6e1002a640bc4a187118328fbbef2b4",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch08v-metadata.txt",
+      "httpStatus": 200,
+      "observedBytes": 4945,
+      "observedSha256": "83a55a0f31fbc47752dcadae127fb8f9e6e1002a640bc4a187118328fbbef2b4",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch08v.jpg",
+      "bytes": 2135256,
+      "sha256": "f28cc35dbe62474330221a8351f3d65cbf3b4fe73f3113d0e27913f4cb78a8a9",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch08v.jpg",
+      "httpStatus": 200,
+      "observedBytes": 2135256,
+      "observedSha256": "f28cc35dbe62474330221a8351f3d65cbf3b4fe73f3113d0e27913f4cb78a8a9",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-Arch08v.xml",
+      "bytes": 34606,
+      "sha256": "29bc9877b2a954e4e77534dc0a7369596db98ba10f8dea8e6922a9f241417b74",
+      "url": "https://antonsoo.github.io/zygon/sources/float-Arch08v.xml",
+      "httpStatus": 200,
+      "observedBytes": 34606,
+      "observedSha256": "29bc9877b2a954e4e77534dc0a7369596db98ba10f8dea8e6922a9f241417b74",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-NOTICES.txt",
+      "bytes": 2762,
+      "sha256": "458e01b68816fb3197934ec89df1b39f59500d8c9b6b106400edefa56fa1f448",
+      "url": "https://antonsoo.github.io/zygon/sources/float-NOTICES.txt",
+      "httpStatus": 200,
+      "observedBytes": 2762,
+      "observedSha256": "458e01b68816fb3197934ec89df1b39f59500d8c9b6b106400edefa56fa1f448",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-latin-376.jpg",
+      "bytes": 471894,
+      "sha256": "3fcbdc8a621fdb9b435f75e4a04013563622c873fd85794ee1b460e0955951c5",
+      "url": "https://antonsoo.github.io/zygon/sources/float-latin-376.jpg",
+      "httpStatus": 200,
+      "observedBytes": 471894,
+      "observedSha256": "3fcbdc8a621fdb9b435f75e4a04013563622c873fd85794ee1b460e0955951c5",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-latin-377.jpg",
+      "bytes": 328610,
+      "sha256": "ec3cc394f807333dc1ffd42f32800730da31acb2fcf9b76f6a4fbc0c9945ca32",
+      "url": "https://antonsoo.github.io/zygon/sources/float-latin-377.jpg",
+      "httpStatus": 200,
+      "observedBytes": 328610,
+      "observedSha256": "ec3cc394f807333dc1ffd42f32800730da31acb2fcf9b76f6a4fbc0c9945ca32",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-latin-379.jpg",
+      "bytes": 427787,
+      "sha256": "3ea9f46623515a70db1723f246eb7a308e783236cbc275bd228347503ab7904a",
+      "url": "https://antonsoo.github.io/zygon/sources/float-latin-379.jpg",
+      "httpStatus": 200,
+      "observedBytes": 427787,
+      "observedSha256": "3ea9f46623515a70db1723f246eb7a308e783236cbc275bd228347503ab7904a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-latin-380.jpg",
+      "bytes": 435578,
+      "sha256": "258c81307c448ef6b77e552516c33bdc290e1daef55ff6cd7005f05097d6aece",
+      "url": "https://antonsoo.github.io/zygon/sources/float-latin-380.jpg",
+      "httpStatus": 200,
+      "observedBytes": 435578,
+      "observedSha256": "258c81307c448ef6b77e552516c33bdc290e1daef55ff6cd7005f05097d6aece",
+      "state": "verified"
+    },
+    {
+      "path": "sources/float-sources.json",
+      "bytes": 5570,
+      "sha256": "cbf89ea8c559e6c22e45e3e16d4a05b83b1be8d28c09e1e141e592b4fba84ead",
+      "url": "https://antonsoo.github.io/zygon/sources/float-sources.json",
+      "httpStatus": 200,
+      "observedBytes": 5570,
+      "observedSha256": "cbf89ea8c559e6c22e45e3e16d4a05b83b1be8d28c09e1e141e592b4fba84ead",
+      "state": "verified"
+    },
+    {
+      "path": "sources/images.json",
+      "bytes": 5637,
+      "sha256": "217f6c8da287c141f593d77d2b96bd8e19bb32575dcd729c3b43193e9ca0177c",
+      "url": "https://antonsoo.github.io/zygon/sources/images.json",
+      "httpStatus": 200,
+      "observedBytes": 5637,
+      "observedSha256": "217f6c8da287c141f593d77d2b96bd8e19bb32575dcd729c3b43193e9ca0177c",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-1881-title.jpg",
+      "bytes": 177617,
+      "sha256": "66870c9d59cdf76566f33e51db4c3df01698355b8b8c7203a79c802bd41a8b87",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-1881-title.jpg",
+      "httpStatus": 200,
+      "observedBytes": 177617,
+      "observedSha256": "66870c9d59cdf76566f33e51db4c3df01698355b8b8c7203a79c802bd41a8b87",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-method-434-435.jpg",
+      "bytes": 913386,
+      "sha256": "dbe749a6caf3f317469af78c14eafae8c172e448bc8691cad887349785eb0f84",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-method-434-435.jpg",
+      "httpStatus": 200,
+      "observedBytes": 913386,
+      "observedSha256": "dbe749a6caf3f317469af78c14eafae8c172e448bc8691cad887349785eb0f84",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-method-436-437.jpg",
+      "bytes": 1216913,
+      "sha256": "ab30628550231b3887a12ca8a9be7ec85a6ee8e4d5ea1f25352b6f7c8bc10f49",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-method-436-437.jpg",
+      "httpStatus": 200,
+      "observedBytes": 1216913,
+      "observedSha256": "ab30628550231b3887a12ca8a9be7ec85a6ee8e4d5ea1f25352b6f7c8bc10f49",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-method-438-439.jpg",
+      "bytes": 1035750,
+      "sha256": "da3bc97c287b9c6ed39f82786dd624abf643f1e90da18790cb3c1c160509140f",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-method-438-439.jpg",
+      "httpStatus": 200,
+      "observedBytes": 1035750,
+      "observedSha256": "da3bc97c287b9c6ed39f82786dd624abf643f1e90da18790cb3c1c160509140f",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-342.jpg",
+      "bytes": 376335,
+      "sha256": "985e37725bd9b3dc30e4696d396101b08ded10fa002c2e6f1a10f163b0e6e7c0",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-342.jpg",
+      "httpStatus": 200,
+      "observedBytes": 376335,
+      "observedSha256": "985e37725bd9b3dc30e4696d396101b08ded10fa002c2e6f1a10f163b0e6e7c0",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-343.jpg",
+      "bytes": 430977,
+      "sha256": "08552523e097033d7f2640f9eef49c5697c37f95e7c7d5fa863a408792ae475a",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-343.jpg",
+      "httpStatus": 200,
+      "observedBytes": 430977,
+      "observedSha256": "08552523e097033d7f2640f9eef49c5697c37f95e7c7d5fa863a408792ae475a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-344.jpg",
+      "bytes": 427998,
+      "sha256": "74472dd7ffddb018b6e4d1f98b8cb4866041cc1232a17c94d09fa9123be42846",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-344.jpg",
+      "httpStatus": 200,
+      "observedBytes": 427998,
+      "observedSha256": "74472dd7ffddb018b6e4d1f98b8cb4866041cc1232a17c94d09fa9123be42846",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-345.jpg",
+      "bytes": 409985,
+      "sha256": "abed7db1c016465afe72c5604f41277231c4fb93a8f619a66ceb97a6cbb3e8cd",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-345.jpg",
+      "httpStatus": 200,
+      "observedBytes": 409985,
+      "observedSha256": "abed7db1c016465afe72c5604f41277231c4fb93a8f619a66ceb97a6cbb3e8cd",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-346.jpg",
+      "bytes": 375908,
+      "sha256": "c5a4a208db0071e3cfb9c5b7d44bd17b55a1dee2f979d31692065143bb8421e4",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-346.jpg",
+      "httpStatus": 200,
+      "observedBytes": 375908,
+      "observedSha256": "c5a4a208db0071e3cfb9c5b7d44bd17b55a1dee2f979d31692065143bb8421e4",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-347.jpg",
+      "bytes": 377047,
+      "sha256": "6ffd6721135c507254c55c2840b798e14790017465533f8468d8a9150b236751",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-347.jpg",
+      "httpStatus": 200,
+      "observedBytes": 377047,
+      "observedSha256": "6ffd6721135c507254c55c2840b798e14790017465533f8468d8a9150b236751",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-348.jpg",
+      "bytes": 349750,
+      "sha256": "538f9e5b30307caa353e3216fe650a6989e1b69a13f7c153b07571ec4bbbad6c",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-348.jpg",
+      "httpStatus": 200,
+      "observedBytes": 349750,
+      "observedSha256": "538f9e5b30307caa353e3216fe650a6989e1b69a13f7c153b07571ec4bbbad6c",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-349.jpg",
+      "bytes": 251278,
+      "sha256": "ea21264a3618a9cb15b4687b6696d2e01d17cb30be9d1f528b8547b93e9c2c43",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-349.jpg",
+      "httpStatus": 200,
+      "observedBytes": 251278,
+      "observedSha256": "ea21264a3618a9cb15b4687b6696d2e01d17cb30be9d1f528b8547b93e9c2c43",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-350.jpg",
+      "bytes": 390422,
+      "sha256": "cdc8493cd058412f1bee15a070db81067a40bfe85ced7b2db7572e030f45792d",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-350.jpg",
+      "httpStatus": 200,
+      "observedBytes": 390422,
+      "observedSha256": "cdc8493cd058412f1bee15a070db81067a40bfe85ced7b2db7572e030f45792d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-351.jpg",
+      "bytes": 355825,
+      "sha256": "28a7cedc4126d8ca3cfca084c41e9042c6d3ff2345ba6ab595a39938f40dd53a",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-351.jpg",
+      "httpStatus": 200,
+      "observedBytes": 355825,
+      "observedSha256": "28a7cedc4126d8ca3cfca084c41e9042c6d3ff2345ba6ab595a39938f40dd53a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-352.jpg",
+      "bytes": 466862,
+      "sha256": "b9386d9e9eb2b56af47a172989a9aa201a6b3b5d1ed8dcded622abc0e4473862",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-352.jpg",
+      "httpStatus": 200,
+      "observedBytes": 466862,
+      "observedSha256": "b9386d9e9eb2b56af47a172989a9aa201a6b3b5d1ed8dcded622abc0e4473862",
+      "state": "verified"
+    },
+    {
+      "path": "sources/parabola-quad-353.jpg",
+      "bytes": 398607,
+      "sha256": "493259826b4efc3318dee13b8dd1cbca939dd36913c143aead8f91947eb0cb56",
+      "url": "https://antonsoo.github.io/zygon/sources/parabola-quad-353.jpg",
+      "httpStatus": 200,
+      "observedBytes": 398607,
+      "observedSha256": "493259826b4efc3318dee13b8dd1cbca939dd36913c143aead8f91947eb0cb56",
+      "state": "verified"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 11729,
+      "sha256": "412a1b64e84fd5195215443b099b3c9f3618823f82a3962da42feef25e4dd3c1",
+      "url": "https://antonsoo.github.io/zygon/sw.js",
+      "httpStatus": 200,
+      "observedBytes": 11729,
+      "observedSha256": "412a1b64e84fd5195215443b099b3c9f3618823f82a3962da42feef25e4dd3c1",
+      "state": "verified"
+    }
+  ],
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+}

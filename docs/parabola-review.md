@@ -124,7 +124,7 @@ licenses, with 3,658 text words inside checked page margins. Its sixteen source
 JPEGs are recovered byte-for-byte. Tags are present; no PDF/UA or physical
 printer claim is made. The generated construction remains vector.
 
-## Publication boundary
+## Initial 0.2 publication
 
 The user authorized publication. Source `f03edc9` and fast-forward Pages
 `22d826e` were pushed on 2026-10-28. Every one of 73 canonical production files
@@ -146,3 +146,27 @@ CI 40674861715 and source Pages workflow 40674861697 failed with no executed
 steps; they are not validation evidence. Legacy Pages build/deploy 40675011843
 succeeded independently. These boundaries remain separate from local tests,
 source identity and actual hosted behavior.
+
+## Current finite-witness publication
+
+Source `2d4335c` and fast-forward Pages `76ce294` publish the 0.3 extension.
+The current edition is
+`ca49c18be3e0a00ed8347d21641d3acb6f165184d404b0a254b0c96626a44ab4`.
+All 73 canonical files match the isolated Node 24 build before and after the
+actual public four-case browser workflow. Both engines at 1440 and 375 pixels
+exercise finite rejection, the layer-10 account beyond the drawn mesh, v1
+migration and v2 retention in shared links and native downloads. All three
+rooms reload offline after the current controller and complete 72-file cache.
+
+The actual public CSV passes all 25 quantity checks; its SVG retains the same
+editable state and independently measured polygons. The public 28-page PDF
+retains 86 checked fields, 3,762 words within checked margins, all licenses and
+all sixteen byte-identical source JPEGs. Public fault injection passes the
+source/font retries, click snapshot and delayed-import guards. Twelve immutable
+public source/example files match committed Git blobs.
+[Current public receipts](evidence/parabola-proposals-public/).
+
+CI 40677711350 and source Pages workflow 40677711537 failed with no executed
+steps. Legacy Pages build/deploy 40677720922 succeeded independently. Earlier
+0.2 receipts above preserve that edition's source pins and artifacts; the
+current editable examples are version 2, alongside the retained original v1.
