@@ -1,0 +1,168 @@
+{
+  "sources": [
+    {
+      "id": "method",
+      "url": "https://abel.math.harvard.edu/archive/archimedes09/pdf/Heiberg_Method.pdf",
+      "edition": "Heiberg, Archimedis Opera omnia II (1913), Harvard-hosted scanned excerpt",
+      "bytes": 422744,
+      "sha256": "b45cc349cbacb753f1730005ffd7677e59cdb3cbaf3b8a49a49dda922456c240",
+      "license": "public domain",
+      "scope": "Complete source PDF identity; bundled JPEGs retain complete PDF pages, including margins and apparatus."
+    },
+    {
+      "id": "quadrature",
+      "url": "https://archive.org/download/archimedisopera04eutogoog/archimedisopera04eutogoog.pdf",
+      "edition": "Heiberg, Archimedis Opera omnia II (1881)",
+      "bytes": 10009880,
+      "sha256": "85cf138bc1368260a71d7324e8b9892e89c1a6751286093519982babbcc9ffcf",
+      "license": "public domain",
+      "scope": "Complete source PDF identity; bundled JPEGs retain complete PDF pages, including margins and apparatus."
+    }
+  ],
+  "pages": [
+    {
+      "file": "parabola-method-434-435.jpg",
+      "source": "method",
+      "pdfPage": 5,
+      "caption": "Method I and its closing warning, printed pp. 434–435, Greek and Heiberg’s Latin. Whole scanned opening.",
+      "bytes": 913386,
+      "sha256": "dbe749a6caf3f317469af78c14eafae8c172e448bc8691cad887349785eb0f84",
+      "derivation": "Poppler pdftoppm, full page, long edge 2600, JPEG quality 88"
+    },
+    {
+      "file": "parabola-method-436-437.jpg",
+      "source": "method",
+      "pdfPage": 6,
+      "caption": "Method I and its closing warning, printed pp. 436–437, Greek and Heiberg’s Latin. Whole scanned opening.",
+      "bytes": 1216913,
+      "sha256": "ab30628550231b3887a12ca8a9be7ec85a6ee8e4d5ea1f25352b6f7c8bc10f49",
+      "derivation": "Poppler pdftoppm, full page, long edge 2600, JPEG quality 88"
+    },
+    {
+      "file": "parabola-method-438-439.jpg",
+      "source": "method",
+      "pdfPage": 7,
+      "caption": "Method I and its closing warning, printed pp. 438–439, Greek and Heiberg’s Latin. Whole scanned opening.",
+      "bytes": 1035750,
+      "sha256": "da3bc97c287b9c6ed39f82786dd624abf643f1e90da18790cb3c1c160509140f",
+      "derivation": "Poppler pdftoppm, full page, long edge 2600, JPEG quality 88"
+    },
+    {
+      "file": "parabola-quad-342.jpg",
+      "source": "quadrature",
+      "pdfPage": 385,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 342. Complete printed page.",
+      "bytes": 376335,
+      "sha256": "985e37725bd9b3dc30e4696d396101b08ded10fa002c2e6f1a10f163b0e6e7c0",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-343.jpg",
+      "source": "quadrature",
+      "pdfPage": 386,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 343. Complete printed page.",
+      "bytes": 430977,
+      "sha256": "08552523e097033d7f2640f9eef49c5697c37f95e7c7d5fa863a408792ae475a",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-344.jpg",
+      "source": "quadrature",
+      "pdfPage": 387,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 344. Complete printed page.",
+      "bytes": 427998,
+      "sha256": "74472dd7ffddb018b6e4d1f98b8cb4866041cc1232a17c94d09fa9123be42846",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-345.jpg",
+      "source": "quadrature",
+      "pdfPage": 388,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 345. Complete printed page.",
+      "bytes": 409985,
+      "sha256": "abed7db1c016465afe72c5604f41277231c4fb93a8f619a66ceb97a6cbb3e8cd",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-346.jpg",
+      "source": "quadrature",
+      "pdfPage": 389,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 346. Complete printed page.",
+      "bytes": 375908,
+      "sha256": "c5a4a208db0071e3cfb9c5b7d44bd17b55a1dee2f979d31692065143bb8421e4",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-347.jpg",
+      "source": "quadrature",
+      "pdfPage": 390,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 347. Complete printed page.",
+      "bytes": 377047,
+      "sha256": "6ffd6721135c507254c55c2840b798e14790017465533f8468d8a9150b236751",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-348.jpg",
+      "source": "quadrature",
+      "pdfPage": 391,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 348. Complete printed page.",
+      "bytes": 349750,
+      "sha256": "538f9e5b30307caa353e3216fe650a6989e1b69a13f7c153b07571ec4bbbad6c",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-349.jpg",
+      "source": "quadrature",
+      "pdfPage": 392,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 349. Complete printed page.",
+      "bytes": 251278,
+      "sha256": "ea21264a3618a9cb15b4687b6696d2e01d17cb30be9d1f528b8547b93e9c2c43",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-350.jpg",
+      "source": "quadrature",
+      "pdfPage": 393,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 350. Complete printed page.",
+      "bytes": 390422,
+      "sha256": "cdc8493cd058412f1bee15a070db81067a40bfe85ced7b2db7572e030f45792d",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-351.jpg",
+      "source": "quadrature",
+      "pdfPage": 394,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 351. Complete printed page.",
+      "bytes": 355825,
+      "sha256": "28a7cedc4126d8ca3cfca084c41e9042c6d3ff2345ba6ab595a39938f40dd53a",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-352.jpg",
+      "source": "quadrature",
+      "pdfPage": 395,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 352. Complete printed page.",
+      "bytes": 466862,
+      "sha256": "b9386d9e9eb2b56af47a172989a9aa201a6b3b5d1ed8dcded622abc0e4473862",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-quad-353.jpg",
+      "source": "quadrature",
+      "pdfPage": 396,
+      "caption": "Quadrature of the Parabola XXI–XXIV, Heiberg 1881, printed p. 353. Complete printed page.",
+      "bytes": 398607,
+      "sha256": "493259826b4efc3318dee13b8dd1cbca939dd36913c143aead8f91947eb0cb56",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    },
+    {
+      "file": "parabola-1881-title.jpg",
+      "source": "quadrature",
+      "pdfPage": 12,
+      "caption": "Heiberg 1881 volume title. Complete source page.",
+      "bytes": 177617,
+      "sha256": "66870c9d59cdf76566f33e51db4c3df01698355b8b8c7203a79c802bd41a8b87",
+      "derivation": "Poppler pdftoppm, full page, long edge 2000, JPEG quality 85"
+    }
+  ]
+}

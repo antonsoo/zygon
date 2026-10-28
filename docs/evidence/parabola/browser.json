@@ -1,0 +1,64 @@
+{
+  "base": "http://127.0.0.1:4372/zygon/",
+  "edition": "ac5e3b409c6e6d13c2f7005d87147ff3e5ce7b8b668fc26cb371a485738f9c19",
+  "files": 72,
+  "scope": "Actual production browser operation and downloads; source delivery is local or public according to the recorded base URL. Offline after matching controller and full inventory.",
+  "records": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "sourceImagesVerified": 16,
+      "fontsVerified": 2,
+      "licensesVerified": 3,
+      "nativeDownloads": ["JSON", "CSV", "SVG", "HTML"],
+      "offlineRooms": 3,
+      "cacheFiles": 72,
+      "standalone": "Actual local file with scripts disabled and browser offline; native JSON reopened",
+      "axeViolations": [],
+      "errors": [],
+      "outside": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "sourceImagesVerified": 16,
+      "fontsVerified": 2,
+      "licensesVerified": 3,
+      "nativeDownloads": ["JSON", "CSV", "SVG", "HTML"],
+      "offlineRooms": 3,
+      "cacheFiles": 72,
+      "standalone": "Actual local file with scripts disabled and browser offline; native JSON reopened",
+      "axeViolations": [],
+      "errors": [],
+      "outside": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "sourceImagesVerified": 16,
+      "fontsVerified": 2,
+      "licensesVerified": 3,
+      "nativeDownloads": ["JSON", "CSV", "SVG", "HTML"],
+      "offlineRooms": 3,
+      "cacheFiles": 72,
+      "standalone": "Actual local file with scripts disabled and browser offline; native JSON reopened",
+      "axeViolations": [],
+      "errors": [],
+      "outside": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "sourceImagesVerified": 16,
+      "fontsVerified": 2,
+      "licensesVerified": 3,
+      "nativeDownloads": ["JSON", "CSV", "SVG", "HTML"],
+      "offlineRooms": 3,
+      "cacheFiles": 72,
+      "standalone": "Actual local file with scripts disabled and browser offline; native JSON reopened",
+      "axeViolations": [],
+      "errors": [],
+      "outside": []
+    }
+  ]
+}

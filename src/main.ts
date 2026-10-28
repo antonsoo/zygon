@@ -15,7 +15,7 @@ if (!app) throw new Error("The workshop mount is missing.");
 app.innerHTML = `
 <a class="skip" href="#workshop">Skip to the balance</a>
 <div class="page">
-  <header class="mast"><a class="wordmark" href="./">ZYGON</a><nav aria-label="Main"><a href="#workshop">The balance</a><a href="./float.html">Floating bodies</a><a href="#reading">The Greek</a><a href="#keep">Keep a study</a></nav></header>
+  <header class="mast"><a class="wordmark" href="./">ZYGON</a><nav aria-label="Main"><a href="#workshop">The balance</a><a href="./parabola.html">A third more</a><a href="./float.html">Floating bodies</a><a href="#reading">The Greek</a><a href="#keep">Keep a study</a></nav></header>
   <main>
     <section class="hero" aria-labelledby="title"><div><p class="eyebrow">Archimedes / The Method, II</p><h1>A sphere on<br>the <em>balance.</em></h1></div><div><p class="intro">A sphere and a cone do not weigh as much as a cylinder. Move their sections to the right place, and they balance it. Every time.</p><p class="entry-note">Find one hanging position that works for every cut.<br>Then read the Greek that makes the move.</p></div></section>
     <section id="workshop" class="workbench focus-target" aria-labelledby="bench-title">

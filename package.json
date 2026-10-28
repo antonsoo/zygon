@@ -1,10 +1,10 @@
 {
   "name": "@antonsoloviev/zygon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Discover a sphere's volume on Archimedes' balance, then read the Greek manuscript and its uncertainties.",
+  "description": "Operate Archimedes' balances, finite parabola bounds and floating bodies; read their Greek and Latin sources.",
   "type": "module",
-  "author": "Anton Soloviev <anton@praviel.com>",
+  "author": "Anthony Mercer <anthony@praviel.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,7 +18,10 @@
     "education",
     "palimpsest",
     "volume",
-    "lever"
+    "lever",
+    "parabola",
+    "exhaustion",
+    "latin"
   ],
   "engines": {
     "node": ">=24"
@@ -40,7 +43,12 @@
     "verify:float-sources": "python3 scripts/float-sources.py",
     "test:float": "node scripts/float-browser.mjs",
     "test:float-upgrade": "node scripts/float-upgrade.mjs",
-    "verify:float-print": "node --import tsx scripts/float-print.ts"
+    "verify:float-print": "node --import tsx scripts/float-print.ts",
+    "verify:parabola": "node --import tsx scripts/parabola-cases.ts | python3 scripts/parabola-oracle.py",
+    "test:parabola": "node scripts/parabola-browser.mjs",
+    "test:parabola-guards": "node scripts/parabola-guards.mjs",
+    "test:parabola-upgrade": "node scripts/parabola-upgrade.mjs",
+    "verify:parabola-print": "node --import tsx scripts/parabola-print.ts"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

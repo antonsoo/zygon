@@ -1,6 +1,6 @@
 # Zygon
 
-**Operate Archimedes' balance and floating bodies. Then read the conditions in Greek.**
+**Operate Archimedes' balances, finite area bounds and floating bodies. Read the Greek and Latin conditions.**
 
 [Workshop](https://antonsoo.github.io/zygon/) · [Code: MIT](LICENSE) ·
 [Text, images and source licenses](public/sources/NOTICES.txt) · [Model](docs/model.md)
@@ -13,6 +13,42 @@ moments do. This workshop makes the transfer in Archimedes' _Method_ II
 operable, then follows the argument into its surviving manuscript evidence.
 
 ![The sections, shared axial construction and unequal turning moments](docs/assets/balance.png)
+
+## A third more. But has it been proved?
+
+The [parabola room](https://antonsoo.github.io/zygon/parabola.html#pa-bench)
+connects _Method_ I's mechanical discovery to _Quadrature_ XXI-XXIV's finite
+triangle account. Find one transferred arm that balances every interior cut,
+then try an endpoint: zero moments cannot determine the arm. The source
+explicitly withholds the proof after the mechanical argument.
+
+![The parabola construction and its separate working balance](docs/assets/parabola-desktop.png)
+
+Switch to inscribed triangles. Each child is an eighth of its parent; each
+complete layer is a quarter. A finite sum plus one-third of its last layer is
+exactly four-thirds of the first triangle. **That third has not filled another
+piece of the curve.** Modern tangent covers give strict outer bounds and a
+shrinking gap. Even the last displayed layer remains a finite polygon.
+- Enter exact fractional chord and height; retain exact moments and area bounds.
+- Read seven Greek/Latin/English passages and fourteen contextual word notes.
+  `ἐπίτριτον` and `tertia parte maius` mean a third greater, in the ratio 4:3.
+- Inspect sixteen complete printed scans, including margins and apparatus.
+  The Method excerpt and the 1881 Quadrature remain separate edited sources.
+- Keep editable JSON, exact CSV, font-embedded SVG and a script-free illustrated
+  reading with all sources, fonts, licenses and native downloads. Print its
+  source openings on landscape sheets; study all three rooms offline after
+  the complete edition is saved.
+
+[Work through the lesson and evidence](docs/parabola-review.md) ·
+[Coordinates, finite identity and proof boundary](docs/parabola-model.md) ·
+[Retained illustrated reading, gzip](examples/parabola/reading.html.gz) ·
+[Actual browser PDF](examples/parabola/reading.pdf) ·
+[Editable experiment](examples/parabola/experiment.json) ·
+[Exact CSV](examples/parabola/account.csv) · [Drawn SVG](examples/parabola/drawing.svg).
+Decompress the HTML before opening it. The independent Fraction audit checks
+636 cases, 12,144 drawn polygon areas and 42,840 interior tangent-cover points.
+The coordinate exhaustion argument is distinct from the printed ancient proof;
+new English and word notes have no independent philological review.
 
 ## It floats. Will it stay upright?
 
@@ -37,7 +73,7 @@ both sides. Keep the shape and increase its density; upright becomes stable.
   missing Latin continuation is not invented; supplied Greek letters stay marked.
 - Save editable JSON, a turning CSV, a font-embedded SVG or one script-free
   illustrated reading with all source images, original transcriptions, fonts and
-  licenses. Both rooms work after the complete offline edition is saved.
+  licenses. All three rooms work after the complete offline edition is saved.
 
 This is a modern static model of a uniform solid paraboloid in flat, still,
 unbounded liquid. It does not simulate a timed return, hollow boat, waves,

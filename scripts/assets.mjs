@@ -11,6 +11,15 @@ for (const image of sourceManifest.images) {
   )
     throw new Error(`Source identity mismatch: ${image.file}`);
 }
+const parabolaManifest = JSON.parse(await readFile("src/parabola-sources.json", "utf8"));
+for (const image of parabolaManifest.pages) {
+  const bytes = await readFile(`public/sources/${image.file}`);
+  if (
+    bytes.length !== image.bytes ||
+    createHash("sha256").update(bytes).digest("hex") !== image.sha256
+  )
+    throw new Error(`Parabola source identity mismatch: ${image.file}`);
+}
 const assets = {};
 for (const folder of ["sources", "fonts"]) {
   for (const file of (await readdir(`public/${folder}`)).sort()) {

@@ -31,7 +31,9 @@ async function collect() {
   const data: Record<string, Uint8Array> = {};
   await Promise.all(
     Object.entries(assets)
-      .filter(([name]) => !name.startsWith("sources/float-"))
+      .filter(
+        ([name]) => !name.startsWith("sources/float-") && !name.startsWith("sources/parabola-"),
+      )
       .map(async ([name, hash]) => {
         const response = await fetch(import.meta.env.BASE_URL + name);
         if (!response.ok) throw new Error("Study asset unavailable");
@@ -84,7 +86,7 @@ export async function studyHTML(s: State) {
         `<section class="passage" id="reading-${i + 1}"><p class="kicker">${i + 1} / ${r.evidence.folio} / ${e(r.evidence.lines[0]?.id ?? "")} to ${e(r.evidence.lines.at(-1)?.id ?? "")}</p><h2>${e(r.title)}</h2><div lang="grc" class="greek">${greekHTML(i)}</div><p>${e(r.english)}</p><p class="credit">New Latin study rendering (2026); not an ancient witness or Heiberg translation.</p><p lang="la">${e(r.latin)}</p><h3>${e(r.word)}</h3><p>${e(r.gloss)}</p><p>${e(r.grammar)}</p><p>${e(r.note)}</p><figure class="mapped">${mappedImage(i)}<figcaption>Mapped excerpt in the supplied processed image; project coordinates, not a new decipherment.</figcaption></figure></section>`,
     )
     .join("");
-  const sourceDownloads = Object.keys(assets)
+  const sourceDownloads = Object.keys(data)
     .filter((f) => f.startsWith("sources/") && !f.endsWith(".jpg"))
     .map(
       (file) =>

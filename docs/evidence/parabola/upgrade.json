@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-28T10:44:26.626Z",
+  "previousWorkerSha256": "2a5e7d8c9b2f6cb467fc168c5f14632b790c3af056c067c3e5c462205fd524b2",
+  "oldEdition": "6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f",
+  "newEdition": "ac5e3b409c6e6d13c2f7005d87147ff3e5ce7b8b668fc26cb371a485738f9c19",
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "mode": "complete",
+      "completeNewInventory": true,
+      "oldPageWithholdsReadiness": true,
+      "oldCacheRetired": true,
+      "offlineThreeRooms": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "bad-source-then-retry",
+      "completeNewInventory": true,
+      "oldPageWithholdsReadiness": true,
+      "oldCacheRetired": true,
+      "offlineThreeRooms": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "complete",
+      "completeNewInventory": true,
+      "oldPageWithholdsReadiness": true,
+      "oldCacheRetired": true,
+      "offlineThreeRooms": true
+    },
+    {
+      "engine": "firefox",
+      "mode": "bad-source-then-retry",
+      "completeNewInventory": true,
+      "oldPageWithholdsReadiness": true,
+      "oldCacheRetired": true,
+      "offlineThreeRooms": true
+    }
+  ]
+}

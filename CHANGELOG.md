@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.0 - 2026-10-28
+
+- Add Method I's parabola balance and Quadrature XXI-XXIV's finite remainder account.
+- Distinguish an inconclusive endpoint cut, a universal moment identity and a proof of area.
+- Measure nested inscribed triangles and modern tangent covers with exact rational bounds.
+- Retain seven Greek/Latin/English readings, fourteen word notes and sixteen complete printed scans.
+- Save editable JSON, exact CSV, embedded-font SVG and a script-free illustrated reading with native downloads.
+- Print two-page Method openings on landscape sheets and keep construction hatching as vector lines.
+- Protect newer experiments, typed fractions and selected pages from delayed imports and source responses.
+- Upgrade the integrity-checked offline edition from two rooms to three.
+- Restore the sphere reading export by listing collected source files rather than unrelated workshop files.
+
 ## Unreleased — 2026-10-27
 
 - Add a floating-body room with shape, density, tilt and force-line experiments.

@@ -1,6 +1,6 @@
 ZYGON - SOURCES AND REDISTRIBUTION
 
-Code and new diagrams: Copyright (c) 2026 Anton Soloviev. MIT; see LICENSE.
+Code and new diagrams: Copyright (c) 2026 Anthony Mercer. MIT; see LICENSE.
 
 ARCHIMEDES PALIMPSEST DIGITAL RELEASE
 The Owner of the Archimedes Palimpsest; primary transcriptions by Reviel Netz
@@ -37,7 +37,7 @@ recognition, retouched letters, or claims of an independently deciphered reading
 The visible composite and processed image are distinct supplied project products.
 
 New English translations, Latin study renderings, language notes and teaching
-prose: Copyright (c) 2026 Anton Soloviev, CC BY 3.0. The Latin was newly composed
+prose: Copyright (c) 2026 Anthony Mercer, CC BY 3.0. The Latin was newly composed
 for this workshop in 2026; it is not an ancient witness or Heiberg's translation.
 Translations are teaching aids and have not received independent philological
 peer review. Attribute the project and the source contributors when adapting.
@@ -58,3 +58,10 @@ Noto Serif and IBM Plex Sans: SIL Open Font License 1.1. Their complete notices
 are included in ../fonts/ and embedded in portable studies alongside the fonts.
 
 No source institution, source editor or contributor endorses this application.
+
+PARABOLA WORKSHOP
+Complete printed pages from Heiberg 1881 and the Harvard-hosted Method excerpt
+(Heiberg 1913), public domain. The new readings use this print, not new
+manuscript decipherment. The English, notes, code and diagrams in this workshop
+are MIT, Anthony Mercer. The source manifest retains the original PDF and
+derived whole-page identities. No modern third-party illustrations are used.

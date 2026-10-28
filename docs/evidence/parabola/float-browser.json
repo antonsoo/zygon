@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-28T10:44:26.657Z",
+  "base": "http://127.0.0.1:4372/zygon/",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "words": 16,
+      "sourceImages": 7,
+      "downloads": {
+        "html": 11601503,
+        "json": 317,
+        "csv": 54355,
+        "svg": 89617
+      },
+      "shared": "http://127.0.0.1:4372/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
+      "inventory": {
+        "controller": true,
+        "caches": ["zygon-ac5e3b409c6e6d13c2f7005d87147ff3e5ce7b8b668fc26cb371a485738f9c19"],
+        "files": 72
+      },
+      "nativeScripts": false,
+      "offlineBothRooms": true,
+      "pageErrors": [],
+      "externalRequests": [],
+      "accessibilityViolations": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "words": 16,
+      "sourceImages": 7,
+      "downloads": {
+        "html": 11601503,
+        "json": 317,
+        "csv": 54355,
+        "svg": 89617
+      },
+      "shared": "http://127.0.0.1:4372/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
+      "inventory": {
+        "controller": true,
+        "caches": ["zygon-ac5e3b409c6e6d13c2f7005d87147ff3e5ce7b8b668fc26cb371a485738f9c19"],
+        "files": 72
+      },
+      "nativeScripts": false,
+      "offlineBothRooms": true,
+      "pageErrors": [],
+      "externalRequests": [],
+      "accessibilityViolations": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "words": 16,
+      "sourceImages": 7,
+      "downloads": {
+        "html": 11601503,
+        "json": 317,
+        "csv": 54355,
+        "svg": 89617
+      },
+      "shared": "http://127.0.0.1:4372/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
+      "inventory": {
+        "controller": true,
+        "caches": ["zygon-ac5e3b409c6e6d13c2f7005d87147ff3e5ce7b8b668fc26cb371a485738f9c19"],
+        "files": 72
+      },
+      "nativeScripts": false,
+      "offlineBothRooms": true,
+      "pageErrors": [],
+      "externalRequests": [],
+      "accessibilityViolations": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "words": 16,
+      "sourceImages": 7,
+      "downloads": {
+        "html": 11601503,
+        "json": 317,
+        "csv": 54355,
+        "svg": 89617
+      },
+      "shared": "http://127.0.0.1:4372/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
+      "inventory": {
+        "controller": true,
+        "caches": ["zygon-ac5e3b409c6e6d13c2f7005d87147ff3e5ce7b8b668fc26cb371a485738f9c19"],
+        "files": 72
+      },
+      "nativeScripts": false,
+      "offlineBothRooms": true,
+      "pageErrors": [],
+      "externalRequests": [],
+      "accessibilityViolations": 0
+    }
+  ],
+  "integrity": [
+    {
+      "engine": "chromium",
+      "wrongHTTP200SourceRejected": true,
+      "exportWithheld": true
+    },
+    {
+      "engine": "firefox",
+      "wrongHTTP200SourceRejected": true,
+      "exportWithheld": true
+    }
+  ]
+}

@@ -23,6 +23,7 @@ export default defineConfig(async ({ command }) => {
     ...(await filesIn("public")),
     "index.html",
     "float.html",
+    "parabola.html",
     "LICENSE",
     "vite.config.ts",
     "tsconfig.json",
@@ -42,6 +43,7 @@ export default defineConfig(async ({ command }) => {
         input: {
           main: "index.html",
           float: "float.html",
+          parabola: "parabola.html",
         },
       },
     },
