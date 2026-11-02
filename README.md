@@ -2,7 +2,7 @@
 
 **Operate Archimedes' balances, finite area bounds and floating bodies. Read the Greek and Latin conditions.**
 
-[Workshop](https://antonsoo.github.io/zygon/) · [Code: MIT](LICENSE) ·
+[Workshop](https://antonsoo.github.io/zygon/) · [Code: PolyForm Noncommercial](LICENSE) ·
 [Text, images and source licenses](public/sources/NOTICES.txt) · [Model](docs/model.md)
 
 [Public source, hosted build and browser evidence](docs/publication.md)
@@ -242,6 +242,8 @@ and hosted evidence.
 
 ## Contributing and license
 
+New versions are released under the [PolyForm Noncommercial License 1.0.0](LICENSE). It is free for any noncommercial purpose, including personal study, teaching and research, and for use by charities, schools, universities, research organizations and government institutions. Commercial use needs written permission from Anthony Mercer (anthony@praviel.com). Versions up to commit [`c4fd3f3`](https://github.com/antonsoo/zygon/tree/c4fd3f3) (2026-11-01) were released under the MIT License, and copies of those versions keep it.
+
 See [CONTRIBUTING.md](CONTRIBUTING.md). Code and new mathematical diagrams are
-MIT. Source images, adapted Greek and new teaching text use CC BY 3.0; font
+PolyForm Noncommercial. Source images, adapted Greek and new teaching text use CC BY 3.0; font
 licenses and full attribution are in [the notices](public/sources/NOTICES.txt).

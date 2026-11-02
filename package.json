@@ -5,7 +5,7 @@
   "description": "Operate Archimedes' balances, finite parabola bounds and floating bodies; read their Greek and Latin sources.",
   "type": "module",
   "author": "Anthony Mercer <anthony@praviel.com>",
-  "license": "MIT",
+  "license": "PolyForm-Noncommercial-1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/antonsoo/zygon.git"
