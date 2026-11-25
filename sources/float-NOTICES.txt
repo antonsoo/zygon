@@ -22,7 +22,7 @@ with Pillow LANCZOS, JPEG quality 82, subsampling 2. No crop, recolouring,
 retouching or new decipherment. Published line coordinates are reused.
 Greek excerpts select expanded abbreviations, join split words and retain
 supplied, uncertain and sic flags. Accents/spacing/punctuation are editorial.
-New English and contextual notes are teaching aids by Anton Soloviev (2026),
+New English and contextual notes are teaching aids by Anthony Mercer (2026),
 without independent philological review. No new Latin translation is supplied.
 
 Latin witness:
@@ -44,6 +44,6 @@ docs/float-model.md. The paper is a reference, not redistributed content.
 The workshop does not solve the paper's base-crossing extension.
 
 Source identities and image reduction provenance: float-sources.json.
-Code and new diagrams: MIT, Copyright (c) 2026 Anton Soloviev.
+Code and new diagrams: PolyForm Noncommercial, Copyright (c) 2026 Anthony Mercer.
 Noto Serif: SIL Open Font License 1.1; fonts/NotoSerif-OFL.txt.
 IBM Plex Sans: SIL Open Font License 1.1; fonts/IBMPlex-OFL.txt.
