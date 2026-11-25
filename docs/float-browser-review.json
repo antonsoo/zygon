@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-27T07:41:04.496Z",
-  "base": "http://127.0.0.1:4352/zygon/",
+  "checkedAt": "2026-11-25T21:09:01.349Z",
+  "base": "http://127.0.0.1:4350/zygon/",
   "configurations": [
     {
       "engine": "chromium",
@@ -8,16 +8,16 @@
       "words": 16,
       "sourceImages": 7,
       "downloads": {
-        "html": 11601503,
+        "html": 11605120,
         "json": 317,
         "csv": 54355,
         "svg": 89617
       },
-      "shared": "http://127.0.0.1:4352/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
+      "shared": "http://127.0.0.1:4350/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
       "inventory": {
         "controller": true,
-        "caches": ["zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"],
-        "files": 52
+        "caches": ["zygon-01fd3ea3468b678dced495961df9c95a5e4dd7006a4317c20e091460939916b7"],
+        "files": 72
       },
       "nativeScripts": false,
       "offlineBothRooms": true,
@@ -31,16 +31,16 @@
       "words": 16,
       "sourceImages": 7,
       "downloads": {
-        "html": 11601503,
+        "html": 11605120,
         "json": 317,
         "csv": 54355,
         "svg": 89617
       },
-      "shared": "http://127.0.0.1:4352/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
+      "shared": "http://127.0.0.1:4350/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
       "inventory": {
         "controller": true,
-        "caches": ["zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"],
-        "files": 52
+        "caches": ["zygon-01fd3ea3468b678dced495961df9c95a5e4dd7006a4317c20e091460939916b7"],
+        "files": 72
       },
       "nativeScripts": false,
       "offlineBothRooms": true,
@@ -54,16 +54,16 @@
       "words": 16,
       "sourceImages": 7,
       "downloads": {
-        "html": 11601503,
+        "html": 11605120,
         "json": 317,
         "csv": 54355,
         "svg": 89617
       },
-      "shared": "http://127.0.0.1:4352/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
+      "shared": "http://127.0.0.1:4350/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
       "inventory": {
         "controller": true,
-        "caches": ["zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"],
-        "files": 52
+        "caches": ["zygon-01fd3ea3468b678dced495961df9c95a5e4dd7006a4317c20e091460939916b7"],
+        "files": 72
       },
       "nativeScripts": false,
       "offlineBothRooms": true,
@@ -77,16 +77,16 @@
       "words": 16,
       "sourceImages": 7,
       "downloads": {
-        "html": 11601503,
+        "html": 11605120,
         "json": 317,
         "csv": 54355,
         "svg": 89617
       },
-      "shared": "http://127.0.0.1:4352/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
+      "shared": "http://127.0.0.1:4350/zygon/float.html?a=1.5&density=16&tilt=32.311533237423845&reading=5#fl-bench",
       "inventory": {
         "controller": true,
-        "caches": ["zygon-6e522c5f500b334adf2174ca50b4adc182f9625cbac0158c8529ca4077bf888f"],
-        "files": 52
+        "caches": ["zygon-01fd3ea3468b678dced495961df9c95a5e4dd7006a4317c20e091460939916b7"],
+        "files": 72
       },
       "nativeScripts": false,
       "offlineBothRooms": true,

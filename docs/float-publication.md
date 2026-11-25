@@ -13,8 +13,8 @@ behaviour and the portable reading. Review date: 27 October 2026 UTC.
 | Actual public workflow | [Chromium and Firefox, 1440px and 375px](float-hosted-browser.json): keyboard controls, six readings, sixteen word notes, source images, shared state, downloads, native reopening and both rooms offline |
 | Public source examples | [Six source/artifact files](float-public-artifacts.json) match their local bytes, including the compressed illustrated reading, PDF and binary attributes                                                 |
 | Actual generated files | [28 public/native artifact matches](float-hosted-artifacts.json) agree byte-for-byte with their reviewed local counterparts                                                                               |
-| Rendered output        | All sixteen public screenshots are byte-identical to the locally inspected screenshots                                                                                                                    |
-| Public browser PDF     | [26-page print receipt](float-hosted-print.json): 71 complete text fields, all sixteen word notes, seven exact source JPEGs and 6,918 extracted words within checked margins                              |
+| Rendered output        | 15 of 16 public screenshots are byte-identical to the local ones; Chromium 375 px reading.png differs by 13 bytes                                                                                         |
+| Public browser PDF     | [27-page print receipt](float-hosted-print.json): 71 complete text fields, all sixteen word notes, seven exact source JPEGs and 7,460 extracted words within checked margins                              |
 | Edition transition     | [Both engines, genuine preceding edition](float-upgrade-review.json): normal upgrade and substituted-source/failure/retry; old tabs withhold readiness until reloaded                                     |
 
 The public review waits for the matching active worker and complete cache

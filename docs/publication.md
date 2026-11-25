@@ -18,7 +18,7 @@ illustrated HTML, and reloaded with the browser context disconnected after the
 offline edition completed. This verifies browser-context offline use; it does not
 claim that the network host was physically disconnected.
 
-The 32-page printed study was checked separately from the hosted-file inventory:
+The printed study (32 pages then; 33 since the 2026-11-25 regeneration) was checked separately from the hosted-file inventory:
 all 70 complete reading fields and all six original JPEG reductions survived the
 PDF export. [The review](review.md) describes those checks and the model limits.
 Local source tests, a clean public clone, hosted byte identity, browser operation

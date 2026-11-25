@@ -21,8 +21,8 @@
     {
       "configuration": "chromium-1440",
       "path": "reading.html",
-      "bytes": 11601503,
-      "sha256": "224114f2bc099f9d4e13b4054f66967a03bac9db6f53efc4f6a4b80403d4615e"
+      "bytes": 11605120,
+      "sha256": "56197acac4c43bb8fb919eb96843f442b2e3bdd5d21eb4325b171b3e5da2d70e"
     },
     {
       "configuration": "chromium-1440",
@@ -63,8 +63,8 @@
     {
       "configuration": "chromium-375",
       "path": "reading.html",
-      "bytes": 11601503,
-      "sha256": "224114f2bc099f9d4e13b4054f66967a03bac9db6f53efc4f6a4b80403d4615e"
+      "bytes": 11605120,
+      "sha256": "56197acac4c43bb8fb919eb96843f442b2e3bdd5d21eb4325b171b3e5da2d70e"
     },
     {
       "configuration": "chromium-375",
@@ -105,8 +105,8 @@
     {
       "configuration": "firefox-1440",
       "path": "reading.html",
-      "bytes": 11601503,
-      "sha256": "92dbca910c1bcf65579667c60464a16fcc19a8a0c137027a9aed3594c4fdfd66"
+      "bytes": 11605120,
+      "sha256": "26333c3285a3110691c7f484ca458438c90893140dab51b6227cb4ec93420e25"
     },
     {
       "configuration": "firefox-1440",
@@ -147,8 +147,8 @@
     {
       "configuration": "firefox-375",
       "path": "reading.html",
-      "bytes": 11601503,
-      "sha256": "92dbca910c1bcf65579667c60464a16fcc19a8a0c137027a9aed3594c4fdfd66"
+      "bytes": 11605120,
+      "sha256": "26333c3285a3110691c7f484ca458438c90893140dab51b6227cb4ec93420e25"
     },
     {
       "configuration": "firefox-375",
@@ -198,7 +198,7 @@
     {
       "configuration": "chromium-375",
       "path": "reading.png",
-      "identical": true
+      "identical": false
     },
     {
       "configuration": "chromium-375",

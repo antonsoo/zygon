@@ -33,7 +33,7 @@ continue operating the balance, inspecting the sources and saving a new study.
 | Pure coefficients                  | [Independent Fraction oracle](model-review.json): 62,909 cases, 389,494 exact comparisons                                     |
 | Source files and mapped extraction | [Online source review](source-review.json): 29 source/font files, 10 excerpts, 52 mapped lines, 6 full-frame image reductions |
 | Production workflow                | [Browser receipt](browser-review.json): Chromium and Firefox at 1440px and 375px                                              |
-| Actual printed study               | [Print receipt](print-review.json): 70 complete fields and all 6 exact JPEGs recovered from the 32-page PDF                   |
+| Actual printed study               | [Print receipt](print-review.json): 70 complete fields and all 6 exact JPEGs recovered from the 33-page PDF                   |
 
 All six original 8160 × 10880 TIFF files were downloaded and passed the
 source project's published MD5 checksums before reduction. The recipe also
@@ -94,9 +94,22 @@ hosted identities are recorded separately when publication is verified.
 - [Greek and mapped source](assets/reading.png)
 - [Phone reader](assets/reading-phone.png)
 - [Actual retained study](../examples/zygon-study.html)
-- [Actual 32-page PDF](../examples/zygon-study.pdf)
+- [Actual 33-page PDF](../examples/zygon-study.pdf)
 
 The review establishes an operable mathematical and source-reading workflow.
 It does not certify the translations, validate a physical ancient balance,
 identify who introduced a textual discrepancy or reproduce Archimedes'
 geometrical demonstration.
+
+## 2026-11-25: retained studies regenerated
+
+The retained balance study and the floating reading (HTML and PDF) were
+regenerated on 2026-11-25 by running `scripts/browser-review.mjs` and
+`scripts/float-browser.mjs` on a build of commit `e663e93`, for the
+author-name and license change. The credit lines now name Anthony Mercer, the
+embedded code license is the PolyForm Noncommercial text, and the notices
+include the parabola workshop added after the October capture. The longer
+license adds one printed page to each PDF (33 and 27 pages). Every other saved
+file (balance SVG, sections CSV, floating drawing, experiment and turning CSV)
+came out byte-identical. The browser, print and hosted receipts in this folder
+are that day's reruns; the public floating room gave the same 28 files.
