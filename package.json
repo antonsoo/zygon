@@ -1,5 +1,5 @@
 {
-  "name": "@antonsoloviev/zygon",
+  "name": "@anthonymercer/zygon",
   "version": "0.3.0",
   "private": true,
   "description": "Operate Archimedes' balances, finite parabola bounds and floating bodies; read their Greek and Latin sources.",
